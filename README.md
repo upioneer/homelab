@@ -3,9 +3,14 @@
 IAM
 ```
 # [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)
-https://github.com/automatic-ripping-machine/automatic-ripping-machine
 ```Plaintext
 Automated CD/DVD/Blu-ray ripping
+```
+## References
+https://github.com/automatic-ripping-machine/automatic-ripping-machine
+# [Bitwarden](https://bitwarden.com/)
+```Plaintext
+Password manager
 ```
 # [checkmk](https://checkmk.com)
 ```Plaintext
@@ -22,6 +27,10 @@ Self-hosted Docker Compose management UI
 # [Docker](https://www.docker.com)
 ```Plaintext
 Containerization platform for applications
+```
+# [Dozzle](https://dozzle.dev/)
+```Plaintext
+Container monitoring and logging
 ```
 # [Frigate NVR](https://frigate.video)
 ```Plaintext
@@ -81,6 +90,10 @@ Network UPS monitoring and management
 ```
 ## References
 https://www.youtube.com/watch?v=dXSbURqdPfI&t=2s
+# [Packer](https://developer.hashicorp.com/packer)
+```Plaintext
+Tool for creating identical machine images for multiple platforms from a single source configuration
+```
 # [Obsidian](https://obsidian.md)
 ```Plaintext
 Personal knowledge base and note-taking app
@@ -101,9 +114,17 @@ Network-wide ad-blocking via DNS sinkholing
 ```Plaintext
 Centralized container management platform
 ```
+# [Prometheus](https://prometheus.io/)
+```Plaintext
+An open-source systems monitoring and alerting toolkit
+```
 # [Proxmox](https://www.proxmox.com/en)
 ```Plaintext
 Open-source server virtualization management
+```
+# [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)
+```Plaintext
+Open-source enterprise backup solution for backing up and restoring VMs, containers, and physical hosts
 ```
 # [Tailscale](https://tailscale.com)
 ```Plaintext
@@ -139,5 +160,11 @@ Self-hosted uptime monitoring
 ```Plaintext
 Desktop virtualization
 ```
+# [Watchtower](https://containrrr.dev/watchtower/)
+```Plaintext
+Container-based solution for automating Docker container base image updates
+```
+## References
+https://github.com/containrrr/watchtower
 # tags
 #authentik #iam #arm #automaticrippingmachine #checkmk #cloudflare #cloudflared #dockge #docker #firebase #frigate #grafana #homeassistant #immich #influxdb #jellyfin #jellyseerr #make #mermaid #n8n #nextcloud #nginx #nginxreverseproxy #nut #obsidian #octoprint #3dprint #3dprinter #pfsense #pihole #portainer #proxmox #tailscale #traefik #truenas #twingate #unifi #uptimekuma #virtualbox
