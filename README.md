@@ -64,9 +64,19 @@ Media streaming system
 ```Plaintext
 Request management for media library
 ```
+# [LinkStack](https://linkstack.org/)
+```Plaintext
+Linktree alternative
+```
+## References
+https://github.com/LinkStackOrg/LinkStack
 # [Make](https://www.make.com/en)
 ```Plaintext
 No-code development platform
+```
+# [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)
+```Plaintext
+Paywall bypass
 ```
 # [Mermaid](https://www.mermaidchart.com/play)
 ```Plaintext
@@ -114,6 +124,10 @@ Network-wide ad-blocking via DNS sinkholing
 ```Plaintext
 Centralized container management platform
 ```
+# [Postiz](https://postiz.com/)
+```Plaintext
+Social media post scheduling and manager
+```
 # [Prometheus](https://prometheus.io/)
 ```Plaintext
 An open-source systems monitoring and alerting toolkit
@@ -125,6 +139,10 @@ Open-source server virtualization management
 # [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)
 ```Plaintext
 Open-source enterprise backup solution for backing up and restoring VMs, containers, and physical hosts
+```
+# [Scrypted](https://github.com/Vioneta/scrypted-NVR)
+```Plaintext
+Video integration platform and NVR with smart detections
 ```
 # [Tailscale](https://tailscale.com)
 ```Plaintext
@@ -166,5 +184,9 @@ Container-based solution for automating Docker container base image updates
 ```
 ## References
 https://github.com/containrrr/watchtower
+# [YOURLS](https://yourls.org/)
+```Plaintext
+Link shortening
+```
 # tags
 #authentik #iam #arm #automaticrippingmachine #checkmk #cloudflare #cloudflared #dockge #docker #firebase #frigate #grafana #homeassistant #immich #influxdb #jellyfin #jellyseerr #make #mermaid #n8n #nextcloud #nginx #nginxreverseproxy #nut #obsidian #octoprint #3dprint #3dprinter #pfsense #pihole #portainer #proxmox #tailscale #traefik #truenas #twingate #unifi #uptimekuma #virtualbox
