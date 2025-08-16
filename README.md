@@ -8,6 +8,10 @@ Automated CD/DVD/Blu-ray ripping
 ```
 ## References
 https://github.com/automatic-ripping-machine/automatic-ripping-machine
+# [Beszel](https://www.beszel.dev/)
+```Plaintext
+Server monitoring
+```
 # [Bitwarden](https://bitwarden.com/)
 ```Plaintext
 Password manager
@@ -31,6 +35,10 @@ Containerization platform for applications
 # [Dozzle](https://dozzle.dev/)
 ```Plaintext
 Container monitoring and logging
+```
+# [FreeCAD](https://www.freecad.org/)
+```Plaintext
+3D modeler
 ```
 # [Frigate NVR](https://frigate.video)
 ```Plaintext
@@ -81,6 +89,10 @@ Paywall bypass
 # [Mermaid](https://www.mermaidchart.com/play)
 ```Plaintext
 Diagramming and charting from text
+```
+# [Metabase](https://www.metabase.com/)
+```Plaintext
+Business intelligence
 ```
 # [n8n](https://n8n.io)
 ```Plaintext
@@ -140,6 +152,14 @@ Open-source server virtualization management
 ```Plaintext
 Open-source enterprise backup solution for backing up and restoring VMs, containers, and physical hosts
 ```
+# [Reactive Resume](https://rxresu.me/)
+```Plaintext
+Resume builder
+```
+# [RustDesk](https://rustdesk.com/)
+```Plaintext
+Remote access and support utility
+```
 # [Scrypted](https://github.com/Vioneta/scrypted-NVR)
 ```Plaintext
 Video integration platform and NVR with smart detections
@@ -147,6 +167,10 @@ Video integration platform and NVR with smart detections
 # [Tailscale](https://tailscale.com)
 ```Plaintext
 Zero-configuration virtual private network
+```
+# [Technitium](https://technitium.com/dns/)
+```Plaintext
+DNS server
 ```
 # [Traefik](https://traefik.io)
 ```Plaintext
@@ -173,6 +197,10 @@ https://www.youtube.com/watch?v=7JA8S8VnGW4
 # [Uptime Kuma](https://uptime.kuma.pet)
 ```Plaintext
 Self-hosted uptime monitoring
+```
+# [Veloren](https://veloren.net/)
+```Plaintext
+Open world RPG. Think Minecraft
 ```
 # [VirtualBox](https://www.virtualbox.org)
 ```Plaintext
