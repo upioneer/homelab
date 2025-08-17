@@ -38,6 +38,10 @@ Containerization platform for applications
 ```Plaintext
 Container monitoring and logging
 ```
+# [File Browser](https://filebrowser.org/)
+```Plaintext
+Web-based file browser
+```
 # [FreeCAD](https://www.freecad.org/)
 ```Plaintext
 3D modeler
