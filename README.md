@@ -176,6 +176,10 @@ DNS server
 ```Plaintext
 Cloud-native edge router and reverse proxy
 ```
+# [Traggo](https://traggo.net/)
+```Plaintext
+Time tracking tool
+```
 # [TrueNAS](https://www.truenas.com)
 ```Plaintext
 Open-source network-attached storage (NAS) solution
@@ -216,5 +220,3 @@ https://github.com/containrrr/watchtower
 ```Plaintext
 Link shortening
 ```
-# tags
-#authentik #iam #arm #automaticrippingmachine #checkmk #cloudflare #cloudflared #dockge #docker #firebase #frigate #grafana #homeassistant #immich #influxdb #jellyfin #jellyseerr #make #mermaid #n8n #nextcloud #nginx #nginxreverseproxy #nut #obsidian #octoprint #3dprint #3dprinter #pfsense #pihole #portainer #proxmox #tailscale #traefik #truenas #twingate #unifi #uptimekuma #virtualbox
