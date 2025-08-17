@@ -114,16 +114,6 @@ Network UPS monitoring and management
 ```
 ## References
 https://www.youtube.com/watch?v=dXSbURqdPfI&t=2s
-# [Packer](https://developer.hashicorp.com/packer)
-```Plaintext
-Tool for creating identical machine images for multiple platforms from a single source configuration
-```
-# [Photoprism](https://www.photoprism.app/)
-```Plaintext
-AI powered photos app
-```
-## References
-[Demo](https://try.photoprism.app/)
 # [Obsidian](https://obsidian.md)
 ```Plaintext
 Personal knowledge base and note-taking app
@@ -132,10 +122,20 @@ Personal knowledge base and note-taking app
 ```Plaintext
 Web interface for 3D printers
 ```
+# [Packer](https://developer.hashicorp.com/packer)
+```Plaintext
+Tool for creating identical machine images for multiple platforms from a single source configuration
+```
 # [pfSense](https://www.pfsense.org)
 ```Plaintext
 Open-source firewall and router platform
 ```
+# [Photoprism](https://www.photoprism.app/)
+```Plaintext
+AI powered photos app
+```
+## References
+[Demo](https://try.photoprism.app/)
 # [Pi-hole](https://pi-hole.net)
 ```Plaintext
 Network-wide ad-blocking via DNS sinkholing
