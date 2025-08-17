@@ -24,6 +24,8 @@ Infrastructure monitoring
 ```Plaintext
 Securely expose local services to the internet
 ```
+## Resources
+[Restrict Access](https://www.youtube.com/watch?v=wdmbAo02ktQ)
 # [Dockge](https://dockge.kuma.pet)
 ```Plaintext
 Self-hosted Docker Compose management UI
@@ -116,6 +118,12 @@ https://www.youtube.com/watch?v=dXSbURqdPfI&t=2s
 ```Plaintext
 Tool for creating identical machine images for multiple platforms from a single source configuration
 ```
+# [Photoprism](https://www.photoprism.app/)
+```Plaintext
+AI powered photos app
+```
+## References
+[Demo](https://try.photoprism.app/)
 # [Obsidian](https://obsidian.md)
 ```Plaintext
 Personal knowledge base and note-taking app
