@@ -138,6 +138,12 @@ Web interface for 3D printers
 ```Plaintext
 Tool for creating identical machine images for multiple platforms from a single source configuration
 ```
+# [Paperless NGX](https://docs.paperless-ngx.com/)
+```Plaintext
+Document management
+```
+## References
+https://github.com/paperless-ngx/paperless-ngx
 # [pfSense](https://www.pfsense.org)
 ```Plaintext
 Open-source firewall and router platform
