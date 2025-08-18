@@ -39,7 +39,7 @@ Verify template
 ```bash
 ls /var/lib/vz/template/cache/
 ```
-# LXC + Template as Code
+# CT Template as Code
 ```bash
 #!/bin/bash
 
@@ -122,7 +122,7 @@ mv "$BACKUP_FILE" "$NEW_TEMPLATE_PATH"
 echo "==> Template ready:"
 ls -lh "$NEW_TEMPLATE_PATH"
 ```
-# Run LXC + Template script
+# Run CT Template script
 ```bash
 sudo ./build-lxc-template.sh 100 ubuntu-24.04-minbase
 ```
