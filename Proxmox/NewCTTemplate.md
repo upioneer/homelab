@@ -7,6 +7,9 @@ apt-get clean
 
 find /var/log -type f -exec truncate -s 0 {} \;
 
+journalctl --rotate
+journalctl --vacuum-time=1s
+
 rm -rf /tmp/*
 rm -rf /var/tmp/*
 ```
