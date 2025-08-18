@@ -1,5 +1,6 @@
 # Create LXC
 Go thru the new CT wizard and size appropriately
+
 Install apps, files and configs as needed via Terminal
 # Prep for template creation
 Clean apt, logs and temp
