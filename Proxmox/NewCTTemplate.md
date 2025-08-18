@@ -1,6 +1,5 @@
 # Create LXC
 Go thru the new CT wizard and size appropriately
-
 Install apps, files and configs as needed via Terminal
 # Prep for template creation
 Clean apt, logs and temp
@@ -41,7 +40,7 @@ Verify template
 ```bash
 ls /var/lib/vz/template/cache/
 ```
-# CT Template as Code
+# LXC + Template as Code
 ```bash
 #!/bin/bash
 
@@ -63,11 +62,16 @@ echo "==> Installing packages and configuring container $CTID..."
 
 # Define packages to install (one per line for easy editing)
 INSTALL_PACKAGES=$(cat <<EOF
+ca-certificates
 curl
+dnsutils
+docker.io
 git
 htop
-vim
+net-tools
 ufw
+vim
+wget
 EOF
 )
 
@@ -124,7 +128,7 @@ mv "$BACKUP_FILE" "$NEW_TEMPLATE_PATH"
 echo "==> Template ready:"
 ls -lh "$NEW_TEMPLATE_PATH"
 ```
-# Run CT Template script
+# Run LXC + Template script
 Specify the container number and template name. Container `100` and template name `ubuntu-24-minbase` as example below
 ```bash
 sudo ./build-lxc-template.sh 100 ubuntu-24-minbase
