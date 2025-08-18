@@ -46,7 +46,7 @@ ls /var/lib/vz/template/cache/
 #!/bin/bash
 
 # Usage: sudo ./build-lxc-template.sh <CTID> <TEMPLATE_NAME>
-# Example: sudo ./build-lxc-template.sh 100 ubuntu-24.04-minbase
+# Example: sudo ./build-lxc-template.sh 100 ubuntu-24-minbase
 
 set -e
 
@@ -125,6 +125,7 @@ echo "==> Template ready:"
 ls -lh "$NEW_TEMPLATE_PATH"
 ```
 # Run CT Template script
+Specify the container number and template name. Container `100` and template name `ubuntu-24-minbase` as example below
 ```bash
-sudo ./build-lxc-template.sh 100 ubuntu-24.04-minbase
+sudo ./build-lxc-template.sh 100 ubuntu-24-minbase
 ```
