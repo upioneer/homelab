@@ -1,3 +1,7 @@
+# [\*Arr apps](https://wiki.servarr.com/)
+```Plaintext
+Media management
+```
 # [Authentik](https://goauthentik.io)
 ```Plaintext
 IAM
