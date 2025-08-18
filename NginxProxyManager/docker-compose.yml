@@ -1,15 +1,15 @@
 services:
   nginx-proxy-manager:
-    image: 'jc21/nginx-proxy-manager:latest'
+    image: jc21/nginx-proxy-manager:latest
     container_name: nginx-proxy-manager
     restart: unless-stopped
     ports:
-      - '80:80'
-      - '443:443'
-      - '81:81'
+      - "80:80"
+      - "443:443"
+      - "81:81"
     volumes:
-      - npm_data:/data
-      - npm_letsencrypt:/etc/letsencrypt
+      - data_nginx:/data
+      - data_letsencrypt:/etc/letsencrypt
     networks:
       - proxy-net
 
@@ -17,9 +17,9 @@ services:
     image: cloudflare/cloudflared:latest
     container_name: cloudflared
     restart: unless-stopped
-    command: tunnel --no-autoupdate run --token <insert your token>
+    command: tunnel --no-autoupdate run --token <INSERT_YOUR_TOKEN>
     volumes:
-      - ~/cloudflared-data:/home/nonroot/.cloudflared/
+      - data_cloudflared:/home/nonroot/.cloudflared/
     networks:
       - proxy-net
 
@@ -27,5 +27,6 @@ networks:
   proxy-net:
 
 volumes:
-  npm_data:
-  npm_letsencrypt:
+  data_nginx:
+  data_letsencrypt:
+  data_cloudflared:
