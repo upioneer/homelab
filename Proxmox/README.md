@@ -23,3 +23,8 @@ Tasks can be manual and repetitive. This repo makes it easier to:
 - Automate LXC creation with opinionated defaults
 - Maintain minimal, clean base templates
 - Include repeatable setups for dev environments or service containers
+
+# Default Credentials
+Username `admin@example.com`
+
+Password `changeme`
