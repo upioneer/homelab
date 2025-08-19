@@ -56,7 +56,7 @@ services:
     container_name: cloudflared
     restart: unless-stopped
     user: root
-    command: tunnel --no-autoupdate run --token $(CF_TOKEN)
+    command: tunnel --no-autoupdate run --token ${CF_TOKEN}
     volumes:
       - data_cloudflared:/home/nonroot/.cloudflared/
     networks:
