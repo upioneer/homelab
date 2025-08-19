@@ -1,5 +1,5 @@
 # Rid the Non Valid License prompt
-![screenshot](/assets/Screenshot 2025-08-19 112519.png)
+![screenshot](assets/screenshot1.png)
 ## Manually update `proxmoxlib.js` (needs to be modified after each update)
 Connect to your PVE
 ```bash
