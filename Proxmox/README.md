@@ -13,6 +13,7 @@ This project is designed to speed up common tasks like building reusable contain
 | [Create LXC Template](./NewCTTemplate.md) | Guide and script to clean, back up, and rename a container as a reusable template |
 | [Install Docker & Compose](../Docker/README.md) | Proper method for installing Docker CE and Docker Compose inside an LXC |
 | [Recommended Baseline Apps](./baselineApps.md) | Suggested minimal and extended packages to include in new LXC templates |
+| [No Valid Subscription](./NoValidSubscription.md) | Remove the "No valid subscription" prompt when logging in |
 
 ---
 
