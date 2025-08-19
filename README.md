@@ -1,3 +1,4 @@
+Jump to [recommended sizing](#recommended-sizing)
 # [\*Arr apps](https://wiki.servarr.com/)
 ```Plaintext
 Media management
@@ -246,3 +247,55 @@ https://github.com/containrrr/watchtower
 ```Plaintext
 Link shortening
 ```
+
+---
+# Recommended Sizing
+| Name                                                                                 | Type | CPU  | MEM   |
+| :----------------------------------------------------------------------------------- | :--: | :--: | :----: |
+| [Arr apps](https://wiki.servarr.com/)                                                | LXC  | 1    | 512MB |
+| [Authentik](https://goauthentik.io)                                                  | VM   | 2    | 2GB   |
+| [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)         | VM   | 2-4  | 2GB   |
+| [Beszel](https://www.beszel.dev/)                                                    | LXC  | 1    | 512MB |
+| [Bitwarden](https://bitwarden.com/)                                                  | VM   | 2    | 2GB   |
+| [checkmk](https://checkmk.com)                                                       | VM   | 2-4  | 4GB   |
+| [Cloudflared](https://github.com/cloudflare/cloudflared)                             | LXC  | 1    | 256MB |
+| [Dockge](https://dockge.kuma.pet)                                                    | LXC  | 1    | 512MB |
+| [Docker](https://www.docker.com)                                                     | VM   | 2+   | 2GB+  |
+| [Dozzle](https://dozzle.dev/)                                                        | LXC  | 1    | 256MB |
+| [File Browser](https://filebrowser.org/)                                             | LXC  | 1    | 256MB |
+| [FreeCAD](https://www.freecad.org/)                                                  | VM   | 2-4  | 4GB+  |
+| [Frigate NVR](https://frigate.video)                                                 | VM   | 2-4  | 4GB+  |
+| [Grafana](https://grafana.com)                                                       | LXC  | 1-2  | 1GB   |
+| [Home Assistant](https://www.home-assistant.io)                                      | VM   | 2    | 2GB   |
+| [Immich](https://immich.app)                                                         | VM   | 2-4  | 4GB+  |
+| [InfluxDB](https://www.influxdata.com)                                               | VM   | 1-2  | 2GB   |
+| [Jellyfin](https://jellyfin.org)                                                     | VM   | 2-4  | 4GB+  |
+| [Jellyseerr](https://docs.jellyseerr.dev)                                            | LXC  | 1    | 512MB |
+| [Kestra](https://kestra.io/)                                                         | VM   | 2    | 2GB   |
+| [LinkStack](https://linkstack.org/)                                                  | LXC  | 1    | 256MB |
+| [Metabase](https://www.metabase.com/)                                                | VM   | 2    | 2GB   |
+| [n8n](https://n8n.io)                                                                | VM   | 2    | 2GB   |
+| [Nextcloud](https://nextcloud.com)                                                   | VM   | 2-4  | 4GB+  |
+| [Nginx Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy) | LXC  | 1    | 256MB |
+| [NUT server](https://networkupstools.org)                                            | LXC  | 1    | 256MB |
+| [Octoprint](https://octoprint.org)                                                   | VM   | 1-2  | 1GB   |
+| [Paperless NGX](https://docs.paperless-ngx.com/)                                     | VM   | 2-4  | 4GB+  |
+| [pfSense](https://www.pfsense.org)                                                   | VM   | 2    | 2GB   |
+| [Photoprism](https://www.photoprism.app/)                                            | VM   | 2-4  | 4GB+  |
+| [Pi-hole](https://pi-hole.net)                                                       | LXC  | 1    | 256MB |
+| [Portainer](https://www.portainer.io)                                                | VM   | 1-2  | 1GB   |
+| [Prometheus](https://prometheus.io/)                                                 | LXC  | 1-2  | 2GB   |
+| [Reactive Resume](https://rxresu.me/)                                                | LXC  | 1    | 512MB |
+| [RustDesk](https://rustdesk.com/)                                                    | LXC  | 1    | 256MB |
+| [Scrypted](https://github.com/Vioneta/scrypted-NVR)                                  | VM   | 2-4  | 4GB+  |
+| [Tailscale](https://tailscale.com)                                                   | LXC  | 1    | 256MB |
+| [Technitium](https://technitium.com/dns/)                                            | LXC  | 1    | 512MB |
+| [Traefik](https://traefik.io)                                                        | LXC  | 1    | 256MB |
+| [Traggo](https://traggo.net/)                                                        | LXC  | 1    | 256MB |
+| [TrueNAS](https://www.truenas.com)                                                   | VM   | 2-4  | 8GB+  |
+| [Twingate](https://www.twingate.com)                                                 | LXC  | 1    | 256MB |
+| [UniFi OS Server](https://www.ui.com/download)                                       | LXC  | 1-2  | 1GB   |
+| [Uptime Kuma](https://uptime.kuma.pet)                                               | LXC  | 1    | 512MB |
+| [Veloren](https://veloren.net/)                                                      | VM   | 2-4  | 4GB+  |
+| [Watchtower](https://containrrr.dev/watchtower/)                                     | LXC  | 1    | 128MB |
+| [YOURLS](https://yourls.org/)                                                        | LXC  | 1    | 256MB |
