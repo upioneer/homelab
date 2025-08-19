@@ -37,3 +37,13 @@ newgrp docker
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
+
+---
+# Nuclear destroy all Docker artifacts
+```bash
+sudo docker stop $(sudo docker ps -aq) 2>/dev/null
+sudo docker rm -f $(sudo docker ps -aq) 2>/dev/null
+sudo docker rmi -f $(sudo docker images -aq) 2>/dev/null
+sudo docker volume rm -f $(sudo docker volume ls -q) 2>/dev/null
+sudo docker network rm $(sudo docker network ls -q | grep -v 'bridge\|host\|none') 2>/dev/null
+```
