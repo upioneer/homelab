@@ -1,5 +1,5 @@
 # LinkStack
-Update the [docker-compose.yml](/docker-compose.yml) file as needed. Have a coke and a smile 😁
+Update the [docker-compose.yml](docker-compose.yml) file as needed. Have a coke and a smile 😁
 ```yml
 services:
   linkstack:
