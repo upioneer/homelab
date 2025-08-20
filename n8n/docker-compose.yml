@@ -1,0 +1,19 @@
+services:
+  n8n:
+    image: docker.n8n.io/n8nio/n8n
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      # IMPORTANT: Replace <YOUR_TIMEZONE> with your actual timezone.
+      # Example: America/New_York
+      - GENERIC_TIMEZONE=<YOUR_TIMEZONE>
+      - TZ=<YOUR_TIMEZONE>
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - N8N_RUNNERS_ENABLED=true
+    volumes:
+      - n8n_data:/home/node/.n8n
+
+volumes:
+  n8n_data:
