@@ -163,7 +163,7 @@ Web interface for 3D printers
 ```Plaintext
 Tool for creating identical machine images for multiple platforms from a single source configuration
 ```
-# [Paperless NGX](https://docs.paperless-ngx.com/)
+# [Paperless-ngx](https://docs.paperless-ngx.com/)
 ```Plaintext
 Document management
 ```
