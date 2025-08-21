@@ -1,67 +1,68 @@
 # Apps and recommended sizing
-| Name                                                                                                                                                                                                   | Type | CPU |  Mem  | Disk  |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--: | :-: | :---: | :---: |
-| [Arr apps](https://wiki.servarr.com/)<br>Media management                                                                                                                                              | LXC  |  1  | 512MB |  5GB  |
-| [Authentik](https://goauthentik.io)<br>IAM                                                                                                                                                             |  VM  |  2  |  2GB  | 10GB  |
-| [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)<br>Automated CD/DVD/Blu-ray ripping                                                                                       |  VM  | 2-4 |  2GB  | 20GB+ |
-| [Beszel](https://www.beszel.dev/)<br>Server monitoring                                                                                                                                                 | LXC  |  1  | 512MB |  2GB  |
-| [Bitwarden](https://bitwarden.com/)<br>Password manager                                                                                                                                                |  VM  |  2  |  2GB  |  5GB  |
-| [Calibre-Web](https://github.com/janeczku/calibre-web)<br>Browse, read and download eBooks                                                                                                             | LXC  |  1  | 512MB |  2GB  |
-| [checkmk](https://checkmk.com)<br>Infrastructure monitoring                                                                                                                                            |  VM  | 2-4 |  4GB  |  8GB  |
-| [CloudFlared](https://github.com/cloudflare/cloudflared)<br>Securely expose local services to the internet                                                                                             | LXC  |  1  | 256MB | 512MB |
-| [Dockge](https://dockge.kuma.pet)<br>Self-hosted Docker Compose management UI                                                                                                                          | LXC  |  1  | 512MB |  2GB  |
-| [Docker](https://www.docker.com)<br>Containerization platform for applications                                                                                                                         |  VM  | 2+  | 2GB+  | 10GB+ |
-| [Dozzle](https://dozzle.dev/)<br>Container monitoring and logging                                                                                                                                      | LXC  |  1  | 256MB |  1GB  |
-| [File Browser](https://filebrowser.org/)<br>Web-based file browser                                                                                                                                     | LXC  |  1  | 256MB |  1GB  |
-| [FreeCAD](https://www.freecad.org/)<br>3D modeler                                                                                                                                                      |  VM  | 2-4 | 4GB+  | 10GB  |
-| [Frigate NVR](https://frigate.video)<br>NVR with real-time AI object detection                                                                                                                         |  VM  | 2-4 | 4GB+  | 32GB+ |
-| [Google Firebase](https://firebase.google.com)<br>Mobile and web application development platform                                                                                                      |      |     |       |       |
-| [Grafana](https://grafana.com)<br>Monitoring and data visualization platform                                                                                                                           | LXC  | 1-2 |  1GB  |  2GB  |
-| [Home Assistant](https://www.home-assistant.io)<br>Open-source home automation hub                                                                                                                     |  VM  |  2  |  2GB  | 10GB  |
-| [Immich](https://immich.app)<br>Photo and video backup solution                                                                                                                                        |  VM  | 2-4 | 4GB+  | 32GB+ |
-| [InfluxDB](https://www.influxdata.com)<br>Time-series database for monitoring and IoT                                                                                                                  |  VM  | 1-2 |  2GB  |  4GB  |
-| [Jellyfin](https://jellyfin.org)<br>Media streaming system                                                                                                                                             |  VM  | 2-4 | 4GB+  | 20GB+ |
-| [Jellyseerr](https://docs.jellyseerr.dev)<br>Request management for media library                                                                                                                      | LXC  |  1  | 512MB |  2GB  |
-| [Kanboard](https://kanboard.org/)<br>Kanban board                                                                                                                                                      | LXC  |  1  | 512MB |  2GB  |
-| [Kavita](http://www.kavitareader.com/)<br>Cross platform reading server                                                                                                                                | LXC  |  1  |  1GB  | 5GB+  |
-| [Kestra](https://kestra.io/)<br>Everything as code orchestration                                                                                                                                       |  VM  |  2  |  2GB  |  5GB  |
-| [Kiwix](https://kiwix.org/en/)<br>Offline internet                                                                                                                                                     | LXC  |  1  |  1GB  | 5GB+  |
-| [LinkStack](https://linkstack.org/)<br>Linktree alternative                                                                                                                                            | LXC  |  1  | 256MB |  1GB  |
-| [Make](https://www.make.com/en)<br>No-code development platform                                                                                                                                        |      |     |       |       |
-| [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass                                                                                                  | LXC  |  1  | 128MB | 512MB |
-| [Mermaid](https://www.mermaidchart.com/play)<br>Diagramming and charting from text                                                                                                                     |      |     |       |       |
-| [Metabase](https://www.metabase.com/)<br>Business intelligence                                                                                                                                         |  VM  |  2  |  2GB  |  5GB  |
-| [n8n](https://n8n.io)<br>Agentic workflow automation                                                                                                                                                   |  VM  |  2  |  2GB  |  5GB  |
-| [Navidrome](https://www.navidrome.org/)<br>Music streaming                                                                                                                                             | LXC  |  1  | 512MB | 5GB+  |
-| [Nextcloud](https://nextcloud.com)<br>Remote collaboration                                                                                                                                             |  VM  | 2-4 | 4GB+  | 40GB+ |
-| [Nginx Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy)<br>High-performance web server and reverse proxy                                                              | LXC  |  1  | 256MB |  1GB  |
-| [NUT server](https://networkupstools.org)<br>Network UPS monitoring and management                                                                                                                     | LXC  |  1  | 256MB | 512MB |
-| [Obsidian](https://obsidian.md)<br>Personal knowledge base and note-taking app                                                                                                                         | LXC  |  1  | 512MB |  5GB  |
-| [Octoprint](https://octoprint.org)<br>Web interface for 3D printers                                                                                                                                    |  VM  | 1-2 |  1GB  |  2GB  |
-| [Packer](https://developer.hashicorp.com/packer)<br>Tool for creating identical machine images for multiple platforms from a single source configuration                                               |      |     |       |       |
-| [Paperless NGX](https://docs.paperless-ngx.com/)<br>Document management                                                                                                                                |  VM  | 2-4 | 4GB+  | 20GB+ |
-| [pfSense](https://www.pfsense.org)<br>Open-source firewall and router platform                                                                                                                         |  VM  |  2  |  2GB  |  8GB  |
-| [Photoprism](https://www.photoprism.app/)<br>AI powered photos app                                                                                                                                     |  VM  | 2-4 | 4GB+  | 20GB+ |
-| [Pi-hole](https://pi-hole.net)<br>Network-wide ad-blocking via DNS sinkholing                                                                                                                          | LXC  |  1  | 256MB | 512MB |
-| [Portainer](https://www.portainer.io)<br>Centralized container management platform                                                                                                                     |  VM  | 1-2 |  1GB  |  2GB  |
-| [Postiz](https://postiz.com/)<br>Social media post scheduling and manager                                                                                                                              | LXC  |  1  |  1GB  |  2GB  |
-| [Prometheus](https://prometheus.io/)<br>An open-source systems monitoring and alerting toolkit                                                                                                         | LXC  | 1-2 |  2GB  |  4GB  |
-| [Proxmox](https://www.proxmox.com/en)<br>Open-source server virtualization management                                                                                                                  |      |     |       |       |
-| [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Open-source enterprise backup solution for backing up and restoring VMs, containers, and physical hosts |  VM  | 2-4 | 4GB+  | 32GB+ |
-| [Reactive Resume](https://rxresu.me/)<br>Resume builder                                                                                                                                                | LXC  |  1  | 512MB |  1GB  |
-| [RustDesk](https://rustdesk.com/)<br>Remote access and support utility                                                                                                                                 | LXC  |  1  | 256MB |  1GB  |
-| [Scrypted](https://github.com/Vioneta/scrypted-NVR)<br>Video integration platform and NVR with smart detections                                                                                        |  VM  | 2-4 | 4GB+  | 32GB+ |
-| [Tailscale](https://tailscale.com)<br>Zero-configuration virtual private network                                                                                                                       | LXC  |  1  | 256MB | 512MB |
-| [Technitium](https://technitium.com/dns/)<br>DNS server                                                                                                                                                | LXC  |  1  | 512MB |  1GB  |
-| [Traefik](https://traefik.io)<br>Cloud-native edge router and reverse proxy                                                                                                                            | LXC  |  1  | 256MB |  1GB  |
-| [Traggo](https://traggo.net/)<br>Time tracking tool                                                                                                                                                    | LXC  |  1  | 256MB |  1GB  |
-| [TrueNAS](https://www.truenas.com)<br>Open-source network-attached storage (NAS) solution                                                                                                              |  VM  | 2-4 | 8GB+  | 32GB+ |
-| [Twingate](https://www.twingate.com)<br>Zero trust network access platform                                                                                                                             | LXC  |  1  | 256MB | 512MB |
-| [UniFi OS Server](https://www.ui.com/download)<br>Centralized management for Ubiquiti devices                                                                                                          | LXC  | 1-2 |  1GB  |  4GB  |
-| [UniFi VPN](https://help.ui.com/hc/en-us/articles/7951513517079-UniFi-Gateway-Introduction-to-VPNs)<br>Secure remote access for Ubiquiti networks                                                      |      |     |       |       |
-| [Uptime Kuma](https://uptime.kuma.pet)<br>Self-hosted uptime monitoring                                                                                                                                | LXC  |  1  | 512MB |  1GB  |
-| [Veloren](https://veloren.net/)<br>Open world RPG. Think Minecraft                                                                                                                                     |  VM  | 2-4 | 4GB+  | 10GB  |
-| [VirtualBox](https://www.virtualbox.org)<br>Desktop virtualization                                                                                                                                     |      |     |       |       |
-| [Watchtower](https://containrrr.dev/watchtower/)<br>Container-based solution for automating Docker container base image updates                                                                        | LXC  |  1  | 128MB | 512MB |
-| [Wiki.js](https://js.wiki/)<br>Wiki                                                                                                                                                                    | LXC  | 1-2 |  1GB  | 5GB+  |
-| [YOURLS](https://yourls.org/)<br>Link shortening                                                                                                                                                       | LXC  |  1  | 256MB | 512MB |
+| Name | Type | CPU | MEM | Min Disk |
+| :--- | :--: | :-: | :---: | :---: |
+| [Agents.md](https://agents.md/)<br>README.md guide for agents | LXC | 1 | 512MB | 2GB |
+| [Arr apps](https://wiki.servarr.com/)<br>Media management | LXC | 1 | 512MB | 5GB |
+| [Authentik](https://goauthentik.io)<br>IAM | VM | 2 | 2GB | 10GB |
+| [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)<br>Automated CD/DVD/Blu-ray ripping | VM | 2-4 | 2GB | 20GB+ |
+| [Beszel](https://www.beszel.dev/)<br>Server monitoring | LXC | 1 | 512MB | 2GB |
+| [Bitwarden](https://bitwarden.com/)<br>Password manager | VM | 2 | 2GB | 5GB |
+| [Calibre-Web](https://github.com/janeczku/calibre-web)<br>Browse, read and download eBooks | LXC | 1 | 512MB | 2GB |
+| [checkmk](https://checkmk.com)<br>Infrastructure monitoring | VM | 2-4 | 4GB | 8GB |
+| [CloudFlared](https://github.com/cloudflare/cloudflared)<br>Securely expose local services to the internet | LXC | 1 | 256MB | 512MB |
+| [Dockge](https://dockge.kuma.pet)<br>Self-hosted Docker Compose management UI | LXC | 1 | 512MB | 2GB |
+| [Docker](https://www.docker.com)<br>Containerization platform for applications | VM | 2+ | 2GB+ | 10GB+ |
+| [Dozzle](https://dozzle.dev/)<br>Container monitoring and logging | LXC | 1 | 256MB | 1GB |
+| [File Browser](https://filebrowser.org/)<br>Web-based file browser | LXC | 1 | 256MB | 1GB |
+| [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
+| [Frigate NVR](https://frigate.video)<br>NVR with real-time AI object detection | VM | 2-4 | 4GB+ | 32GB+ |
+| [Google Firebase](https://firebase.google.com)<br>Mobile and web application development platform | | | | |
+| [Grafana](https://grafana.com)<br>Monitoring and data visualization platform | LXC | 1-2 | 1GB | 2GB |
+| [Home Assistant](https://www.home-assistant.io)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
+| [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
+| [InfluxDB](https://www.influxdata.com)<br>Time-series database for monitoring and IoT | VM | 1-2 | 2GB | 4GB |
+| [Jellyfin](https://jellyfin.org)<br>Media streaming system | VM | 2-4 | 4GB+ | 20GB+ |
+| [Jellyseerr](https://docs.jellyseerr.dev)<br>Request management for media library | LXC | 1 | 512MB | 2GB |
+| [Kanboard](https://kanboard.org/)<br>Kanban board | LXC | 1 | 512MB | 2GB |
+| [Kavita](http://www.kavitareader.com/)<br>Cross platform reading server | LXC | 1 | 1GB | 5GB+ |
+| [Kestra](https://kestra.io/)<br>Everything as code orchestration | VM | 2 | 2GB | 5GB |
+| [Kiwix](https://kiwix.org/en/)<br>Offline internet | LXC | 1 | 1GB | 5GB+ |
+| [LinkStack](https://linkstack.org/)<br>Linktree alternative | LXC | 1 | 256MB | 1GB |
+| [Make](https://www.make.com/en)<br>No-code development platform | | | | |
+| [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass | LXC | 1 | 128MB | 512MB |
+| [Mermaid](https://www.mermaidchart.com/play)<br>Diagramming and charting from text | | | | |
+| [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
+| [n8n](https://n8n.io)<br>Agentic workflow automation | VM | 2 | 2GB | 5GB |
+| [Navidrome](https://www.navidrome.org/)<br>Music streaming | LXC | 1 | 512MB | 5GB+ |
+| [Nextcloud](https://nextcloud.com)<br>Remote collaboration | VM | 2-4 | 4GB+ | 40GB+ |
+| [Nginx Reverse Proxy](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy)<br>High-performance web server and reverse proxy | LXC | 1 | 256MB | 1GB |
+| [NUT server](https://networkupstools.org)<br>Network UPS monitoring and management | LXC | 1 | 256MB | 512MB |
+| [Obsidian](https://obsidian.md)<br>Personal knowledge base and note-taking app | LXC | 1 | 512MB | 5GB |
+| [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
+| [Packer](https://developer.hashicorp.com/packer)<br>Tool for creating identical machine images for multiple platforms from a single source configuration | | | | |
+| [Paperless NGX](https://docs.paperless-ngx.com/)<br>Document management | VM | 2-4 | 4GB+ | 20GB+ |
+| [pfSense](https://www.pfsense.org)<br>Open-source firewall and router platform | VM | 2 | 2GB | 8GB |
+| [Photoprism](https://www.photoprism.app/)<br>AI powered photos app | VM | 2-4 | 4GB+ | 20GB+ |
+| [Pi-hole](https://pi-hole.net)<br>Network-wide ad-blocking via DNS sinkholing | LXC | 1 | 256MB | 512MB |
+| [Portainer](https://www.portainer.io)<br>Centralized container management platform | VM | 1-2 | 1GB | 2GB |
+| [Postiz](https://postiz.com/)<br>Social media post scheduling and manager | LXC | 1 | 1GB | 2GB |
+| [Prometheus](https://prometheus.io/)<br>An open-source systems monitoring and alerting toolkit | LXC | 1-2 | 2GB | 4GB |
+| [Proxmox](https://www.proxmox.com/en)<br>Open-source server virtualization management | | | | |
+| [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Open-source enterprise backup solution for backing up and restoring VMs, containers, and physical hosts | VM | 2-4 | 4GB+ | 32GB+ |
+| [Reactive Resume](https://rxresu.me/)<br>Resume builder | LXC | 1 | 512MB | 1GB |
+| [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
+| [Scrypted](https://github.com/Vioneta/scrypted-NVR)<br>Video integration platform and NVR with smart detections | VM | 2-4 | 4GB+ | 32GB+ |
+| [Tailscale](https://tailscale.com)<br>Zero-configuration virtual private network | LXC | 1 | 256MB | 512MB |
+| [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
+| [Traefik](https://traefik.io)<br>Cloud-native edge router and reverse proxy | LXC | 1 | 256MB | 1GB |
+| [Traggo](https://traggo.net/)<br>Time tracking tool | LXC | 1 | 256MB | 1GB |
+| [TrueNAS](https://www.truenas.com)<br>Open-source network-attached storage (NAS) solution | VM | 2-4 | 8GB+ | 32GB+ |
+| [Twingate](https://www.twingate.com)<br>Zero trust network access platform | LXC | 1 | 256MB | 512MB |
+| [UniFi OS Server](https://www.ui.com/download)<br>Centralized management for Ubiquiti devices | LXC | 1-2 | 1GB | 4GB |
+| [UniFi VPN](https://help.ui.com/hc/en-us/articles/7951513517079-UniFi-Gateway-Introduction-to-VPNs)<br>Secure remote access for Ubiquiti networks | | | | |
+| [Uptime Kuma](https://uptime.kuma.pet)<br>Self-hosted uptime monitoring | LXC | 1 | 512MB | 1GB |
+| [Veloren](https://veloren.net/)<br>Open world RPG. Think Minecraft | VM | 2-4 | 4GB+ | 10GB |
+| [VirtualBox](https://www.virtualbox.org)<br>Desktop virtualization | | | | |
+| [Watchtower](https://containrrr.dev/watchtower/)<br>Container-based solution for automating Docker container base image updates | LXC | 1 | 128MB | 512MB |
+| [Wiki.js](https://js.wiki/)<br>Wiki | LXC | 1-2 | 1GB | 5GB+ |
+| [YOURLS](https://yourls.org/)<br>Link shortening | LXC | 1 | 256MB | 512MB |
