@@ -1,13 +1,14 @@
 # Apps and recommended sizing
-| Name | Type | CPU | MEM | Min Disk |
+| Name | Type | CPU | Mem | Min Disk |
 | :--- | :--: | :-: | :---: | :---: |
-| [Agents.md](https://agents.md/)<br>README.md guide for agents | LXC | 1 | 512MB | 2GB |
+| [Agents.md](https://agents.md/)<br>README.md guide for agents | | | | |
 | [Arr apps](https://wiki.servarr.com/)<br>Media management | LXC | 1 | 512MB | 5GB |
 | [Authentik](https://goauthentik.io)<br>IAM | VM | 2 | 2GB | 10GB |
 | [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)<br>Automated CD/DVD/Blu-ray ripping | VM | 2-4 | 2GB | 20GB+ |
 | [Beszel](https://www.beszel.dev/)<br>Server monitoring | LXC | 1 | 512MB | 2GB |
 | [Bitwarden](https://bitwarden.com/)<br>Password manager | VM | 2 | 2GB | 5GB |
 | [Calibre-Web](https://github.com/janeczku/calibre-web)<br>Browse, read and download eBooks | LXC | 1 | 512MB | 2GB |
+| [CasaOS](https://github.com/IceWhaleTech/CasaOS)<br>A simple, easy-to-use, elegant open-source Personal Cloud system | LXC | 1-2 | 1GB | 8GB |
 | [checkmk](https://checkmk.com)<br>Infrastructure monitoring | VM | 2-4 | 4GB | 8GB |
 | [CloudFlared](https://github.com/cloudflare/cloudflared)<br>Securely expose local services to the internet | LXC | 1 | 256MB | 512MB |
 | [Dockge](https://dockge.kuma.pet)<br>Self-hosted Docker Compose management UI | LXC | 1 | 512MB | 2GB |
@@ -43,26 +44,35 @@
 | [Paperless NGX](https://docs.paperless-ngx.com/)<br>Document management | VM | 2-4 | 4GB+ | 20GB+ |
 | [pfSense](https://www.pfsense.org)<br>Open-source firewall and router platform | VM | 2 | 2GB | 8GB |
 | [Photoprism](https://www.photoprism.app/)<br>AI powered photos app | VM | 2-4 | 4GB+ | 20GB+ |
+| [Pi.Alert](https://github.com/leiweibau/Pi.Alert)<br>WIFI / LAN intruder detector for your network | LXC | 1 | 512MB | 2GB |
 | [Pi-hole](https://pi-hole.net)<br>Network-wide ad-blocking via DNS sinkholing | LXC | 1 | 256MB | 512MB |
+| [Playnite](https://playnite.link/)<br>Open source video game library manager | | | | |
 | [Portainer](https://www.portainer.io)<br>Centralized container management platform | VM | 1-2 | 1GB | 2GB |
 | [Postiz](https://postiz.com/)<br>Social media post scheduling and manager | LXC | 1 | 1GB | 2GB |
 | [Prometheus](https://prometheus.io/)<br>An open-source systems monitoring and alerting toolkit | LXC | 1-2 | 2GB | 4GB |
 | [Proxmox](https://www.proxmox.com/en)<br>Open-source server virtualization management | | | | |
 | [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Open-source enterprise backup solution for backing up and restoring VMs, containers, and physical hosts | VM | 2-4 | 4GB+ | 32GB+ |
+| [Pterodactyl](https://pterodactyl.io/)<br>Open-source game server management panel | VM | 2 | 2GB | 10GB |
 | [Reactive Resume](https://rxresu.me/)<br>Resume builder | LXC | 1 | 512MB | 1GB |
+| [RomM](https://romm.app/)<br>Game library manager for retro games | LXC | 1 | 1GB | 5GB+ |
 | [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
 | [Scrypted](https://github.com/Vioneta/scrypted-NVR)<br>Video integration platform and NVR with smart detections | VM | 2-4 | 4GB+ | 32GB+ |
+| [Shiori](https://github.com/go-shiori/shiori)<br>Simple bookmark manager written in Go | LXC | 1 | 512MB | 2GB |
+| [Sterling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)<br>Locally hosted web-based PDF manipulation tool | VM | 2 | 2-4GB | 8GB |
 | [Tailscale](https://tailscale.com)<br>Zero-configuration virtual private network | LXC | 1 | 256MB | 512MB |
 | [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
 | [Traefik](https://traefik.io)<br>Cloud-native edge router and reverse proxy | LXC | 1 | 256MB | 1GB |
 | [Traggo](https://traggo.net/)<br>Time tracking tool | LXC | 1 | 256MB | 1GB |
+| [Trilium](https://github.com/TriliumNext/Trilium)<br>Hierarchical note-taking application to build your personal knowledge base | LXC | 1-2 | 1GB | 5GB+ |
 | [TrueNAS](https://www.truenas.com)<br>Open-source network-attached storage (NAS) solution | VM | 2-4 | 8GB+ | 32GB+ |
 | [Twingate](https://www.twingate.com)<br>Zero trust network access platform | LXC | 1 | 256MB | 512MB |
 | [UniFi OS Server](https://www.ui.com/download)<br>Centralized management for Ubiquiti devices | LXC | 1-2 | 1GB | 4GB |
 | [UniFi VPN](https://help.ui.com/hc/en-us/articles/7951513517079-UniFi-Gateway-Introduction-to-VPNs)<br>Secure remote access for Ubiquiti networks | | | | |
+| [Unifi Voucher Manager](https://github.com/etiennecollin/unifi-voucher-manager)<br>Simple web interface to create UniFi vouchers | LXC | 1 | 512MB | 2GB |
 | [Uptime Kuma](https://uptime.kuma.pet)<br>Self-hosted uptime monitoring | LXC | 1 | 512MB | 1GB |
 | [Veloren](https://veloren.net/)<br>Open world RPG. Think Minecraft | VM | 2-4 | 4GB+ | 10GB |
 | [VirtualBox](https://www.virtualbox.org)<br>Desktop virtualization | | | | |
 | [Watchtower](https://containrrr.dev/watchtower/)<br>Container-based solution for automating Docker container base image updates | LXC | 1 | 128MB | 512MB |
 | [Wiki.js](https://js.wiki/)<br>Wiki | LXC | 1-2 | 1GB | 5GB+ |
 | [YOURLS](https://yourls.org/)<br>Link shortening | LXC | 1 | 256MB | 512MB |
+| [ZoneMinder](https://zoneminder.com/)<br>Video camera security and surveillance solution | VM | 2-4 | 4GB+ | 32GB+ |
