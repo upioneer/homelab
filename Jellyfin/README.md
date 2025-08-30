@@ -1,3 +1,7 @@
+# Drive map
+Refer to the [SMB share](../Proxmox/SMBmap.md) guide for mapping in your Proxmox host and exposing the SMB to the LXC
+
+Keep this in mind when declaring the volumes, in the example below `- /media:/media:ro`
 # Docker Compose
 Option 1: Docker Compose
 ```yaml
