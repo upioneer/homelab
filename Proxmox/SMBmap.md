@@ -79,7 +79,7 @@ pct reboot 101
 
 ---
 
-## Step 3: Configure docker-compose.yml for Navidrome
+## Step 3: Configure docker-compose.yml
 
 When defining the Docker container for Navidrome, map the `/music` directory from the LXC into the container
 
