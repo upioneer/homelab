@@ -1,4 +1,4 @@
-Example docker-compose.yml with Watchtower scheduled at 4am
+Example docker-compose.yml with central time zone and Watchtower scheduled at 4am
 ```yaml
 services:
   n8n:
