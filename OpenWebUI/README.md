@@ -59,8 +59,9 @@ Edit that file (example)
 ```bash
 sudo nano /etc/systemd/system/ollama.service
 ```
-Add a line directly and immediately under [Service]
+Add a line directly and immediately under [Service]. It should look like this:
 ```yaml
+[Service]
 Environment="OLLAMA_HOST=0.0.0.0"
 ExecStart=/usr/bin/ollama serve
 ```
