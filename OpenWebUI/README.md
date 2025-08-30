@@ -1,5 +1,5 @@
 # Option 1
-Watchtower runs alongside and checks for updates every 24h. Adjust as required
+Watchtower runs alongside and checks for updates at 4am. Adjust as required
 ```yaml
 services:
   open-webui:
