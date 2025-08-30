@@ -117,6 +117,14 @@ services:
       # OPENID_TOKEN_URL:
       # OPENID_USER_INFO_URL:
 
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --schedule "0 0 4 * * *" --cleanup
+    restart: unless-stopped
+
 volumes:
   minio_data:
   postgres_data:
