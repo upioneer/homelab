@@ -8,3 +8,11 @@ services:
       - /srv/jellyfin/cache:/cache
       - /media:/media:ro
     restart: unless-stopped
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --schedule "0 0 4 * * *" --cleanup
+    restart: unless-stopped
