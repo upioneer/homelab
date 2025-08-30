@@ -15,7 +15,7 @@ services:
     container_name: watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
-    command: --interval 86400 --cleanup open-webui
+    command: --schedule "0 0 4 * * *" --cleanup open-webui
     restart: unless-stopped
 
 volumes:
