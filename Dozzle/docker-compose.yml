@@ -7,8 +7,11 @@ services:
     ports:
       - 8080:8080
     command: --no-analytics
-             --remote-host tcp://192.168.1.100|hostname1
-             --remote-host tcp://192.168.1.101|hostname2
+             --remote-host
+             tcp://192.168.1.100|hostname1
+             --remote-host
+             tcp://192.168.1.101|hostname2
+    restart: unless-stopped
 
   watchtower:
     image: containrrr/watchtower
