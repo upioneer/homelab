@@ -22,6 +22,7 @@
 | [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
 | [Dashy](https://dashy.to/)<br>Highly customizable dashboard for your homelab | LXC | 1 | 512MB | 1GB |
+| [dtop](https://github.com/amir20/dtop)<br>Docker top alternative with container stats and logs | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
 | [Docker](https://www.docker.com)<br>Containerization platform | VM | 2+ | 2GB+ | 10GB+ |
 | [DocuWiki](https://www.dokuwiki.org/dokuwiki)<br>File-based wiki engine | LXC | 1 | 512MB | 1GB |
