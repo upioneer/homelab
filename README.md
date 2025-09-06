@@ -19,6 +19,7 @@
 | [Cockpit](https://cockpit-project.org/)<br>Web-based graphical interface for servers | LXC | 1 | 512MB | 2GB |
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
 | [Cosmos](https://cosmos-cloud.io/)<br>Self-hosting server and container management platform | LXC | 1-2 | 1GB | 8GB |
+| [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
 | [Dashy](https://dashy.to/)<br>Highly customizable dashboard for your homelab | LXC | 1 | 512MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
@@ -30,6 +31,7 @@
 | [Etherpad](https://etherpad.org/)<br>Real-time collaborative text editor | LXC | 1 | 512MB | 1GB |
 | [FileStash](https://filestash.app/)<br>Web-based file manager that connects to various backends | LXC | 1 | 512MB | 1GB |
 | [FileZilla Server](https://filezilla-project.org/)<br>FTP server for file sharing | LXC | 1 | 256MB | 1GB |
+| [Firecrawl](https://firecrawl.dev/)<br>Turn any website into LLM-ready data (crawl, scrape, search, etc.) | VM | 2 | 2-4GB | 10GB |
 | [FocusWriter](https://gottcode.org/focuswriter/)<br>Distraction-free writing environment | VM | 1 | 512MB | 1GB |
 | [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
 | [FreeMind](https://freemind.sourceforge.net/wiki/index.php/Main_Page)<br>Mind-mapping software | VM | 1 | 512MB | 1GB |
@@ -45,6 +47,7 @@
 | [Homepage](https://gethomepage.dev/)<br>Modern, self-hosted start page | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
 | [InfluxDB](https://www.influxdata.com)<br>Time-series database | VM | 1-2 | 2GB | 4GB |
+| [Instantly.ai](https://instantly.ai/)<br>SaaS platform for cold email outreach and lead management | | | | |
 | [iVentoy](https://www.iventoy.com/en/index.html)<br>PXE server to boot multiple ISO files over a network | VM | 1-2 | 1GB | 5GB+ |
 | [IT-Tools](https://github.com/sharevb/it-tools)<br>Collection of handy online tools for developers | LXC | 1 | 128MB | 512MB |
 | [Jellyfin](https://jellyfin.org)<br>Media streaming system | VM | 2-4 | 4GB+ | 20GB+ |
