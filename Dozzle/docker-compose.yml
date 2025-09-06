@@ -1,0 +1,19 @@
+services:
+  dozzle:
+    container_name: dozzle
+    image: amir20/dozzle:latest
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    ports:
+      - 8080:8080
+    command: --no-analytics
+             --remote-host tcp://192.168.1.100|hostname1
+             --remote-host tcp://192.168.1.101|hostname2
+
+  watchtower:
+    image: containrrr/watchtower
+    container_name: watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --schedule "0 0 4 * * *" --cleanup 
+    restart: unless-stopped
