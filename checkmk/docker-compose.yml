@@ -1,0 +1,16 @@
+services:
+  monitoring:
+    image: checkmk/check-mk-raw:2.4.0p11
+    container_name: monitoring
+    restart: unless-stopped
+    ports:
+      - "8080:5000"
+      - "8000:8000"
+    tmpfs:
+      - /opt/omd/sites/cmk/tmp:uid=1000,gid=1000
+    volumes:
+      - monitoring:/omd/sites
+      - /etc/localtime:/etc/localtime:ro
+
+volumes:
+  monitoring:
