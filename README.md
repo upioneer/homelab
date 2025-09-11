@@ -78,6 +78,7 @@
 | [Nextcloud](https://nextcloud.com)<br>Remote collaboration platform | VM | 2-4 | 4GB+ | 40GB+ |
 | [Nginx Proxy Manager](https://nginxproxymanager.com/)<br>Nginx reverse proxy with a web UI | LXC | 1 | 256MB | 1GB |
 | [Node-RED](https://nodered.org/)<br>Flow-based visual programming tool | LXC | 1 | 512MB | 2GB |
+| [Notifiarr](https://notifiarr.com/)<br>Unified notifications for the Servarr stack | LXC | 1 | 256MB | 1GB |
 | [Ntfy](https://ntfy.sh/)<br>Simple push notification service | LXC | 1 | 256MB | 512MB |
 | [NUT server](https://networkupstools.org)<br>Network UPS monitoring | LXC | 1 | 256MB | 512MB |
 | [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
