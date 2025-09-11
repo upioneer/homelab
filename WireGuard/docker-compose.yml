@@ -1,0 +1,15 @@
+services:
+  wg-easy:
+    image: weejewel/wg-easy
+    container_name: wg-easy
+    environment:
+      - WG_HOST=your.server.ip
+    volumes:
+      - .:/etc/wireguard
+    ports:
+      - "51820:51820/udp"
+      - "51821:51821/tcp"
+    cap_add:
+      - NET_ADMIN
+      - SYS_MODULE
+    restart: unless-stopped
