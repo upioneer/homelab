@@ -14,6 +14,7 @@
 | [Caddy](https://caddyserver.com/)<br>Web server with automatic HTTPS | LXC | 1 | 256MB | 1GB |
 | [Calibre-Web](https://github.com/janeczku/calibre-web)<br>Web app for browsing eBooks | LXC | 1 | 512MB | 2GB |
 | [CasaOS](https://casaos.zimaspace.com/)<br>Open-source personal cloud system | LXC | 1-2 | 1GB | 8GB |
+| [Changedetection.io](https://github.com/dgtlmoon/changedetection.io)<br>Monitor websites and receive notifications on changes | LXC | 1-2 | 1GB | 5GB |
 | [checkmk](https://checkmk.com)<br>Infrastructure monitoring | VM | 2-4 | 4GB | 8GB |
 | [CloudFlared](https://github.com/cloudflare/cloudflared)<br>Cloudflare Tunnel daemon | LXC | 1 | 256MB | 512MB |
 | [Cockpit](https://cockpit-project.org/)<br>Web-based graphical interface for servers | LXC | 1 | 512MB | 2GB |
@@ -31,10 +32,12 @@
 | [dtop](https://github.com/amir20/dtop)<br>Docker top alternative with container stats and logs | LXC | 1 | 256MB | 1GB |
 | [Duplicati](https://www.duplicati.com/)<br>Secure, encrypted, and compressed backup client | LXC | 1 | 512MB | 1GB |
 | [Emby](https://emby.media/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
+| [ErsatzTV](https://github.com/ErsatzTV/ErsatzTV)<br>Self-hosted pseudo-TV for Plex, Jellyfin, and Emby | VM | 2-4 | 2-4GB | 10GB+ |
 | [Etherpad](https://etherpad.org/)<br>Real-time collaborative text editor | LXC | 1 | 512MB | 1GB |
 | [FileStash](https://filestash.app/)<br>Web-based file manager that connects to various backends | LXC | 1 | 512MB | 1GB |
 | [FileZilla Server](https://filezilla-project.org/)<br>FTP server for file sharing | LXC | 1 | 256MB | 1GB |
 | [Firecrawl](https://firecrawl.dev/)<br>Turn any website into LLM-ready data (crawl, scrape, search, etc.) | VM | 2 | 2-4GB | 10GB |
+| [Flame](https://github.com/pawelmalak/flame)<br>Self-hosted startpage and dashboard for your server | LXC | 1 | 256MB | 1GB |
 | [FocusWriter](https://gottcode.org/focuswriter/)<br>Distraction-free writing environment | VM | 1 | 512MB | 1GB |
 | [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
 | [FreeMind](https://freemind.sourceforge.net/wiki/index.php/Main_Page)<br>Mind-mapping software | VM | 1 | 512MB | 1GB |
@@ -115,6 +118,7 @@
 | [Syncthing](https://syncthing.net/)<br>Continuous file synchronization | LXC | 1 | 512MB | 2GB |
 | [Tailscale](https://tailscale.com)<br>Zero-configuration VPN | LXC | 1 | 256MB | 512MB |
 | [Taiga](https://www.taiga.io/)<br>Project management platform for agile teams | VM | 2 | 2GB | 5GB |
+| [Tautulli](https://tautulli.com)<br>Monitoring and tracking application for Plex Media Server | LXC | 1 | 512MB | 2GB |
 | [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
 | [Terraform](https://www.terraform.io/)<br>Infrastructure as code (IaC) tool | VM | 1 | 1GB | 2GB |
 | [Tracktor](https://github.com/javedh-dev/tracktor)<br>Privacy-friendly, self-hosted time tracking tool | LXC | 1 | 256MB | 1GB |
