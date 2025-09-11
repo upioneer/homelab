@@ -13,6 +13,7 @@ services:
       - TZ=America/Chicago
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
       - N8N_RUNNERS_ENABLED=true
+      - WEBHOOK_URL=https://n8n.mydomain.com/ # if webhook https is required
     volumes:
       - n8n_data:/home/node/.n8n
 
