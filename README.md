@@ -20,13 +20,15 @@
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
 | [Cosmos](https://cosmos-cloud.io/)<br>Self-hosting server and container management platform | LXC | 1-2 | 1GB | 8GB |
 | [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
+| [Cronmaster](https://github.com/fccview/cronmaster)<br>Simple and lightweight cron job manager | LXC | 1 | 256MB | 1GB |
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
 | [Dashy](https://dashy.to/)<br>Highly customizable dashboard for your homelab | LXC | 1 | 512MB | 1GB |
-| [dtop](https://github.com/amir20/dtop)<br>Docker top alternative with container stats and logs | LXC | 1 | 256MB | 1GB |
+| [dockpeek](https://github.com/dockpeek/dockpeek)<br>Simple dashboard to view and manage Docker containers | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
 | [Docker](https://www.docker.com)<br>Containerization platform | VM | 2+ | 2GB+ | 10GB+ |
 | [DocuWiki](https://www.dokuwiki.org/dokuwiki)<br>File-based wiki engine | LXC | 1 | 512MB | 1GB |
 | [Dozzle](https://dozzle.dev/)<br>Container log viewer | LXC | 1 | 256MB | 1GB |
+| [dtop](https://github.com/amir20/dtop)<br>Docker top alternative with container stats and logs | LXC | 1 | 256MB | 1GB |
 | [Duplicati](https://www.duplicati.com/)<br>Secure, encrypted, and compressed backup client | LXC | 1 | 512MB | 1GB |
 | [Emby](https://emby.media/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Etherpad](https://etherpad.org/)<br>Real-time collaborative text editor | LXC | 1 | 512MB | 1GB |
@@ -60,6 +62,7 @@
 | [Kubernetes](https://kubernetes.io/)<br>Container orchestration system | VM | 2+ | 4GB+ | 20GB+ |
 | [Lidarr](https://lidarr.audio/)<br>Automated music collection manager | LXC | 1 | 512MB | 5GB+ |
 | [LinkAce](https://www.linkace.org/)<br>Self-hosted bookmark archive | LXC | 1 | 512MB | 2GB |
+| [Linkarr](https://github.com/itsmejoeeey/linkarr)<br>Self-hosted, custom link-in-bio page | LXC | 1 | 256MB | 1GB |
 | [LinkStack](https://linkstack.org/)<br>Linktree alternative | LXC | 1 | 256MB | 1GB |
 | [Linkwarden](https://linkwarden.app/)<br>Collaborative bookmark and archival manager | LXC | 1 | 1GB | 5GB |
 | [Logseq](https://logseq.com/)<br>Privacy-first, open-source knowledge management system | LXC | 1 | 512MB | 2GB |
@@ -85,6 +88,7 @@
 | [Paperless NGX](https://docs.paperless-ngx.com/)<br>Document management system | VM | 2-4 | 4GB+ | 20GB+ |
 | [pfSense](https://www.pfsense.org)<br>Firewall and router platform | VM | 2 | 2GB | 8GB |
 | [PhotoPrism](https://www.photoprism.app/)<br>AI-powered photos app | VM | 2-4 | 4GB+ | 20GB+ |
+| [pi-dash](https://github.com/SurajVerma/pi-dash)<br>Simple, lightweight dashboard for Raspberry Pi | LXC | 1 | 256MB | 1GB |
 | [Pi-hole](https://pi-hole.net)<br>Network-wide ad blocker | LXC | 1 | 256MB | 512MB |
 | [Pi.Alert](https://github.com/leiweibau/Pi.Alert)<br>WIFI / LAN intruder detector | LXC | 1 | 512MB | 2GB |
 | [Plex](https://www.plex.tv/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
@@ -101,6 +105,7 @@
 | [RomM](https://romm.app/)<br>Retro game library manager | LXC | 1 | 1GB | 5GB+ |
 | [Rsync](https://rsync.samba.org/)<br>Fast, incremental file transfer and synchronization utility | LXC | 1 | 512MB | 1GB |
 | [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
+| [rwMarkable](https://github.com/fccview/rwMarkable)<br>Self-hosted, collaborative markdown editor | LXC | 1 | 512MB | 2GB |
 | [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | | | | |
 | [Shiori](https://github.com/go-shiori/shiori)<br>Simple bookmark manager | LXC | 1 | 512MB | 2GB |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
@@ -111,6 +116,7 @@
 | [Taiga](https://www.taiga.io/)<br>Project management platform for agile teams | VM | 2 | 2GB | 5GB |
 | [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
 | [Terraform](https://www.terraform.io/)<br>Infrastructure as code (IaC) tool | VM | 1 | 1GB | 2GB |
+| [Tracktor](https://github.com/javedh-dev/tracktor)<br>Privacy-friendly, self-hosted time tracking tool | LXC | 1 | 256MB | 1GB |
 | [Traefik](https://traefik.io)<br>Cloud-native edge router and reverse proxy | LXC | 1 | 256MB | 1GB |
 | [Trilium](https://github.com/TriliumNext/Trilium)<br>Hierarchical note-taking application | LXC | 1-2 | 1GB | 5GB+ |
 | [TrueNAS](https://www.truenas.com)<br>Network-attached storage (NAS) solution | VM | 2-4 | 8GB+ | 32GB+ |
