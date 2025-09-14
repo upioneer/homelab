@@ -19,10 +19,12 @@
 | [CloudFlared](https://github.com/cloudflare/cloudflared)<br>Cloudflare Tunnel daemon | LXC | 1 | 256MB | 512MB |
 | [Cockpit](https://cockpit-project.org/)<br>Web-based graphical interface for servers | LXC | 1 | 512MB | 2GB |
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
+| [Compose Toolbox](https://github.com/bluegoosemedia/composetoolbox)<br>Simple web UI for Docker Compose | LXC | 1 | 256MB | 1GB |
 | [Cosmos](https://cosmos-cloud.io/)<br>Self-hosting server and container management platform | LXC | 1-2 | 1GB | 8GB |
 | [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
 | [Cronmaster](https://github.com/fccview/cronmaster)<br>Simple and lightweight cron job manager | LXC | 1 | 256MB | 1GB |
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
+| [Dasharr](https://github.com/taslabs-net/dasharr)<br>Dashboard for the Servarr stack | LXC | 1 | 256MB | 1GB |
 | [Dashy](https://dashy.to/)<br>Highly customizable dashboard for your homelab | LXC | 1 | 512MB | 1GB |
 | [dockpeek](https://github.com/dockpeek/dockpeek)<br>Simple dashboard to view and manage Docker containers | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
@@ -97,12 +99,14 @@
 | [Pi.Alert](https://github.com/leiweibau/Pi.Alert)<br>WIFI / LAN intruder detector | LXC | 1 | 512MB | 2GB |
 | [Plex](https://www.plex.tv/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Portainer](https://www.portainer.io)<br>Container management platform | VM | 1-2 | 1GB | 2GB |
+| [Porttracker](https://github.com/Mostafa-Wahied/portracker)<br>Lightweight container to track your container port mappings | LXC | 1 | 128MB | 512MB |
 | [Postiz](https://postiz.com/)<br>Social media post scheduler | LXC | 1 | 1GB | 2GB |
 | [Prometheus](https://prometheus.io/)<br>Systems monitoring and alerting | LXC | 1-2 | 2GB | 4GB |
 | [Proxmox](https://www.proxmox.com/en)<br>Server virtualization management | VM | 2+ | 4GB+ | 16GB+ |
 | [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Enterprise backup solution for VMs, containers, and hosts | VM | 2-4 | 4GB+ | 32GB+ |
 | [Prowlarr](https://prowlarr.com/)<br>Indexer manager for the Servarr stack | LXC | 1 | 512MB | 2GB |
 | [Pterodactyl](https://pterodactyl.io/)<br>Game server management panel | VM | 2 | 2GB | 10GB |
+| [qBittorrent](https://www.qbittorrent.org/)<br>Open-source BitTorrent client with a web UI | LXC | 1-2 | 1GB | 5GB+ |
 | [Radarr](https://radarr.video/)<br>Automated movie collection manager | LXC | 1 | 512MB | 5GB+ |
 | [Readarr](https://readarr.com/)<br>Automated ebook and audiobook collection manager | LXC | 1 | 512MB | 5GB+ |
 | [Reactive Resume](https://rxresu.me/)<br>Resume builder | LXC | 1 | 512MB | 1GB |
