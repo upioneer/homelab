@@ -3,6 +3,7 @@
 [![Issues](https://img.shields.io/github/issues/upioneer/homelab?style=flat-square&color=red)](https://github.com/upioneer/homelab/issues)
 [![Contributors](https://img.shields.io/github/contributors/upioneer/homelab?style=flat-square&color=blue)](https://github.com/upioneer/homelab/graphs/contributors)
 
+---
 # Apps and recommended sizing
 | Name | Type | CPU | Mem | Min Disk |
 | :--- | :--: | :-: | :---: | :---: |
@@ -30,7 +31,7 @@
 | [Cronmaster](https://github.com/fccview/cronmaster)<br>Simple and lightweight cron job manager | LXC | 1 | 256MB | 1GB |
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
 | [Dasharr](https://github.com/taslabs-net/dasharr)<br>Dashboard for the Servarr stack | LXC | 1 | 256MB | 1GB |
-| [Dashy](https://dashy.to/)<br>Highly customizable dashboard for your homelab | LXC | 1 | 512MB | 1GB |
+| [Dashy](https://dashy.to/)<br>Highly customizable personal dashboard | LXC | 1 | 512MB | 1GB |
 | [dockpeek](https://github.com/dockpeek/dockpeek)<br>Simple dashboard to view and manage Docker containers | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
 | [Docker](https://www.docker.com)<br>Containerization platform | VM | 2+ | 2GB+ | 10GB+ |
@@ -52,12 +53,15 @@
 | [Funkwhale](https://funkwhale.audio/)<br>Federated audio streaming server | LXC | 1-2 | 1GB | 5GB+ |
 | [Ghost](https://ghost.org/)<br>Professional publishing platform | LXC | 1-2 | 1GB | 5GB |
 | [Gitea](https://gitea.io/en-us/)<br>Self-hosted Git service | LXC | 1-2 | 1GB | 5GB+ |
+| [Glance](https://github.com/glanceapp/glance)<br>At-a-glance, self-hosted dashboard for your services | LXC | 1 | 256MB | 1GB |
 | [Gluetun](https://github.com/qdm12/gluetun)<br>VPN client container for other containers to use | LXC | 1 | 128MB | 512MB |
 | [Grafana](https://grafana.com)<br>Monitoring and data visualization | LXC | 1-2 | 1GB | 2GB |
 | [Grocy](https://grocy.info/)<br>ERP system for your household and kitchen | LXC | 1 | 512MB | 2GB |
 | [Harvester](https://www.harvesterhci.io/)<br>Kubernetes-based hyper-converged infrastructure | VM | 4+ | 8GB+ | 100GB+ |
-| [Home Assistant](https://www.home-assistant.io)<br>Open-source home automation | VM | 2 | 2GB | 10GB |
-| [Homepage](https://gethomepage.dev/)<br>Modern, self-hosted start page | LXC | 1 | 512MB | 1GB |
+| [Heimdall](https://heimdall.site/)<br>Elegant dashboard for your web applications | LXC | 1 | 256MB | 1GB |
+| [Home Assistant](https://www.home-assistant.io)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
+| [Homarr](https://homarr.dev/)<br>Simple, modern, and powerful server dashboard | LXC | 1 | 512MB | 1GB |
+| [Homepage](https://gethomepage.dev/)<br>Modern and dynamic application dashboard | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
 | [InfluxDB](https://www.influxdata.com)<br>Time-series database | VM | 1-2 | 2GB | 4GB |
 | [Instantly.ai](https://instantly.ai/)<br>SaaS platform for cold email outreach and lead management | | | | |
