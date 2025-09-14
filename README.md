@@ -1,3 +1,8 @@
+[![GitHub Stars](https://img.shields.io/github/stars/upioneer/homelab?style=flat-square&color=yellow)](https://github.com/upioneer/homelab/stargazers)
+[![Forks](https://img.shields.io/github/forks/upioneer/homelab?style=flat-square&color=green)](https://github.com/upioneer/homelab/network/members)
+[![Issues](https://img.shields.io/github/issues/upioneer/homelab?style=flat-square&color=red)](https://github.com/upioneer/homelab/issues)
+[![Contributors](https://img.shields.io/github/contributors/upioneer/homelab?style=flat-square&color=blue)](https://github.com/upioneer/homelab/graphs/contributors)
+
 # Apps and recommended sizing
 | Name | Type | CPU | Mem | Min Disk |
 | :--- | :--: | :-: | :---: | :---: |
