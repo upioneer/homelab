@@ -59,7 +59,7 @@
 | [Grocy](https://grocy.info/)<br>ERP system for your household and kitchen | LXC | 1 | 512MB | 2GB |
 | [Harvester](https://www.harvesterhci.io/)<br>Kubernetes-based hyper-converged infrastructure | VM | 4+ | 8GB+ | 100GB+ |
 | [Heimdall](https://heimdall.site/)<br>Elegant dashboard for your web applications | LXC | 1 | 256MB | 1GB |
-| [Home Assistant](https://www.home-assistant.io)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
+| [Home Assistant](https://www.home-assistant.io/)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
 | [Homarr](https://homarr.dev/)<br>Simple, modern, and powerful server dashboard | LXC | 1 | 512MB | 1GB |
 | [Homepage](https://gethomepage.dev/)<br>Modern and dynamic application dashboard | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
@@ -81,6 +81,7 @@
 | [Linkwarden](https://linkwarden.app/)<br>Collaborative bookmark and archival manager | LXC | 1 | 1GB | 5GB |
 | [Logseq](https://logseq.com/)<br>Privacy-first, open-source knowledge management system | LXC | 1 | 512MB | 2GB |
 | [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass | LXC | 1 | 128MB | 512MB |
+| [Material Design Icons](https://pictogrammers.com/library/mdi/)<br>Community-driven library of Material Design icons | | | | |
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
 | [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
 | [MinIO](https://min.io/)<br>High-performance object storage server | LXC | 1 | 1GB | 2GB |
@@ -123,8 +124,10 @@
 | [Rsync](https://rsync.samba.org/)<br>Fast, incremental file transfer and synchronization utility | LXC | 1 | 512MB | 1GB |
 | [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
 | [rwMarkable](https://github.com/fccview/rwMarkable)<br>Self-hosted, collaborative markdown editor | LXC | 1 | 512MB | 2GB |
+| [Self-Host Dashboard Icons](https://selfh.st/icons/)<br>Curated collection of icons for self-hosted services | | | | |
 | [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | | | | |
 | [Shiori](https://github.com/go-shiori/shiori)<br>Simple bookmark manager | LXC | 1 | 512MB | 2GB |
+| [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | | | | |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
 | [Stirling-PDF](https://stirlingpdf.io)<br>Web-based PDF manipulation tool | VM | 2 | 2-4GB | 8GB |
 | [Subsonic](http://www.subsonic.org/pages/index.jsp)<br>Personal media streamer | LXC | 1 | 512MB | 5GB+ |
