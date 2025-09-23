@@ -22,7 +22,7 @@
 | [CasaOS](https://casaos.zimaspace.com/)<br>Open-source personal cloud system | LXC | 1-2 | 1GB | 8GB |
 | [Changedetection.io](https://github.com/dgtlmoon/changedetection.io)<br>Monitor websites and receive notifications on changes | LXC | 1-2 | 1GB | 5GB |
 | [checkmk](https://checkmk.com)<br>Infrastructure monitoring | VM | 2-4 | 4GB | 8GB |
-| [CloudFlared](https://github.com/cloudflare/cloudflared)<br>Cloudflare Tunnel daemon | LXC | 1 | 256MB | 512MB |
+| [Cloudflared](https://github.com/cloudflare/cloudflared)<br>Cloudflare Tunnel daemon | LXC | 1 | 256MB | 512MB |
 | [Cockpit](https://cockpit-project.org/)<br>Web-based graphical interface for servers | LXC | 1 | 512MB | 2GB |
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
 | [Compose Toolbox](https://github.com/bluegoosemedia/composetoolbox)<br>Simple web UI for Docker Compose | LXC | 1 | 256MB | 1GB |
@@ -46,6 +46,7 @@
 | [FileZilla Server](https://filezilla-project.org/)<br>FTP server for file sharing | LXC | 1 | 256MB | 1GB |
 | [Firecrawl](https://firecrawl.dev/)<br>Turn any website into LLM-ready data (crawl, scrape, search, etc.) | VM | 2 | 2-4GB | 10GB |
 | [Flame](https://github.com/pawelmalak/flame)<br>Self-hosted startpage and dashboard for your server | LXC | 1 | 256MB | 1GB |
+| [FlexGet](https://flexget.com/)<br>Multipurpose automation tool for content | LXC | 1 | 512MB | 2GB |
 | [FocusWriter](https://gottcode.org/focuswriter/)<br>Distraction-free writing environment | VM | 1 | 512MB | 1GB |
 | [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
 | [FreeMind](https://freemind.sourceforge.net/wiki/index.php/Main_Page)<br>Mind-mapping software | VM | 1 | 512MB | 1GB |
@@ -58,6 +59,7 @@
 | [Grafana](https://grafana.com)<br>Monitoring and data visualization | LXC | 1-2 | 1GB | 2GB |
 | [Grocy](https://grocy.info/)<br>ERP system for your household and kitchen | LXC | 1 | 512MB | 2GB |
 | [Harvester](https://www.harvesterhci.io/)<br>Kubernetes-based hyper-converged infrastructure | VM | 4+ | 8GB+ | 100GB+ |
+| [Headphones](https://github.com/rembo10/headphones)<br>Automated music downloader for Usenet and torrents | LXC | 1 | 512MB | 2GB |
 | [Heimdall](https://heimdall.site/)<br>Elegant dashboard for your web applications | LXC | 1 | 256MB | 1GB |
 | [Home Assistant](https://www.home-assistant.io/)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
 | [Homarr](https://homarr.dev/)<br>Simple, modern, and powerful server dashboard | LXC | 1 | 512MB | 1GB |
@@ -85,6 +87,7 @@
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
 | [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
 | [MinIO](https://min.io/)<br>High-performance object storage server | LXC | 1 | 1GB | 2GB |
+| [Mylar3](https://github.com/mylar3/mylar3)<br>Automated comic book downloader | LXC | 1 | 512MB | 2GB |
 | [n8n](https://n8n.io)<br>Workflow automation | VM | 2 | 2GB | 5GB |
 | [Navidrome](https://www.navidrome.org/)<br>Music streaming server | LXC | 1 | 512MB | 5GB+ |
 | [netboot.xyz](https://netboot.xyz/)<br>Network bootable operating system installer | LXC | 1 | 256MB | 2GB |
@@ -96,6 +99,7 @@
 | [Notifiarr](https://notifiarr.com/)<br>Unified notifications for the Servarr stack | LXC | 1 | 256MB | 1GB |
 | [Ntfy](https://ntfy.sh/)<br>Simple push notification service | LXC | 1 | 256MB | 512MB |
 | [NUT server](https://networkupstools.org)<br>Network UPS monitoring | LXC | 1 | 256MB | 512MB |
+| [NZBGet](https://nzbget.net/)<br>Usenet downloader with a web UI | LXC | 1-2 | 512MB | 5GB+ |
 | [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
 | [OpenProject](https://www.openproject.org/)<br>Comprehensive project management software | VM | 2 | 2GB | 5GB |
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
@@ -124,9 +128,13 @@
 | [Rsync](https://rsync.samba.org/)<br>Fast, incremental file transfer and synchronization utility | LXC | 1 | 512MB | 1GB |
 | [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
 | [rwMarkable](https://github.com/fccview/rwMarkable)<br>Self-hosted, collaborative markdown editor | LXC | 1 | 512MB | 2GB |
+| [SABnzbd](https://sabnzbd.org/)<br>Open-source Usenet newsreader | LXC | 1-2 | 1GB | 5GB+ |
 | [Self-Host Dashboard Icons](https://selfh.st/icons/)<br>Curated collection of icons for self-hosted services | | | | |
 | [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | | | | |
 | [Shiori](https://github.com/go-shiori/shiori)<br>Simple bookmark manager | LXC | 1 | 512MB | 2GB |
+| [Sickbeard](https://github.com/mdhiggins/sickbeard_mp4_automator)<br>Automated TV show downloader and manager | LXC | 1 | 512MB | 2GB |
+| [SickChill](https://sickchill.github.io/)<br>Automated TV show PVR for torrents and Usenet | LXC | 1 | 512MB | 2GB |
+| [SickRage](https://github.com/SiCKRAGE/SiCKRAGE)<br>Automated TV show PVR and manager | LXC | 1 | 512MB | 2GB |
 | [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | | | | |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
 | [Stirling-PDF](https://stirlingpdf.io)<br>Web-based PDF manipulation tool | VM | 2 | 2-4GB | 8GB |
