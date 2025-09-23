@@ -8,6 +8,7 @@
 | Name | Type | CPU | Mem | Min Disk |
 | :--- | :--: | :-: | :---: | :---: |
 | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html)<br>Network-wide ad and tracker blocking DNS server | LXC | 1 | 256MB | 512MB |
+| [AMP](https://cubecoders.com/AMP)<br>Web-based control panel for game servers | VM | 2 | 2GB | 10GB |
 | [Ansible](https://www.ansible.com/)<br>IT automation and configuration management tool | VM | 1 | 1GB | 2GB |
 | [Anytype](https://anytype.io/)<br>Local-first, open-source Notion alternative for notes and knowledge management | VM | 2 | 2GB | 5GB |
 | [AppFlowy](https://www.appflowy.io/)<br>Open-source Notion alternative with a focus on data privacy | VM | 2 | 2GB | 5GB |
@@ -105,12 +106,14 @@
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
 | [Overseerr](https://overseerr.dev/)<br>Request management and discovery for media libraries | LXC | 1 | 512MB | 2GB |
 | [Packer](https://developer.hashicorp.com/packer)<br>Machine image creation tool | VM | 1 | 1GB | 2GB |
+| [Pangolin](https://github.com/fosrl/pangolin)<br>Lightweight, open-source, self-hosted password manager | LXC | 1 | 256MB | 1GB |
 | [Paperless NGX](https://docs.paperless-ngx.com/)<br>Document management system | VM | 2-4 | 4GB+ | 20GB+ |
 | [pfSense](https://www.pfsense.org)<br>Firewall and router platform | VM | 2 | 2GB | 8GB |
 | [PhotoPrism](https://www.photoprism.app/)<br>AI-powered photos app | VM | 2-4 | 4GB+ | 20GB+ |
 | [pi-dash](https://github.com/SurajVerma/pi-dash)<br>Simple, lightweight dashboard for Raspberry Pi | LXC | 1 | 256MB | 1GB |
 | [Pi-hole](https://pi-hole.net)<br>Network-wide ad blocker | LXC | 1 | 256MB | 512MB |
 | [Pi.Alert](https://github.com/leiweibau/Pi.Alert)<br>WIFI / LAN intruder detector | LXC | 1 | 512MB | 2GB |
+| [Playit.gg](https://playit.gg/)<br>Expose a local server to the internet without port forwarding | LXC | 1 | 128MB | 512MB |
 | [Plex](https://www.plex.tv/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Portainer](https://www.portainer.io)<br>Container management platform | VM | 1-2 | 1GB | 2GB |
 | [Porttracker](https://github.com/Mostafa-Wahied/portracker)<br>Lightweight container to track your container port mappings | LXC | 1 | 128MB | 512MB |
