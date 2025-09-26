@@ -1,5 +1,5 @@
 # iVentoy
-
+# Method 1
 ## Proxmox Help Script
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/iventoy.sh)"
@@ -7,6 +7,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/Proxmo
 I recommend this way. Less fuss.
 
 ---
+# Method 2
 ## Download the latest release (win32, win64 and linux packages avail)
 [GitHub](https://github.com/ventoy/PXE/releases)
 
