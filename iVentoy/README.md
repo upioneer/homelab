@@ -11,8 +11,8 @@ I recommend this way. Less fuss.
 ## Download the latest release (win32, win64 and linux packages avail)
 [GitHub](https://github.com/ventoy/PXE/releases)
 
-## Copy ISOs
-Copy into the extracted /ISO directory. You can create subdirs as needed for organization. Unicode **not** supported.
+## ISOs
+Copy ISOs into the extracted /ISO directory. You can create subdirs as needed for organization. Unicode **not** supported.
 
 ## Run iVentory
 Windows x86
@@ -21,7 +21,7 @@ iVentoy_32.exe
 ```
 Windows x64
 ```cmd
-iVentory_64.exe
+iVentoy_64.exe
 ```
 Linux
 ```bash
