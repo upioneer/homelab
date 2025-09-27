@@ -15,7 +15,9 @@
 | [AppFlowy](https://www.appflowy.io/)<br>Open-source Notion alternative with a focus on data privacy | VM | 2 | 2GB | 5GB |
 | [Audiobookshelf](https://www.audiobookshelf.org/)<br>Self-hosted audiobook and podcast server | LXC | 1 | 512MB | 5GB+ |
 | [Authelia](https://www.authelia.com/)<br>Authentication and authorization server with 2FA and SSO | LXC | 1 | 256MB | 1GB |
+| [Autobrr](https://autobrr.com/)<br>Automated downloader for torrents from IRC | LXC | 1 | 512MB | 2GB |
 | [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)<br>Automated CD/DVD/Blu-ray ripping | VM | 2-4 | 2GB | 20GB+ |
+| [Bar Assistant](https://barassistant.app/)<br>Self-hosted cocktail and ingredient management application | LXC | 1 | 1GB | 5GB |
 | [Bazarr](https://www.bazarr.media/)<br>Automated subtitle management for media libraries | LXC | 1 | 512MB | 2GB |
 | [Bitwarden](https://bitwarden.com/)<br>Password manager | VM | 2 | 2GB | 5GB |
 | [Bookstack](https://www.bookstackapp.com/)<br>Simple platform for organizing documentation and knowledge | LXC | 1 | 512MB | 2GB |
@@ -63,6 +65,7 @@
 | [Gitea](https://gitea.io/en-us/)<br>Self-hosted Git service | LXC | 1-2 | 1GB | 5GB+ |
 | [Glance](https://github.com/glanceapp/glance)<br>At-a-glance, self-hosted dashboard for your services | LXC | 1 | 256MB | 1GB |
 | [Gluetun](https://github.com/qdm12/gluetun)<br>VPN client container for other containers to use | LXC | 1 | 128MB | 512MB |
+| [go2rtc](https://github.com/AlexxIT/go2rtc)<br>Ultimate camera streaming application and proxy | LXC | 1-2 | 512MB | 1GB |
 | [Grafana](https://grafana.com)<br>Monitoring and data visualization | LXC | 1-2 | 1GB | 2GB |
 | [Grocy](https://grocy.info/)<br>ERP system for your household and kitchen | LXC | 1 | 512MB | 2GB |
 | [Harvester](https://www.harvesterhci.io/)<br>Kubernetes-based hyper-converged infrastructure | VM | 4+ | 8GB+ | 100GB+ |
@@ -143,6 +146,7 @@
 | [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
 | [rwMarkable](https://github.com/fccview/rwMarkable)<br>Self-hosted, collaborative markdown editor | LXC | 1 | 512MB | 2GB |
 | [SABnzbd](https://sabnzbd.org/)<br>Open-source Usenet newsreader | LXC | 1-2 | 1GB | 5GB+ |
+| [Salt](https://saltproject.io/)<br>IT automation and remote execution platform | VM | 2 | 2-4GB | 10GB |
 | [SearXNG](https://docs.searxng.org/)<br>Privacy-respecting, hackable metasearch engine | LXC | 1-2 | 1GB | 5GB |
 | [Self-Host Dashboard Icons](https://selfh.st/icons/)<br>Curated collection of icons for self-hosted services | | | | |
 | [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | | | | |
@@ -152,6 +156,7 @@
 | [SickRage](https://github.com/SiCKRAGE/SiCKRAGE)<br>Automated TV show PVR and manager | LXC | 1 | 512MB | 2GB |
 | [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | | | | |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
+| [Spoolman](https://github.com/Donkie/Spoolman)<br>Web-based tracker for 3D printing filament spools | LXC | 1 | 512MB | 2GB |
 | [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022)<br>Microsoft's relational database management system | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Stirling-PDF](https://stirlingpdf.io)<br>Web-based PDF manipulation tool | VM | 2 | 2-4GB | 8GB |
 | [Streamlink WebUI](https://github.com/streamlink/streamlink-webui)<br>Web UI for the Streamlink command-line tool | LXC | 1 | 512MB | 1GB |
@@ -160,8 +165,10 @@
 | [Tailscale](https://tailscale.com)<br>Zero-configuration VPN | LXC | 1 | 256MB | 512MB |
 | [Taiga](https://www.taiga.io/)<br>Project management platform for agile teams | VM | 2 | 2GB | 5GB |
 | [Tautulli](https://tautulli.com)<br>Monitoring and tracking application for Plex Media Server | LXC | 1 | 512MB | 2GB |
+| [Tdarr](https://tdarr.io/)<br>Distributed transcoding system for media libraries | VM | 2-4+ | 4GB+ | 10GB+ |
 | [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
 | [Terraform](https://www.terraform.io/)<br>Infrastructure as code (IaC) tool | VM | 1 | 1GB | 2GB |
+| [Traccar](https://www.traccar.org/)<br>Open-source GPS tracking platform | VM | 2-4 | 4GB+ | 20GB |
 | [Tracktor](https://github.com/javedh-dev/tracktor)<br>Privacy-friendly, self-hosted time tracking tool | LXC | 1 | 256MB | 1GB |
 | [Traefik](https://traefik.io)<br>Cloud-native edge router and reverse proxy | LXC | 1 | 256MB | 1GB |
 | [Transmission](https://transmissionbt.com/)<br>Lightweight BitTorrent client with a web UI | LXC | 1 | 512MB | 2GB+ |
