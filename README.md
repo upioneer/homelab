@@ -115,9 +115,11 @@
 | [NUT server](https://networkupstools.org)<br>Network UPS monitoring | LXC | 1 | 256MB | 512MB |
 | [NZBGet](https://nzbget.net/)<br>Usenet downloader with a web UI | LXC | 1-2 | 512MB | 5GB+ |
 | [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
+| [opencloud](https://github.com/opencloud-eu)<br>Collection of open-source cloud native tools | | | | |
 | [OpenProject](https://www.openproject.org/)<br>Comprehensive project management software | VM | 2 | 2GB | 5GB |
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
 | [Overseerr](https://overseerr.dev/)<br>Request management and discovery for media libraries | LXC | 1 | 512MB | 2GB |
+| [ownCloud](https://owncloud.com/)<br>Self-hosted file sync and content collaboration platform | VM | 2-4 | 4GB+ | 40GB+ |
 | [Packer](https://developer.hashicorp.com/packer)<br>Machine image creation tool | VM | 1 | 1GB | 2GB |
 | [Pangolin](https://github.com/fosrl/pangolin)<br>Enhanced, self-hosted, and ad-free AniList experience | LXC | 1 | 512MB | 2GB |
 | [Paperless NGX](https://docs.paperless-ngx.com/)<br>Document management system | VM | 2-4 | 4GB+ | 20GB+ |
