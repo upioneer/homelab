@@ -8,6 +8,7 @@
 | Name | Type | CPU | Mem | Min Disk |
 | :--- | :--: | :-: | :---: | :---: |
 | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html)<br>Network-wide ad and tracker blocking DNS server | LXC | 1 | 256MB | 512MB |
+| [AFFiNE](https://affine.pro/)<br>All-in-one knowledge base and collaboration platform | VM | 2-4 | 4GB+ | 10GB+ |
 | [AMP](https://cubecoders.com/AMP)<br>Web-based control panel for game servers and applications | VM | 2 | 2-4GB | 10GB |
 | [Ansible](https://www.ansible.com/)<br>IT automation and configuration management tool | VM | 1 | 1GB | 2GB |
 | [Anytype](https://anytype.io/)<br>Local-first, open-source Notion alternative for notes and knowledge management | VM | 2 | 2GB | 5GB |
@@ -47,9 +48,11 @@
 | [Dozzle](https://dozzle.dev/)<br>Container log viewer | LXC | 1 | 256MB | 1GB |
 | [dtop](https://github.com/amir20/dtop)<br>Docker top alternative with container stats and logs | LXC | 1 | 256MB | 1GB |
 | [Duplicati](https://www.duplicati.com/)<br>Secure, encrypted, and compressed backup client | LXC | 1 | 512MB | 1GB |
+| [Edit Mind](https://github.com/iliashad/edit-mind)<br>Online mind map editor | LXC | 1 | 512MB | 1GB |
 | [Emby](https://emby.media/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
 | [ErsatzTV](https://github.com/ErsatzTV/ErsatzTV)<br>Self-hosted pseudo-TV for Plex, Jellyfin, and Emby | VM | 2-4 | 2-4GB | 10GB+ |
 | [Etherpad](https://etherpad.org/)<br>Real-time collaborative text editor | LXC | 1 | 512MB | 1GB |
+| [Favicon API](https://github.com/vemetric/favicon-api)<br>API service to fetch website favicons | LXC | 1 | 128MB | 512MB |
 | [FileStash](https://filestash.app/)<br>Web-based file manager that connects to various backends | LXC | 1 | 512MB | 1GB |
 | [FileZilla Server](https://filezilla-project.org/)<br>FTP server for file sharing | LXC | 1 | 256MB | 1GB |
 | [Firecrawl](https://firecrawl.dev/)<br>Turn any website into LLM-ready data (crawl, scrape, search, etc.) | VM | 2 | 2-4GB | 10GB |
@@ -132,6 +135,7 @@
 | [Plex](https://www.plex.tv/)<br>Personal media server | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Portainer](https://www.portainer.io)<br>Container management platform | VM | 1-2 | 1GB | 2GB |
 | [Porttracker](https://github.com/Mostafa-Wahied/portracker)<br>Lightweight container to track your container port mappings | LXC | 1 | 128MB | 512MB |
+| [Posterizarr](https://github.com/fscorrupt/Posterizarr)<br>Tool to create posters for media servers using templates | LXC | 1 | 512MB | 2GB |
 | [Postiz](https://postiz.com/)<br>Social media post scheduler | LXC | 1 | 1GB | 2GB |
 | [ProjectSend](https://www.projectsend.org/)<br>Self-hosted file sharing for clients | LXC | 1 | 512MB | 2GB+ |
 | [Prometheus](https://prometheus.io/)<br>Systems monitoring and alerting | LXC | 1-2 | 2GB | 4GB |
@@ -139,6 +143,7 @@
 | [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Enterprise backup solution for VMs, containers, and hosts | VM | 2-4 | 4GB+ | 32GB+ |
 | [Prowlarr](https://prowlarr.com/)<br>Indexer manager for the Servarr stack | LXC | 1 | 512MB | 2GB |
 | [Pterodactyl](https://pterodactyl.io/)<br>Game server management panel | VM | 2 | 2GB | 10GB |
+| [Puter](https://github.com/HeyPuter/puter)<br>Internet OS and computing platform in the browser | VM | 2-4 | 4GB+ | 10GB+ |
 | [qBittorrent](https://www.qbittorrent.org/)<br>Open-source BitTorrent client with a web UI | LXC | 1-2 | 1GB | 5GB+ |
 | [Radarr](https://radarr.video/)<br>Automated movie collection manager | LXC | 1 | 512MB | 5GB+ |
 | [Readarr](https://readarr.com/)<br>Automated ebook and audiobook collection manager | LXC | 1 | 512MB | 5GB+ |
@@ -183,6 +188,7 @@
 | [Ventoy](https://www.ventoy.net/en/index.html)<br>Tool to create a multi-boot USB drive from ISO files | VM | 1 | 1GB | 2GB |
 | [VirtualBox](https://www.virtualbox.org)<br>Desktop virtualization | VM | 1+ | 1GB+ | 10GB+ |
 | [Watchtower](https://containrrr.dev/watchtower/)<br>Automated Docker container updater | LXC | 1 | 128MB | 512MB |
+| [WeddingShare](https://github.com/Cirx08/WeddingShare)<br>Photo sharing platform for weddings | LXC | 1 | 512MB | 2GB |
 | [Wekan](https://wekan.github.io/)<br>Open-source Kanban board | LXC | 1 | 512MB | 2GB |
 | [Wiki.js](https://js.wiki/)<br>Wiki engine | LXC | 1-2 | 1GB | 5GB+ |
 | [WireGuard](https://www.wireguard.com/)<br>Fast, modern, and simple VPN | LXC | 1 | 256MB | 512MB |
