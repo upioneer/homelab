@@ -20,6 +20,7 @@
 | [Automatic Ripping Machine (ARM)](https://b3n.org/automatic-ripping-machine)<br>Automated CD/DVD/Blu-ray ripping | VM | 2-4 | 2GB | 20GB+ |
 | [Bar Assistant](https://barassistant.app/)<br>Self-hosted cocktail and ingredient management application | LXC | 1 | 1GB | 5GB |
 | [Bazarr](https://www.bazarr.media/)<br>Automated subtitle management for media libraries | LXC | 1 | 512MB | 2GB |
+| [bentoPDF](https://github.com/alam00000/bentopdf)<br>Open-source, self-hosted PDF editor | LXC | 1-2 | 1GB | 5GB |
 | [Bitwarden](https://bitwarden.com/)<br>Password manager | VM | 2 | 2GB | 5GB |
 | [Bookstack](https://www.bookstackapp.com/)<br>Simple platform for organizing documentation and knowledge | LXC | 1 | 512MB | 2GB |
 | [BorgBackup](https://www.borgbackup.org/)<br>Deduplicating backup program | LXC | 1 | 1GB | 2GB |
@@ -73,6 +74,7 @@
 | [Grocy](https://grocy.info/)<br>ERP system for your household and kitchen | LXC | 1 | 512MB | 2GB |
 | [Harvester](https://www.harvesterhci.io/)<br>Kubernetes-based hyper-converged infrastructure | VM | 4+ | 8GB+ | 100GB+ |
 | [Headphones](https://github.com/rembo10/headphones)<br>Automated music downloader for Usenet and torrents | LXC | 1 | 512MB | 2GB |
+| [HedgeDoc](https://github.com/hedgedoc/hedgedoc)<br>Self-hosted collaborative markdown editor | LXC | 1-2 | 1GB | 5GB+ |
 | [Heimdall](https://heimdall.site/)<br>Elegant dashboard for your web applications | LXC | 1 | 256MB | 1GB |
 | [Home Assistant](https://www.home-assistant.io/)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
 | [Homarr](https://homarr.dev/)<br>Simple, modern, and powerful server dashboard | LXC | 1 | 512MB | 1GB |
@@ -97,6 +99,7 @@
 | [LinkStack](https://linkstack.org/)<br>Linktree alternative | LXC | 1 | 256MB | 1GB |
 | [Linkwarden](https://linkwarden.app/)<br>Collaborative bookmark and archival manager | LXC | 1 | 1GB | 5GB |
 | [listmonk](https://listmonk.app/)<br>Self-hosted newsletter and mailing list manager | LXC | 1 | 512MB | 2GB |
+| [LogForge](https://github.com/log-forge/logforge)<br>Log management and analysis platform | LXC | 1-2 | 1GB | 5GB+ |
 | [Logseq](https://logseq.com/)<br>Privacy-first, open-source knowledge management system | LXC | 1 | 512MB | 2GB |
 | [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass | LXC | 1 | 128MB | 512MB |
 | [Material Design Icons](https://pictogrammers.com/library/mdi/)<br>Community-driven library of Material Design icons | | | | |
