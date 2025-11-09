@@ -62,6 +62,7 @@
 | [FocusWriter](https://gottcode.org/focuswriter/)<br>Distraction-free writing environment | VM | 1 | 512MB | 1GB |
 | [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
 | [FreeMind](https://freemind.sourceforge.net/wiki/index.php/Main_Page)<br>Mind-mapping software | VM | 1 | 512MB | 1GB |
+| [FreshRSS](https://github.com/FreshRSS/FreshRSS)<br>Self-hosted RSS feed aggregator | LXC | 1 | 512MB | 2GB |
 | [Frigate NVR](https://frigate.video)<br>NVR with AI object detection | VM | 2-4 | 4GB+ | 32GB+ |
 | [Funkwhale](https://funkwhale.audio/)<br>Federated audio streaming server | LXC | 1-2 | 1GB | 5GB+ |
 | [Gatus](https://github.com/TwiN/gatus)<br>Automated service health dashboard | LXC | 1 | 256MB | 1GB |
@@ -106,12 +107,14 @@
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
 | [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
 | [MinIO](https://min.io/)<br>High-performance object storage server | LXC | 1 | 1GB | 2GB |
+| [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer)<br>Desktop application to visualize MQTT topics | VM | 1 | 512MB | 1GB |
 | [Mylar3](https://github.com/mylar3/mylar3)<br>Automated comic book downloader | LXC | 1 | 512MB | 2GB |
 | [MySQL](https://www.mysql.com/)<br>Open-source relational database management system | VM | 2+ | 2GB+ | 10GB+ |
 | [n8n](https://n8n.io)<br>Workflow automation | VM | 2 | 2GB | 5GB |
 | [Navidrome](https://www.navidrome.org/)<br>Music streaming server | LXC | 1 | 512MB | 5GB+ |
 | [netboot.xyz](https://netboot.xyz/)<br>Network bootable operating system installer | LXC | 1 | 256MB | 2GB |
 | [Netbox](https://netbox.dev/)<br>IP address management and data center infrastructure management | VM | 2 | 2GB | 10GB |
+| [NetAlertX](https://github.com/jokob-sk/NetAlertX)<br>Network connection and device monitoring tool | LXC | 1 | 256MB | 1GB |
 | [Netdata](https://netdata.cloud/)<br>Real-time performance monitoring | LXC | 1 | 512MB | 2GB |
 | [Nextcloud](https://nextcloud.com)<br>Remote collaboration platform | VM | 2-4 | 4GB+ | 40GB+ |
 | [Nginx Proxy Manager](https://nginxproxymanager.com/)<br>Nginx reverse proxy with a web UI | LXC | 1 | 256MB | 1GB |
@@ -121,6 +124,7 @@
 | [NUT server](https://networkupstools.org)<br>Network UPS monitoring | LXC | 1 | 256MB | 512MB |
 | [NZBGet](https://nzbget.net/)<br>Usenet downloader with a web UI | LXC | 1-2 | 512MB | 5GB+ |
 | [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
+| [Ofelia](https://github.com/mcuadros/ofelia)<br>Docker job scheduler | LXC | 1 | 128MB | 512MB |
 | [opencloud](https://github.com/opencloud-eu)<br>Collection of open-source cloud native tools | | | | |
 | [OpenProject](https://www.openproject.org/)<br>Comprehensive project management software | VM | 2 | 2GB | 5GB |
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
