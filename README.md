@@ -144,6 +144,7 @@
 | [Prometheus](https://prometheus.io/)<br>Systems monitoring and alerting | LXC | 1-2 | 2GB | 4GB |
 | [Proxmox](https://www.proxmox.com/en)<br>Server virtualization management | VM | 2+ | 4GB+ | 16GB+ |
 | [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Enterprise backup solution for VMs, containers, and hosts | VM | 2-4 | 4GB+ | 32GB+ |
+| [ProxMenux](https://github.com/MacRimi/ProxMenux)<br>Bash script menu for managing Proxmox VE and container apps | | | | |
 | [Prowlarr](https://prowlarr.com/)<br>Indexer manager for the Servarr stack | LXC | 1 | 512MB | 2GB |
 | [Pterodactyl](https://pterodactyl.io/)<br>Game server management panel | VM | 2 | 2GB | 10GB |
 | [Puter](https://github.com/HeyPuter/puter)<br>Internet OS and computing platform in the browser | VM | 2-4 | 4GB+ | 10GB+ |
