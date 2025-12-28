@@ -15,7 +15,18 @@
     </style>
 </head>
 <body>
-    <iframe src="https://www.coingecko.com/en/coins/bitcoin"></iframe>
+    <iframe src="https://new-orleans.events/this-weekend/#schedule"></iframe>
 </body>
 </html>
+```
+
+# Tags and customization
+Launch Chromium in kiosk mode. Effectively removes window borders and mouse cursor.
+```
+chromium-browser --kiosk /path/to/your/dashboard.html
+```
+
+Remove info bars
+```
+--incognito --noerrdialogs --disable-infobars
 ```
