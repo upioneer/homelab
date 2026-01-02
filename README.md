@@ -4,7 +4,6 @@
 [![Contributors](https://img.shields.io/github/contributors/upioneer/homelab?style=flat-square&color=blue)](https://github.com/upioneer/homelab/graphs/contributors)
 
 ---
-# Apps and recommended sizing
 | Name | Type | CPU | Mem | Min Disk |
 | :--- | :--: | :-: | :---: | :---: |
 | [AdGuard Home](https://adguard.com/en/adguard-home/overview.html)<br>Network-wide ad and tracker blocking DNS server | LXC | 1 | 256MB | 512MB |
@@ -33,7 +32,7 @@
 | [Cockpit](https://cockpit-project.org/)<br>Web-based graphical interface for servers | LXC | 1 | 512MB | 2GB |
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
 | [Compose Toolbox](https://github.com/bluegoosemedia/composetoolbox)<br>Simple web UI for Docker Compose | LXC | 1 | 256MB | 1GB |
-| [ConvertX](https://www.vso-software.fr/products/convert-x-to-dvd)<br>Windows application for video conversion to DVD | VM | 2 | 2GB | 5GB |
+| [ConvertX](https://github.com/mrg77/ConvertX)<br>Self-hosted tool to convert and download media | LXC | 1 | 512MB | 2GB |
 | [Copyparty](https://github.com/9001/copyparty)<br>Portable file server with a web UI | LXC | 1 | 512MB | 2GB |
 | [Cosmos](https://cosmos-cloud.io/)<br>Self-hosting server and container management platform | LXC | 1-2 | 1GB | 8GB |
 | [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
@@ -78,11 +77,13 @@
 | [HedgeDoc](https://github.com/hedgedoc/hedgedoc)<br>Self-hosted collaborative markdown editor | LXC | 1-2 | 1GB | 5GB+ |
 | [Heimdall](https://heimdall.site/)<br>Elegant dashboard for your web applications | LXC | 1 | 256MB | 1GB |
 | [Home Assistant](https://www.home-assistant.io/)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
+| [Homebox](https://github.com/sysadminsmedia/homebox)<br>Inventory and organization system for your home | LXC | 1 | 512MB | 2GB |
 | [Homarr](https://homarr.dev/)<br>Simple, modern, and powerful server dashboard | LXC | 1 | 512MB | 1GB |
 | [Homepage](https://gethomepage.dev/)<br>Modern and dynamic application dashboard | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
 | [InfluxDB](https://www.influxdata.com)<br>Time-series database | VM | 1-2 | 2GB | 4GB |
 | [Instantly.ai](https://instantly.ai/)<br>SaaS platform for cold email outreach and lead management | | | | |
+| [Intercept](https://github.com/smittix/intercept)<br>Self-hosted DNS over HTTPS and DNS over TLS proxy | LXC | 1 | 256MB | 512MB |
 | [iVentoy](https://www.iventoy.com/en/index.html)<br>PXE server to boot multiple ISO files over a network | VM | 1-2 | 1GB | 5GB+ |
 | [IT-Tools](https://github.com/sharevb/it-tools)<br>Collection of handy online tools for developers | LXC | 1 | 128MB | 512MB |
 | [Jellyfin](https://jellyfin.org)<br>Media streaming system | VM | 2-4 | 4GB+ | 20GB+ |
@@ -97,6 +98,7 @@
 | [Lidarr](https://lidarr.audio/)<br>Automated music collection manager | LXC | 1 | 512MB | 5GB+ |
 | [LinkAce](https://www.linkace.org/)<br>Self-hosted bookmark archive | LXC | 1 | 512MB | 2GB |
 | [Linkarr](https://github.com/itsmejoeeey/linkarr)<br>Self-hosted, custom link-in-bio page | LXC | 1 | 256MB | 1GB |
+| [linkding](https://github.com/sissis/linkding)<br>Self-hosted bookmark manager | LXC | 1 | 256MB | 1GB |
 | [LinkStack](https://linkstack.org/)<br>Linktree alternative | LXC | 1 | 256MB | 1GB |
 | [Linkwarden](https://linkwarden.app/)<br>Collaborative bookmark and archival manager | LXC | 1 | 1GB | 5GB |
 | [listmonk](https://listmonk.app/)<br>Self-hosted newsletter and mailing list manager | LXC | 1 | 512MB | 2GB |
