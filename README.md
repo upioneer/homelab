@@ -104,6 +104,7 @@
 | [listmonk](https://listmonk.app/)<br>Self-hosted newsletter and mailing list manager | LXC | 1 | 512MB | 2GB |
 | [LogForge](https://github.com/log-forge/logforge)<br>Log management and analysis platform | LXC | 1-2 | 1GB | 5GB+ |
 | [Logseq](https://logseq.com/)<br>Privacy-first, open-source knowledge management system | LXC | 1 | 512MB | 2GB |
+| [Marp](https://github.com/marp-team/marp)<br>Markdown presentation ecosystem | LXC | 1 | 512MB | 1GB |
 | [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass | LXC | 1 | 128MB | 512MB |
 | [Material Design Icons](https://pictogrammers.com/library/mdi/)<br>Community-driven library of Material Design icons | | | | |
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
