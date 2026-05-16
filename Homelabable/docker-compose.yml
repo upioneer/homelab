@@ -1,0 +1,42 @@
+services:
+  backend:
+    image: ghcr.io/pouzor/homelable-backend:latest
+    container_name: homelable-backend
+    restart: unless-stopped
+    environment:
+      SQLITE_PATH: /app/data/homelab.db
+      AUTH_PASSWORD_HASH: ${AUTH_PASSWORD_HASH:-} # See README for generation
+    volumes:
+      - ./data:/app/data
+    cap_add:
+      - NET_RAW
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/v1/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+      start_period: 15s
+
+  mcp:
+    image: ghcr.io/pouzor/homelable-mcp:latest
+    container_name: homelable-mcp
+    restart: unless-stopped
+    ports:
+      - "8002:8001"
+    environment:
+      BACKEND_URL: "http://backend:8000"
+    depends_on:
+      - backend
+
+  frontend:
+    image: ghcr.io/pouzor/homelable-frontend:latest
+    container_name: homelable-frontend
+    restart: unless-stopped
+    ports:
+      - "3002:80"
+    depends_on:
+      - backend
+
+networks:
+  default:
+    name: homelable_network

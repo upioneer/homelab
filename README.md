@@ -44,6 +44,7 @@
 | [dockpeek](https://github.com/dockpeek/dockpeek)<br>Simple dashboard to view and manage Docker containers | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
 | [Docker](https://www.docker.com)<br>Containerization platform | VM | 2+ | 2GB+ | 10GB+ |
+| [DocuSeal](https://www.docuseal.com/)<br>Open-source DocuSign alternative for document signing | LXC | 1 | 512MB | 2GB |
 | [DocuWiki](https://www.dokuwiki.org/dokuwiki)<br>File-based wiki engine | LXC | 1 | 512MB | 1GB |
 | [Dozzle](https://dozzle.dev/)<br>Container log viewer | LXC | 1 | 256MB | 1GB |
 | [dtop](https://github.com/amir20/dtop)<br>Docker top alternative with container stats and logs | LXC | 1 | 256MB | 1GB |
@@ -57,6 +58,7 @@
 | [FileZilla Server](https://filezilla-project.org/)<br>FTP server for file sharing | LXC | 1 | 256MB | 1GB |
 | [Firecrawl](https://firecrawl.dev/)<br>Turn any website into LLM-ready data (crawl, scrape, search, etc.) | VM | 2 | 2-4GB | 10GB |
 | [Flame](https://github.com/pawelmalak/flame)<br>Self-hosted startpage and dashboard for your server | LXC | 1 | 256MB | 1GB |
+| [Floci](https://floci.io)<br>Fast, Free AWS Emulator | LXC | 1 | 256MB | 1GB |
 | [FlexGet](https://flexget.com/)<br>Multipurpose automation tool for content | LXC | 1 | 512MB | 2GB |
 | [FocusWriter](https://gottcode.org/focuswriter/)<br>Distraction-free writing environment | VM | 1 | 512MB | 1GB |
 | [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
@@ -79,6 +81,7 @@
 | [Home Assistant](https://www.home-assistant.io/)<br>Open-source home automation hub | VM | 2 | 2GB | 10GB |
 | [Homebox](https://github.com/sysadminsmedia/homebox)<br>Inventory and organization system for your home | LXC | 1 | 512MB | 2GB |
 | [Homarr](https://homarr.dev/)<br>Simple, modern, and powerful server dashboard | LXC | 1 | 512MB | 1GB |
+| [Homelabable](https://github.com/Pouzor/homelable)<br>Self-hosted homelab infrastructure visualization and network scanning tool | LXC | 1-2 | 1GB | 2GB |
 | [Homepage](https://gethomepage.dev/)<br>Modern and dynamic application dashboard | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
 | [InfluxDB](https://www.influxdata.com)<br>Time-series database | VM | 1-2 | 2GB | 4GB |
@@ -168,12 +171,14 @@
 | [SearXNG](https://docs.searxng.org/)<br>Privacy-respecting, hackable metasearch engine | LXC | 1-2 | 1GB | 5GB |
 | [Self-Host Dashboard Icons](https://selfh.st/icons/)<br>Curated collection of icons for self-hosted services | | | | |
 | [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | | | | |
+| [Shadow Broker](https://github.com/BigBodyCobain/Shadowbroker)<br>Open-source intelligence (OSINT) platform for real-time tactical telemetry | LXC | 2-4 | 4GB+ | 10GB |
 | [Shiori](https://github.com/go-shiori/shiori)<br>Simple bookmark manager | LXC | 1 | 512MB | 2GB |
 | [Sickbeard](https://github.com/mdhiggins/sickbeard_mp4_automator)<br>Automated TV show downloader and manager | LXC | 1 | 512MB | 2GB |
 | [SickChill](https://sickchill.github.io/)<br>Automated TV show PVR for torrents and Usenet | LXC | 1 | 512MB | 2GB |
 | [SickRage](https://github.com/SiCKRAGE/SiCKRAGE)<br>Automated TV show PVR and manager | LXC | 1 | 512MB | 2GB |
 | [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | | | | |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
+| [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness)<br>Self-hosted, privacy-first fitness and nutrition tracking platform | LXC | 1-2 | 1GB | 5GB |
 | [Spoolman](https://github.com/Donkie/Spoolman)<br>Web-based tracker for 3D printing filament spools | LXC | 1 | 512MB | 2GB |
 | [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022)<br>Microsoft's relational database management system | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Stirling-PDF](https://stirlingpdf.io)<br>Web-based PDF manipulation tool | VM | 2 | 2-4GB | 8GB |

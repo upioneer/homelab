@@ -1,0 +1,14 @@
+services:
+  app:
+    image: docuseal/docuseal:latest
+    container_name: docuseal
+    ports:
+      - "3001:3000"
+    volumes:
+      - ./data:/data/docuseal
+    environment:
+      - HOST=${DOCUSEAL_HOST:-localhost}
+    restart: unless-stopped
+
+# Note: This is a simplified version using SQLite. 
+# For PostgreSQL support, refer to the official repository.
