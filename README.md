@@ -192,6 +192,7 @@
 | [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
 | [Terraform](https://www.terraform.io/)<br>Infrastructure as code (IaC) tool | VM | 1 | 1GB | 2GB |
 | [Traccar](https://www.traccar.org/)<br>Open-source GPS tracking platform | VM | 2-4 | 4GB+ | 20GB |
+| [Tracefinity](https://tracefinity.net/)<br>Self-hosted tool for generating Gridfinity bins from tool photos | LXC | 1-2 | 2-4GB | 10GB |
 | [Tracktor](https://github.com/javedh-dev/tracktor)<br>Privacy-friendly, self-hosted time tracking tool | LXC | 1 | 256MB | 1GB |
 | [Traefik](https://traefik.io)<br>Cloud-native edge router and reverse proxy | LXC | 1 | 256MB | 1GB |
 | [Transmission](https://transmissionbt.com/)<br>Lightweight BitTorrent client with a web UI | LXC | 1 | 512MB | 2GB+ |

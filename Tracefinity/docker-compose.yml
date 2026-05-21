@@ -1,0 +1,15 @@
+services:
+  tracefinity:
+    image: ghcr.io/tracefinity/tracefinity:latest
+    container_name: tracefinity
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/storage
+    environment:
+      # Optional: Add your Google Gemini API key here for cloud-powered tracing.
+      # If omitted, Tracefinity will fall back to local ONNX models.
+      - GOOGLE_API_KEY=
+      # Optional: Set ONNX provider ("auto", "cuda", or "cpu"). Defaults to "auto".
+      - TRACEFINITY_ONNX_PROVIDER=auto
+    restart: unless-stopped
