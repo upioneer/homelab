@@ -126,6 +126,7 @@
 | [Nginx Proxy Manager](https://nginxproxymanager.com/)<br>Nginx reverse proxy with a web UI | LXC | 1 | 256MB | 1GB |
 | [Node-RED](https://nodered.org/)<br>Flow-based visual programming tool | LXC | 1 | 512MB | 2GB |
 | [Notifiarr](https://notifiarr.com/)<br>Unified notifications for the Servarr stack | LXC | 1 | 256MB | 1GB |
+| [Notifuse](https://www.notifuse.com/)<br>Open-source, self-hosted emailing platform for newsletters and transactional emails | LXC | 1 | 512MB | 2GB |
 | [Ntfy](https://ntfy.sh/)<br>Simple push notification service | LXC | 1 | 256MB | 512MB |
 | [NUT server](https://networkupstools.org)<br>Network UPS monitoring | LXC | 1 | 256MB | 512MB |
 | [NZBGet](https://nzbget.net/)<br>Usenet downloader with a web UI | LXC | 1-2 | 512MB | 5GB+ |
