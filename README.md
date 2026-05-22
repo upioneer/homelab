@@ -97,6 +97,7 @@
 | [Kestra](https://kestra.io/)<br>Data orchestration platform | VM | 2 | 2GB | 5GB |
 | [Kiwix](https://kiwix.org/en/)<br>Offline internet access | LXC | 1 | 1GB | 5GB+ |
 | [Kubernetes](https://kubernetes.io/)<br>Container orchestration system | VM | 2+ | 4GB+ | 20GB+ |
+| [Langflow](https://www.langflow.org/)<br>Visual framework for building multi-agent and RAG applications | LXC | 2 | 2GB | 5GB |
 | [LibreTranslate](https://libretranslate.com/)<br>Free and Open Source Machine Translation API | VM | 2-4 | 4-8GB | 20GB+ |
 | [Lidarr](https://lidarr.audio/)<br>Automated music collection manager | LXC | 1 | 512MB | 5GB+ |
 | [LinkAce](https://www.linkace.org/)<br>Self-hosted bookmark archive | LXC | 1 | 512MB | 2GB |
