@@ -1,0 +1,14 @@
+services:
+  trackio:
+    build: .
+    container_name: trackio
+    restart: always
+    ports:
+      - "7860:7860"
+    volumes:
+      - trackio-data:/data
+    environment:
+      - TRACKIO_DIR=/data
+
+volumes:
+  trackio-data:
