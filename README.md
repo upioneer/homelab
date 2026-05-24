@@ -23,6 +23,7 @@
 | [Bitwarden](https://bitwarden.com/)<br>Password manager | VM | 2 | 2GB | 5GB |
 | [Bookstack](https://www.bookstackapp.com/)<br>Simple platform for organizing documentation and knowledge | LXC | 1 | 512MB | 2GB |
 | [BorgBackup](https://www.borgbackup.org/)<br>Deduplicating backup program | LXC | 1 | 1GB | 2GB |
+| [Browser Auto Refresh](BrowserAutoRefresh/README.md)<br>Automates browser page refreshing using iframe integration | N/A | N/A | N/A | N/A |
 | [Caddy](https://caddyserver.com/)<br>Web server with automatic HTTPS | LXC | 1 | 256MB | 1GB |
 | [Calibre-Web](https://github.com/janeczku/calibre-web)<br>Web app for browsing eBooks | LXC | 1 | 512MB | 2GB |
 | [CasaOS](https://casaos.zimaspace.com/)<br>Open-source personal cloud system | LXC | 1-2 | 1GB | 8GB |
@@ -85,7 +86,7 @@
 | [Homepage](https://gethomepage.dev/)<br>Modern and dynamic application dashboard | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
 | [InfluxDB](https://www.influxdata.com)<br>Time-series database | VM | 1-2 | 2GB | 4GB |
-| [Instantly.ai](https://instantly.ai/)<br>SaaS platform for cold email outreach and lead management | | | | |
+| [Instantly.ai](https://instantly.ai/)<br>SaaS platform for cold email outreach and lead management | N/A | N/A | N/A | N/A |
 | [Intercept](https://github.com/smittix/intercept)<br>Self-hosted DNS over HTTPS and DNS over TLS proxy | LXC | 1 | 256MB | 512MB |
 | [iVentoy](https://www.iventoy.com/en/index.html)<br>PXE server to boot multiple ISO files over a network | VM | 1-2 | 1GB | 5GB+ |
 | [IT-Tools](https://github.com/sharevb/it-tools)<br>Collection of handy online tools for developers | LXC | 1 | 128MB | 512MB |
@@ -110,7 +111,7 @@
 | [Logseq](https://logseq.com/)<br>Privacy-first, open-source knowledge management system | LXC | 1 | 512MB | 2GB |
 | [Marp](https://github.com/marp-team/marp)<br>Markdown presentation ecosystem | LXC | 1 | 512MB | 1GB |
 | [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass | LXC | 1 | 128MB | 512MB |
-| [Material Design Icons](https://pictogrammers.com/library/mdi/)<br>Community-driven library of Material Design icons | | | | |
+| [Material Design Icons](https://pictogrammers.com/library/mdi/)<br>Community-driven library of Material Design icons | N/A | N/A | N/A | N/A |
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
 | [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
 | [MinIO](https://min.io/)<br>High-performance object storage server | LXC | 1 | 1GB | 2GB |
@@ -133,9 +134,10 @@
 | [NZBGet](https://nzbget.net/)<br>Usenet downloader with a web UI | LXC | 1-2 | 512MB | 5GB+ |
 | [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
 | [Ofelia](https://github.com/mcuadros/ofelia)<br>Docker job scheduler | LXC | 1 | 128MB | 512MB |
-| [opencloud](https://github.com/opencloud-eu)<br>Collection of open-source cloud native tools | | | | |
+| [opencloud](https://github.com/opencloud-eu)<br>Collection of open-source cloud native tools | N/A | N/A | N/A | N/A |
 | [OpenProject](https://www.openproject.org/)<br>Comprehensive project management software | VM | 2 | 2GB | 5GB |
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
+| [OpenWebUI](OpenWebUI/README.md)<br>User-friendly web interface for local LLMs | LXC | 2 | 2GB | 10GB |
 | [Overseerr](https://overseerr.dev/)<br>Request management and discovery for media libraries | LXC | 1 | 512MB | 2GB |
 | [ownCloud](https://owncloud.com/)<br>Self-hosted file sync and content collaboration platform | VM | 2-4 | 4GB+ | 40GB+ |
 | [Packer](https://developer.hashicorp.com/packer)<br>Machine image creation tool | VM | 1 | 1GB | 2GB |
@@ -156,7 +158,7 @@
 | [Prometheus](https://prometheus.io/)<br>Systems monitoring and alerting | LXC | 1-2 | 2GB | 4GB |
 | [Proxmox](https://www.proxmox.com/en)<br>Server virtualization management | VM | 2+ | 4GB+ | 16GB+ |
 | [Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview)<br>Enterprise backup solution for VMs, containers, and hosts | VM | 2-4 | 4GB+ | 32GB+ |
-| [ProxMenux](https://github.com/MacRimi/ProxMenux)<br>Bash script menu for managing Proxmox VE and container apps | | | | |
+| [ProxMenux](https://github.com/MacRimi/ProxMenux)<br>Bash script menu for managing Proxmox VE and container apps | N/A | N/A | N/A | N/A |
 | [Prowlarr](https://prowlarr.com/)<br>Indexer manager for the Servarr stack | LXC | 1 | 512MB | 2GB |
 | [Pterodactyl](https://pterodactyl.io/)<br>Game server management panel | VM | 2 | 2GB | 10GB |
 | [Puter](https://github.com/HeyPuter/puter)<br>Internet OS and computing platform in the browser | VM | 2-4 | 4GB+ | 10GB+ |
@@ -170,15 +172,16 @@
 | [rwMarkable](https://github.com/fccview/rwMarkable)<br>Self-hosted, collaborative markdown editor | LXC | 1 | 512MB | 2GB |
 | [SABnzbd](https://sabnzbd.org/)<br>Open-source Usenet newsreader | LXC | 1-2 | 1GB | 5GB+ |
 | [Salt](https://saltproject.io/)<br>IT automation and remote execution platform | VM | 2 | 2-4GB | 10GB |
+| [SBC Dashboard](SBCDashboard/README.md)<br>Guides and scripts to configure stable kiosk mode dashboards on Single Board Computers | N/A | N/A | N/A | N/A |
 | [SearXNG](https://docs.searxng.org/)<br>Privacy-respecting, hackable metasearch engine | LXC | 1-2 | 1GB | 5GB |
-| [Self-Host Dashboard Icons](https://selfh.st/icons/)<br>Curated collection of icons for self-hosted services | | | | |
-| [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | | | | |
+| [Self-Host Dashboard Icons](https://selfh.st/icons/)<br>Curated collection of icons for self-hosted services | N/A | N/A | N/A | N/A |
+| [Servarr Stack](https://wiki.servarr.com/)<br>Suite of media management and automation tools | N/A | N/A | N/A | N/A |
 | [Shadow Broker](https://github.com/BigBodyCobain/Shadowbroker)<br>Open-source intelligence (OSINT) platform for real-time tactical telemetry | LXC | 2-4 | 4GB+ | 10GB |
 | [Shiori](https://github.com/go-shiori/shiori)<br>Simple bookmark manager | LXC | 1 | 512MB | 2GB |
 | [Sickbeard](https://github.com/mdhiggins/sickbeard_mp4_automator)<br>Automated TV show downloader and manager | LXC | 1 | 512MB | 2GB |
 | [SickChill](https://sickchill.github.io/)<br>Automated TV show PVR for torrents and Usenet | LXC | 1 | 512MB | 2GB |
 | [SickRage](https://github.com/SiCKRAGE/SiCKRAGE)<br>Automated TV show PVR and manager | LXC | 1 | 512MB | 2GB |
-| [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | | | | |
+| [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | N/A | N/A | N/A | N/A |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
 | [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness)<br>Self-hosted, privacy-first fitness and nutrition tracking platform | LXC | 1-2 | 1GB | 5GB |
 | [Spoolman](https://github.com/Donkie/Spoolman)<br>Web-based tracker for 3D printing filament spools | LXC | 1 | 512MB | 2GB |

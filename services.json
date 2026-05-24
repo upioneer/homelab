@@ -1,0 +1,587 @@
+[
+  {
+    "id": "browser_auto_refresh",
+    "name": "Browser Auto Refresh",
+    "description": "Automates browser page refreshing using iframe integration.",
+    "category": "System",
+    "tags": ["lxc", "automation"],
+    "sizing": {
+      "type": "N/A",
+      "cpu": "N/A",
+      "ram": "N/A",
+      "disk": "N/A",
+      "notes": "Client-side browser/kiosk script."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/BrowserAutoRefresh](https://github.com/upioneer/homelab/tree/main/BrowserAutoRefresh)"
+  },
+  {
+    "id": "cloudflared",
+    "name": "Cloudflared",
+    "description": "Cloudflare Tunnel daemon to securely connect networks without public IPs.",
+    "category": "Networking",
+    "tags": ["lxc", "vpn", "reverse_proxy"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "512 MB",
+      "notes": "Extremely lightweight tunnel proxy."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Cloudflared](https://github.com/upioneer/homelab/tree/main/Cloudflared)"
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "description": "Containerization platform to run applications in isolated environments.",
+    "category": "System",
+    "tags": ["vm", "docker", "virtual"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "2 GB",
+      "disk": "10 GB",
+      "notes": "Starting footprint for hosting containers."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Docker](https://github.com/upioneer/homelab/tree/main/Docker)"
+  },
+  {
+    "id": "docuseal",
+    "name": "DocuSeal",
+    "description": "Open-source DocuSign alternative for document signing and workflow management.",
+    "category": "Automation",
+    "tags": ["lxc", "automation", "productivity"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "2 GB",
+      "notes": "Lightweight web interface for signing documents."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/DocuSeal](https://github.com/upioneer/homelab/tree/main/DocuSeal)"
+  },
+  {
+    "id": "dozzle",
+    "name": "Dozzle",
+    "description": "Real-time web-based log viewer for Docker containers.",
+    "category": "System",
+    "tags": ["lxc", "monitoring", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "1 GB",
+      "notes": "Lightweight log monitoring tool."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Dozzle](https://github.com/upioneer/homelab/tree/main/Dozzle)"
+  },
+  {
+    "id": "floci",
+    "name": "Floci",
+    "description": "Fast and free local emulator for AWS services.",
+    "category": "Automation",
+    "tags": ["lxc", "automation"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "1 GB",
+      "notes": "Developer emulation environment."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Floci](https://github.com/upioneer/homelab/tree/main/Floci)"
+  },
+  {
+    "id": "frigate",
+    "name": "Frigate",
+    "description": "NVR with real-time AI object detection using local hardware acceleration.",
+    "category": "Security",
+    "tags": ["vm", "security", "monitoring", "dashboard"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "4 GB",
+      "disk": "32 GB",
+      "notes": "Requires hardware acceleration pass-through for best performance."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Frigate](https://github.com/upioneer/homelab/tree/main/Frigate)"
+  },
+  {
+    "id": "glance",
+    "name": "Glance",
+    "description": "At-a-glance self-hosted dashboard to monitor servers and services.",
+    "category": "System",
+    "tags": ["lxc", "dashboard", "monitoring"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "1 GB",
+      "notes": "Minimalist monitoring dashboard."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Glance](https://github.com/upioneer/homelab/tree/main/Glance)"
+  },
+  {
+    "id": "gluetun",
+    "name": "Gluetun",
+    "description": "Lightweight VPN client container supporting multiple wireguard and openvpn configurations.",
+    "category": "Networking",
+    "tags": ["lxc", "vpn", "routing"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "128 MB",
+      "disk": "512 MB",
+      "notes": "Dedicated network routing helper."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Gluetun](https://github.com/upioneer/homelab/tree/main/Gluetun)"
+  },
+  {
+    "id": "heimdall",
+    "name": "Heimdall",
+    "description": "Elegant application dashboard and portal for self-hosted services.",
+    "category": "System",
+    "tags": ["lxc", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "1 GB",
+      "notes": "Static asset-friendly server portal."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Heimdall](https://github.com/upioneer/homelab/tree/main/Heimdall)"
+  },
+  {
+    "id": "home_assistant",
+    "name": "Home Assistant",
+    "description": "Open-source home automation hub prioritizing local control and privacy.",
+    "category": "Automation",
+    "tags": ["vm", "automation", "dashboard"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "2 GB",
+      "disk": "10 GB",
+      "notes": "Recommended to deploy as VM for supervisor support."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/HomeAssistant](https://github.com/upioneer/homelab/tree/main/HomeAssistant)"
+  },
+  {
+    "id": "homelabable",
+    "name": "Homelabable",
+    "description": "Self-hosted homelab infrastructure visualization and network scanning tool.",
+    "category": "Networking",
+    "tags": ["lxc", "monitoring", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "1 GB",
+      "disk": "2 GB",
+      "notes": "Discovers and maps local network devices."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Homelabable](https://github.com/upioneer/homelab/tree/main/Homelabable)"
+  },
+  {
+    "id": "homepage",
+    "name": "Homepage",
+    "description": "Modern, secure, and dynamic application dashboard with service integrations.",
+    "category": "System",
+    "tags": ["lxc", "dashboard", "monitoring"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "1 GB",
+      "notes": "Highly extensible landing page dashboard."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Homepage](https://github.com/upioneer/homelab/tree/main/Homepage)"
+  },
+  {
+    "id": "immich",
+    "name": "Immich",
+    "description": "High-performance self-hosted backup solution for photos and videos.",
+    "category": "Media",
+    "tags": ["vm", "storage", "streaming", "database"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "4 GB",
+      "disk": "32 GB",
+      "notes": "Performs background machine learning tasks for image cataloging."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Immich](https://github.com/upioneer/homelab/tree/main/Immich)"
+  },
+  {
+    "id": "jellyfin",
+    "name": "Jellyfin",
+    "description": "Free and open-source media system for organizing and streaming entertainment.",
+    "category": "Media",
+    "tags": ["vm", "streaming", "storage"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "4 GB",
+      "disk": "20 GB",
+      "notes": "Enabling GPU transcode acceleration is highly recommended."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Jellyfin](https://github.com/upioneer/homelab/tree/main/Jellyfin)"
+  },
+  {
+    "id": "langflow",
+    "name": "Langflow",
+    "description": "Visual framework for building multi-agent and RAG applications.",
+    "category": "AI",
+    "tags": ["lxc", "llm", "automation"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "2 Cores",
+      "ram": "2 GB",
+      "disk": "5 GB",
+      "notes": "Graph-based AI prototyping interface."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Langflow](https://github.com/upioneer/homelab/tree/main/Langflow)"
+  },
+  {
+    "id": "link_stack",
+    "name": "LinkStack",
+    "description": "Self-hosted Linktree alternative to showcase all your links in one page.",
+    "category": "Networking",
+    "tags": ["lxc", "reverse_proxy", "productivity"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "1 GB",
+      "notes": "Lightweight customizable landing page."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/LinkStack](https://github.com/upioneer/homelab/tree/main/LinkStack)"
+  },
+  {
+    "id": "mealie",
+    "name": "Mealie",
+    "description": "Self-hosted recipe manager and meal planner with a clean user interface.",
+    "category": "Automation",
+    "tags": ["lxc", "productivity", "database"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "1 GB",
+      "disk": "5 GB",
+      "notes": "Lightweight PostgreSQL database wrapper."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Mealie](https://github.com/upioneer/homelab/tree/main/Mealie)"
+  },
+  {
+    "id": "nut",
+    "name": "NUT",
+    "description": "Network UPS Tools server to monitor power supplies and orchestrate shutdowns.",
+    "category": "System",
+    "tags": ["lxc", "monitoring", "security"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "512 MB",
+      "notes": "Power outage protection infrastructure."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/NUT](https://github.com/upioneer/homelab/tree/main/NUT)"
+  },
+  {
+    "id": "navidrome",
+    "name": "Navidrome",
+    "description": "Lightweight, fast, and self-contained music streaming server.",
+    "category": "Media",
+    "tags": ["lxc", "streaming", "productivity"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "5 GB",
+      "notes": "Optimized for large audio libraries."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Navidrome](https://github.com/upioneer/homelab/tree/main/Navidrome)"
+  },
+  {
+    "id": "nginx_proxy_manager",
+    "name": "Nginx Proxy Manager",
+    "description": "Nginx reverse proxy manager with a clean web GUI and automated SSL.",
+    "category": "Networking",
+    "tags": ["lxc", "reverse_proxy", "security"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "1 GB",
+      "notes": "Simplifies certificate handling via Let's Encrypt."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/NginxProxyManager](https://github.com/upioneer/homelab/tree/main/NginxProxyManager)"
+  },
+  {
+    "id": "notifuse",
+    "name": "Notifuse",
+    "description": "Open-source self-hosted emailing platform for newsletters and transaction notifications.",
+    "category": "Automation",
+    "tags": ["lxc", "email", "automation"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "2 GB",
+      "notes": "Includes background dispatch workers."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Notifuse](https://github.com/upioneer/homelab/tree/main/Notifuse)"
+  },
+  {
+    "id": "open_webui",
+    "name": "Open WebUI",
+    "description": "User-friendly web interface for local LLMs with Ollama support.",
+    "category": "AI",
+    "tags": ["docker", "llm", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "2 Cores",
+      "ram": "2 GB",
+      "disk": "10 GB",
+      "notes": "Runs side-by-side with watchtower."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/OpenWebUI](https://github.com/upioneer/homelab/tree/main/OpenWebUI)"
+  },
+  {
+    "id": "proxmox",
+    "name": "Proxmox",
+    "description": "Server virtualization management platform to orchestrate VMs and containers.",
+    "category": "System",
+    "tags": ["vm", "virtual", "monitoring"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "4 GB",
+      "disk": "16 GB",
+      "notes": "Bare-metal hypervisor sizing recommendations."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Proxmox](https://github.com/upioneer/homelab/tree/main/Proxmox)"
+  },
+  {
+    "id": "reactive_resume",
+    "name": "Reactive Resume",
+    "description": "Free and open-source resume builder with instant PDF exporting.",
+    "category": "System",
+    "tags": ["lxc", "productivity"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "1 GB",
+      "notes": "Lightweight resume editor."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Reactive%20Resume](https://github.com/upioneer/homelab/tree/main/Reactive%20Resume)"
+  },
+  {
+    "id": "sbc_dashboard",
+    "name": "SBC Dashboard",
+    "description": "Guides and scripts to configure stable kiosk mode dashboards on Single Board Computers.",
+    "category": "System",
+    "tags": ["lxc", "automation", "dashboard"],
+    "sizing": {
+      "type": "N/A",
+      "cpu": "N/A",
+      "ram": "N/A",
+      "disk": "N/A",
+      "notes": "Client-side kiosk configuration guide."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/SBCDashboard](https://github.com/upioneer/homelab/tree/main/SBCDashboard)"
+  },
+  {
+    "id": "shadow_broker",
+    "name": "Shadow Broker",
+    "description": "Open-source intelligence (OSINT) platform for real-time tactical telemetry.",
+    "category": "Security",
+    "tags": ["lxc", "security", "monitoring"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "2 Cores",
+      "ram": "4 GB",
+      "disk": "10 GB",
+      "notes": "Requires database persistence for telemetry."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/ShadowBroker](https://github.com/upioneer/homelab/tree/main/ShadowBroker)"
+  },
+  {
+    "id": "sparky_fitness",
+    "name": "SparkyFitness",
+    "description": "Self-hosted, privacy-first fitness and nutrition tracking platform.",
+    "category": "System",
+    "tags": ["lxc", "productivity", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "1 GB",
+      "disk": "5 GB",
+      "notes": "Lightweight fitness tracker."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/SparkyFitness](https://github.com/upioneer/homelab/tree/main/SparkyFitness)"
+  },
+  {
+    "id": "sterling_pdf",
+    "name": "Sterling PDF",
+    "description": "Web-based PDF manipulation tool for merging, splitting, and securing files.",
+    "category": "System",
+    "tags": ["vm", "productivity", "security"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "2 GB",
+      "disk": "8 GB",
+      "notes": "Uses OCR capabilities which are resource-heavy."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/SterlingPDF](https://github.com/upioneer/homelab/tree/main/SterlingPDF)"
+  },
+  {
+    "id": "technitium",
+    "name": "Technitium",
+    "description": "Self-hosted authoritative and recursive DNS server for local DNS resolution.",
+    "category": "Networking",
+    "tags": ["lxc", "dns", "security"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "1 GB",
+      "notes": "Supports DNS-over-HTTPS and DNS-over-TLS."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Technitium](https://github.com/upioneer/homelab/tree/main/Technitium)"
+  },
+  {
+    "id": "tracefinity",
+    "name": "Tracefinity",
+    "description": "Self-hosted tool for generating Gridfinity bins from tool photos.",
+    "category": "System",
+    "tags": ["lxc", "productivity"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "2 GB",
+      "disk": "10 GB",
+      "notes": "Processes images to calculate exact 3D models."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Tracefinity](https://github.com/upioneer/homelab/tree/main/Tracefinity)"
+  },
+  {
+    "id": "trackio",
+    "name": "Trackio",
+    "description": "Lightweight, local-first experiment tracking tool by Hugging Face & Gradio.",
+    "category": "AI",
+    "tags": ["lxc", "llm", "monitoring"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "1 GB",
+      "notes": "Experiment monitor for model training."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Trackio](https://github.com/upioneer/homelab/tree/main/Trackio)"
+  },
+  {
+    "id": "uptime_kuma",
+    "name": "Uptime Kuma",
+    "description": "Self-hosted monitoring tool for tracking server and website uptimes.",
+    "category": "System",
+    "tags": ["lxc", "monitoring", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "1 GB",
+      "notes": "Supports instant webhook and messaging notifications."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/UptimeKuma](https://github.com/upioneer/homelab/tree/main/UptimeKuma)"
+  },
+  {
+    "id": "watchtower",
+    "name": "Watchtower",
+    "description": "Automated Docker container updater to seamlessly deploy new image releases.",
+    "category": "System",
+    "tags": ["lxc", "automation"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "128 MB",
+      "disk": "512 MB",
+      "notes": "Runs as a daemon watching Docker sockets."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/Watchtower](https://github.com/upioneer/homelab/tree/main/Watchtower)"
+  },
+  {
+    "id": "wireguard",
+    "name": "WireGuard",
+    "description": "Fast, modern, and simple VPN protocol for encrypted site-to-site tunnels.",
+    "category": "Networking",
+    "tags": ["lxc", "vpn", "routing"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "256 MB",
+      "disk": "512 MB",
+      "notes": "Highly optimized kernel space VPN module."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/WireGuard](https://github.com/upioneer/homelab/tree/main/WireGuard)"
+  },
+  {
+    "id": "checkmk",
+    "name": "checkmk",
+    "description": "Enterprise-grade IT infrastructure monitoring platform.",
+    "category": "System",
+    "tags": ["vm", "monitoring", "dashboard"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "4 GB",
+      "disk": "8 GB",
+      "notes": "Handles polling for multiple network devices."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/checkmk](https://github.com/upioneer/homelab/tree/main/checkmk)"
+  },
+  {
+    "id": "iventoy",
+    "name": "iVentoy",
+    "description": "PXE server to boot multiple ISO files over a network seamlessly.",
+    "category": "System",
+    "tags": ["vm", "file_transfer", "routing"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "1 Core",
+      "ram": "1 GB",
+      "disk": "5 GB",
+      "notes": "Network-based installer orchestration."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/iVentoy](https://github.com/upioneer/homelab/tree/main/iVentoy)"
+  },
+  {
+    "id": "n8n",
+    "name": "n8n",
+    "description": "Extendable workflow automation tool with node-based integrations.",
+    "category": "Automation",
+    "tags": ["vm", "automation", "dashboard"],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2 Cores",
+      "ram": "2 GB",
+      "disk": "5 GB",
+      "notes": "Perfect for integrating self-hosted APIs."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/n8n](https://github.com/upioneer/homelab/tree/main/n8n)"
+  },
+  {
+    "id": "your_spotify",
+    "name": "your_spotify",
+    "description": "Self-hosted tracker for your Spotify listening habits and analytics.",
+    "category": "Media",
+    "tags": ["lxc", "analytics", "dashboard"],
+    "sizing": {
+      "type": "LXC",
+      "cpu": "1 Core",
+      "ram": "512 MB",
+      "disk": "2 GB",
+      "notes": "Connects to the official Spotify API."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/your_spotify](https://github.com/upioneer/homelab/tree/main/your_spotify)"
+  }
+]
