@@ -1,3 +1,6 @@
+> [!TIP]
+> **New: Web Frontend Available!** Prefer a friendlier UI/UX? Check out **[doyouevenhomelab.web.app](https://doyouevenhomelab.web.app)** for an interactive, searchable interface to browse this homelab reference.
+
 [![GitHub Stars](https://img.shields.io/github/stars/upioneer/homelab?style=flat-square&color=yellow)](https://github.com/upioneer/homelab/stargazers)
 [![Forks](https://img.shields.io/github/forks/upioneer/homelab?style=flat-square&color=green)](https://github.com/upioneer/homelab/network/members)
 [![Issues](https://img.shields.io/github/issues/upioneer/homelab?style=flat-square&color=red)](https://github.com/upioneer/homelab/issues)
