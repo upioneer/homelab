@@ -13,7 +13,7 @@ ssh-keygen -t ed25519
 
 ### Display the public key to copy it
 ```powershell
-cat $HOME/.ssh/id_ed25519.pub
+cat $env:USERPROFILE/.ssh/id_ed25519.pub
 ```
 
 ## Phase 2 Server Side Configuration
@@ -55,7 +55,7 @@ systemctl restart ssh
 
 ## Phase 4 Simplified Access
 
-Update the configuration file on your Windows machine at `$HOME/.ssh/config` to enable fast login
+Update the configuration file on your Windows machine at `$env:USERPROFILE/.ssh/config` to enable fast login
 
 ```text
 Host proxmox
