@@ -3778,5 +3778,78 @@
       "notes": "Standard VM deployment."
     },
     "github_url": "[https://github.com/upioneer/homelab](https://github.com/upioneer/homelab)"
+  },
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "description": "Sunshine fork optimized for streaming at the native resolution of the client device.",
+    "category": "Gaming",
+    "tags": [
+      "vm",
+      "game-streaming"
+    ],
+    "sizing": {
+      "type": "Host",
+      "cpu": "2-4",
+      "ram": "4GB+",
+      "disk": "10GB",
+      "notes": "Requires GPU passthrough for hardware encoding. Standard VM deployment."
+    },
+    "github_url": "https://github.com/ClassicOldSong/Apollo"
+  },
+  {
+    "id": "artemis_android",
+    "name": "Artemis Android",
+    "description": "GameStream client for Android; formerly known as Moonlight Noir. Fork of Moonlight Android with enhanced features.",
+    "category": "Gaming",
+    "tags": [
+      "client",
+      "android",
+      "game-streaming"
+    ],
+    "sizing": {
+      "type": "Client",
+      "cpu": "N/A",
+      "ram": "N/A",
+      "disk": "N/A",
+      "notes": "Android client app — no server-side resources needed."
+    },
+    "github_url": "https://github.com/ClassicOldSong/moonlight-android"
+  },
+  {
+    "id": "moonlight_pc",
+    "name": "Moonlight PC",
+    "description": "Open-source GameStream client for PCs (Windows, Mac, Linux, and Steam Link).",
+    "category": "Gaming",
+    "tags": [
+      "client",
+      "game-streaming"
+    ],
+    "sizing": {
+      "type": "Client",
+      "cpu": "N/A",
+      "ram": "N/A",
+      "disk": "N/A",
+      "notes": "Desktop client app — no server-side resources needed."
+    },
+    "github_url": "https://github.com/moonlight-stream/moonlight-qt"
+  },
+  {
+    "id": "sunshine",
+    "name": "Sunshine",
+    "description": "Self-hosted, open-source game streaming host compatible with Moonlight clients. Supports hardware encoding and a web-based management UI.",
+    "category": "Gaming",
+    "tags": [
+      "vm",
+      "game-streaming"
+    ],
+    "sizing": {
+      "type": "Host",
+      "cpu": "2-4",
+      "ram": "4GB+",
+      "disk": "10GB",
+      "notes": "Requires GPU passthrough for hardware encoding. Standard VM deployment."
+    },
+    "github_url": "https://github.com/lizardbyte/sunshine"
   }
 ]
