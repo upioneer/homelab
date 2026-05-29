@@ -14,6 +14,8 @@
 | [AFFiNE](https://affine.pro/)<br>All-in-one knowledge base and collaboration platform | VM | 2-4 | 4GB+ | 10GB+ |
 | [AMP](https://cubecoders.com/AMP)<br>Web-based control panel for game servers and applications | VM | 2 | 2-4GB | 10GB |
 | [Ansible](https://www.ansible.com/)<br>IT automation and configuration management tool | VM | 1 | 1GB | 2GB |
+| [Apollo](https://github.com/ClassicOldSong/Apollo)<br>Sunshine fork optimized for streaming at the native resolution of the client device | Host | 2-4 | 4GB+ | 10GB |
+| [Artemis Android](https://github.com/ClassicOldSong/moonlight-android)<br>GameStream client for Android; formerly known as Moonlight Noir | Client | N/A | N/A | N/A |
 | [Anytype](https://anytype.io/)<br>Local-first, open-source Notion alternative for notes and knowledge management | VM | 2 | 2GB | 5GB |
 | [Apache Tika](https://tika.apache.org/)<br>Content analysis toolkit for file type detection and text extraction | VM | 2 | 2-4GB | 5GB |
 | [AppFlowy](https://www.appflowy.io/)<br>Open-source Notion alternative with a focus on data privacy | VM | 2 | 2GB | 5GB |
@@ -119,6 +121,7 @@
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
 | [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
 | [MinIO](https://min.io/)<br>High-performance object storage server | LXC | 1 | 1GB | 2GB |
+| [Moonlight PC](https://github.com/moonlight-stream/moonlight-qt)<br>Open-source GameStream client for PCs (Windows, Mac, Linux, and Steam Link) | Client | N/A | N/A | N/A |
 | [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer)<br>Desktop application to visualize MQTT topics | VM | 1 | 512MB | 1GB |
 | [Mylar3](https://github.com/mylar3/mylar3)<br>Automated comic book downloader | LXC | 1 | 512MB | 2GB |
 | [MySQL](https://www.mysql.com/)<br>Open-source relational database management system | VM | 2+ | 2GB+ | 10GB+ |
@@ -192,6 +195,7 @@
 | [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022)<br>Microsoft's relational database management system | VM | 2-4+ | 4GB+ | 20GB+ |
 | [Stirling-PDF](https://stirlingpdf.io)<br>Web-based PDF manipulation tool | VM | 2 | 2-4GB | 8GB |
 | [Streamlink WebUI](https://github.com/streamlink/streamlink-webui)<br>Web UI for the Streamlink command-line tool | LXC | 1 | 512MB | 1GB |
+| [Sunshine](https://github.com/lizardbyte/sunshine)<br>Self-hosted, open-source game streaming host compatible with Moonlight clients | Host | 2-4 | 4GB+ | 10GB |
 | [Subsonic](http://www.subsonic.org/pages/index.jsp)<br>Personal media streamer | LXC | 1 | 512MB | 5GB+ |
 | [Syncthing](https://syncthing.net/)<br>Continuous file synchronization | LXC | 1 | 512MB | 2GB |
 | [Tailscale](https://tailscale.com)<br>Zero-configuration VPN | LXC | 1 | 256MB | 512MB |
