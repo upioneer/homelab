@@ -1,12 +1,10 @@
-# Langflow Setup
+# Langflow
 
-[Langflow](https://www.langflow.org/) is a visual framework for building multi-agent and RAG (Retrieval-Augmented Generation) applications. Featuring a beautiful React-based flow editor and a powerful Python backend, Langflow enables you to drag-and-drop components (LLMs, Prompts, Agents, Tools, and Vector Stores) to prototype and export production-ready AI workflows.
+Visual framework for building multi-agent and RAG applications.
 
-## Docker Compose Configurations
+## Configuration
 
-### Option 1: Full Stack with PostgreSQL and Watchtower (Recommended)
-
-This configuration includes Langflow, a dedicated PostgreSQL database backend for robust storage of your flows and configurations, and a Watchtower container that checks for image updates and cleans up obsolete layers daily at 4:00 AM.
+The service is managed via the companion [`docker-compose.yml`](docker-compose.yml) file. Below is the current configuration used to deploy the service:
 
 ```yaml
 services:
@@ -30,7 +28,7 @@ services:
     container_name: langflow-postgres
     environment:
       - POSTGRES_USER=langflow
-      - POSTGRES_PASSWORD=langflow
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
       - POSTGRES_DB=langflow
     volumes:
       - langflow-postgres:/var/lib/postgresql/data
@@ -49,19 +47,16 @@ volumes:
   langflow-postgres:
 ```
 
----
+## Deployment
 
-## Deployment Steps
+Before deploying, ensure you configure your environment variables. A `.env` file has been provided with placeholder values. Edit the `.env` file to set your secure credentials:
 
-1. **Deploy the service**:
-   ```bash
-   docker compose up -d
-   ```
+```env
+POSTGRES_PASSWORD=your_secure_postgres_password_here
+```
 
-2. **Access the Web Interface**:
-   Navigate to `http://<host-ip>:7860` in your web browser. You will be greeted by the interactive flow editor where you can start dragging and dropping AI nodes.
+To start the service, ensure you are in this directory and run the following command:
 
-3. **Secure Your Instance**:
-   Before exposing Langflow to external networks, ensure that:
-   - PostgreSQL credentials in your `.env` or `docker-compose.yml` are updated to secure custom passwords.
-   - You utilize a secure reverse proxy (like Nginx Proxy Manager or Traefik) to enable HTTPS.
+```powershell
+docker compose up -d
+```

@@ -1,19 +1,35 @@
 # Tracefinity
 
-[Tracefinity](https://tracefinity.net/) is an open-source, self-hosted web tool that uses AI models to generate custom Gridfinity bins from photos of your physical tools.
+Self-hosted tool for generating Gridfinity bins from tool photos.
+
+## Configuration
+
+The service is managed via the companion [`docker-compose.yml`](docker-compose.yml) file. Below is the current configuration used to deploy the service:
+
+```yaml
+services:
+  tracefinity:
+    image: ghcr.io/tracefinity/tracefinity:latest
+    container_name: tracefinity
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/storage
+    environment:
+      # Optional: Add your Google Gemini API key here for cloud-powered tracing.
+      # If omitted, Tracefinity will fall back to local ONNX models.
+      - GOOGLE_API_KEY=
+      # Optional: Set ONNX provider ("auto", "cuda", or "cpu"). Defaults to "auto".
+      - TRACEFINITY_ONNX_PROVIDER=auto
+    restart: unless-stopped
+```
 
 ## Deployment
 
-1.  Deploy using Docker Compose:
-    ```bash
-    docker compose up -d
-    ```
+You can optionally configure environment variables via the provided `.env` file if needed (e.g. `TZ`).
 
-## Features
+To start the service, ensure you are in this directory and run the following command:
 
-- **AI-Powered Tracing:** Automatically extract the precise outline of tools from photos using state-of-the-art vision models.
-- **Flexible AI backends:** Run tracing locally using lightweight ONNX models (e.g., IS-Net) or plug in your Google Gemini API key for high-fidelity cloud tracing.
-- **Automatic Scale Calibration:** Simply place your tools on a standard sheet of paper (A4 or US Letter) to let the system calibrate dimensions automatically.
-- **Gridfinity Integration:** Arrange the generated tool outlines in customized organizer trays and export the design as 3D-printable STL or 3MF files.
-
-For more information, visit the [official website](https://tracefinity.net/) or the [GitHub repository](https://github.com/tracefinity/tracefinity).
+```powershell
+docker compose up -d
+```

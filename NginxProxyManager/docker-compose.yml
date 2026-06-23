@@ -17,7 +17,7 @@ services:
     image: cloudflare/cloudflared:latest
     container_name: cloudflared
     restart: unless-stopped
-    command: tunnel --no-autoupdate run --token <INSERT_YOUR_TOKEN>
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
     volumes:
       - data_cloudflared:/home/nonroot/.cloudflared/
     networks:

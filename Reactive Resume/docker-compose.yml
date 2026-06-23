@@ -12,7 +12,7 @@ services:
     environment:
       POSTGRES_DB: postgres
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
       interval: 10s
@@ -30,7 +30,7 @@ services:
       - minio_data:/data
     environment:
       MINIO_ROOT_USER: minioadmin
-      MINIO_ROOT_PASSWORD: minioadmin
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD}
 
   # Chrome Browser (for printing and previews)
   chrome:
@@ -41,7 +41,7 @@ services:
     environment:
       TIMEOUT: 10000
       CONCURRENT: 10
-      TOKEN: chrome_token
+      TOKEN: ${TOKEN}
       EXIT_ON_HEALTH_FAILURE: "true"
       PRE_REQUEST_HEALTH_CHECK: "true"
 
@@ -64,15 +64,15 @@ services:
       STORAGE_URL: http://[your-server-ip]:9000/default
 
       # -- Printer (Chrome) --
-      CHROME_TOKEN: chrome_token
+      CHROME_TOKEN: ${CHROME_TOKEN}
       CHROME_URL: ws://chrome:3000
 
       # -- Database (Postgres) --
       DATABASE_URL: postgresql://postgres:postgres@postgres:5432/postgres
 
       # -- Auth --
-      ACCESS_TOKEN_SECRET: access_token_secret
-      REFRESH_TOKEN_SECRET: refresh_token_secret
+      ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET}
+      REFRESH_TOKEN_SECRET: ${REFRESH_TOKEN_SECRET}
 
       # -- Emails --
       MAIL_FROM: noreply@localhost
@@ -83,8 +83,8 @@ services:
       STORAGE_PORT: 9000
       STORAGE_REGION: us-east-1 # Optional
       STORAGE_BUCKET: default
-      STORAGE_ACCESS_KEY: minioadmin
-      STORAGE_SECRET_KEY: minioadmin
+      STORAGE_ACCESS_KEY: ${STORAGE_ACCESS_KEY}
+      STORAGE_SECRET_KEY: ${STORAGE_SECRET_KEY}
       STORAGE_USE_SSL: "false"
       STORAGE_SKIP_BUCKET_CHECK: "false"
 
