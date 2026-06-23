@@ -17,7 +17,7 @@ services:
       - "8000:8000"
       - "2222:22"
     environment:
-      - JUPYTER_PASSWORD=mypassword
+      - JUPYTER_PASSWORD=${JUPYTER_PASSWORD}
     volumes:
       - ./work:/workspace/work
     deploy:
@@ -30,6 +30,12 @@ services:
 ```
 
 ## Deployment
+
+Before deploying, ensure you configure your environment variables. A `.env` file has been provided with a placeholder. Edit the `.env` file to set your secure password:
+
+```env
+JUPYTER_PASSWORD=your_secure_password_here
+```
 
 To start Unsloth Studio, ensure you are in this directory and run the following command:
 

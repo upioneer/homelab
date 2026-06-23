@@ -3,3 +3,4 @@ project artifacts/
 .agent/
 .antigravitycli/
 apps/
+**/.env
