@@ -214,6 +214,7 @@
 | [TrueNAS](https://www.truenas.com)<br>Network-attached storage (NAS) solution | VM | 2-4 | 8GB+ | 32GB+ |
 | [Umami](https://umami.is/)<br>Simple, fast, privacy-focused web analytics | LXC | 1 | 512MB | 2GB |
 | [Unbound](https://nlnetlabs.nl/projects/unbound/about/)<br>Validating, recursive, and caching DNS resolver | LXC | 1 | 256MB | 512MB |
+| [Unsloth Studio](https://unsloth.ai/)<br>Local AI Web UI | VM | 2-4 | 4GB+ | 10GB |
 | [Uptime Kuma](https://uptime.kuma.pet)<br>Self-hosted uptime monitoring | LXC | 1 | 512MB | 1GB |
 | [Veloren](https://veloren.net/)<br>Open-world RPG | VM | 2-4 | 4GB+ | 10GB |
 | [Ventoy](https://www.ventoy.net/en/index.html)<br>Tool to create a multi-boot USB drive from ISO files | VM | 1 | 1GB | 2GB |

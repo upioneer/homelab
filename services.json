@@ -3851,5 +3851,24 @@
       "notes": "Requires GPU passthrough for hardware encoding. Standard VM deployment."
     },
     "github_url": "https://github.com/lizardbyte/sunshine"
+  },
+  {
+    "id": "unsloth_studio",
+    "name": "Unsloth Studio",
+    "description": "Local AI Web UI.",
+    "category": "AI",
+    "tags": [
+      "vm",
+      "ai",
+      "llm"
+    ],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2-4",
+      "ram": "4GB+",
+      "disk": "10GB+",
+      "notes": "Requires GPU for acceleration. Docker deployment."
+    },
+    "github_url": "https://unsloth.ai/"
   }
 ]
