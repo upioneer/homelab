@@ -15,6 +15,7 @@ This project is designed to speed up common tasks like building reusable contain
 | [Recommended Baseline Apps](./baselineApps.md) | Suggested minimal and extended packages to include in new LXC templates |
 | [No Valid Subscription](./NoValidSubscription.md) | Remove the "No valid subscription" prompt when logging in |
 | [Map SMB share](./SMBmap.md) | Persistent mapping of SMB shares and exposure to your LXC |
+| [SSH Hardening](./ssh_hardening.md) | Establish secure key based authentication from Windows to VM/LXC |
 
 ---
 
