@@ -220,6 +220,7 @@
 | [Ventoy](https://www.ventoy.net/en/index.html)<br>Tool to create a multi-boot USB drive from ISO files | VM | 1 | 1GB | 2GB |
 | [VirtualBox](https://www.virtualbox.org)<br>Desktop virtualization | VM | 1+ | 1GB+ | 10GB+ |
 | [Watchtower](https://containrrr.dev/watchtower/)<br>Automated Docker container updater | LXC | 1 | 128MB | 512MB |
+| [WebODM](WebODM/README.md)<br>Drone image processing and mapping | VM | 2-4 | 16GB+ | 100GB+ |
 | [WeddingShare](https://github.com/Cirx08/WeddingShare)<br>Photo sharing platform for weddings | LXC | 1 | 512MB | 2GB |
 | [Wekan](https://wekan.github.io/)<br>Open-source Kanban board | LXC | 1 | 512MB | 2GB |
 | [Wiki.js](https://js.wiki/)<br>Wiki engine | LXC | 1-2 | 1GB | 5GB+ |
