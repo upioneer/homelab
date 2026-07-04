@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  tui-studio:
+    build: https://github.com/jalonsogo/tui-studio.git#main
+    container_name: tui-studio
+    restart: unless-stopped
+    ports:
+      - "3080:80"

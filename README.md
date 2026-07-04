@@ -212,6 +212,7 @@
 | [Transmission](https://transmissionbt.com/)<br>Lightweight BitTorrent client with a web UI | LXC | 1 | 512MB | 2GB+ |
 | [Trilium](https://github.com/TriliumNext/Trilium)<br>Hierarchical note-taking application | LXC | 1-2 | 1GB | 5GB+ |
 | [TrueNAS](https://www.truenas.com)<br>Network-attached storage (NAS) solution | VM | 2-4 | 8GB+ | 32GB+ |
+| [TUIStudio](TUIStudio/README.md)<br>Visual design tool for building Terminal User Interfaces | LXC | 1 | 256MB | 512MB |
 | [Umami](https://umami.is/)<br>Simple, fast, privacy-focused web analytics | LXC | 1 | 512MB | 2GB |
 | [Unbound](https://nlnetlabs.nl/projects/unbound/about/)<br>Validating, recursive, and caching DNS resolver | LXC | 1 | 256MB | 512MB |
 | [Unsloth Studio](https://unsloth.ai/)<br>Local AI Web UI | VM | 2-4 | 4GB+ | 10GB |
