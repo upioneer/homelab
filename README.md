@@ -144,6 +144,7 @@
 | [Ofelia](https://github.com/mcuadros/ofelia)<br>Docker job scheduler | LXC | 1 | 128MB | 512MB |
 | [opencloud](https://github.com/opencloud-eu)<br>Collection of open-source cloud native tools | N/A | N/A | N/A | N/A |
 | [OpenProject](https://www.openproject.org/)<br>Comprehensive project management software | VM | 2 | 2GB | 5GB |
+| [Openship](openship/README.md)<br>Open-source, self-hostable deployment platform with built-in CI/CD | LXC | 2-4 | 4GB+ | 10GB+ |
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
 | [OpenWebUI](OpenWebUI/README.md)<br>User-friendly web interface for local LLMs | LXC | 2 | 2GB | 10GB |
 | [Overseerr](https://overseerr.dev/)<br>Request management and discovery for media libraries | LXC | 1 | 512MB | 2GB |
