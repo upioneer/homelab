@@ -1,0 +1,19 @@
+services:
+  unlimited-ocr:
+    image: vllm/vllm-openai:unlimited-ocr
+    container_name: unlimited-ocr
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - HUGGING_FACE_HUB_TOKEN=${HF_TOKEN}
+    volumes:
+      - ./data:/root/.cache/huggingface
+    command: --model baidu/Unlimited-OCR --served-model-name Unlimited-OCR --trust-remote-code --max-model-len 32768
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

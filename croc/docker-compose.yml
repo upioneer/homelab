@@ -1,0 +1,12 @@
+services:
+  croc:
+    image: schollz/croc:latest
+    container_name: croc
+    restart: unless-stopped
+    command: relay --pass ${CROC_RELAY_PASSWORD}
+    ports:
+      - "9009:9009"
+      - "9010:9010"
+      - "9011:9011"
+      - "9012:9012"
+      - "9013:9013"

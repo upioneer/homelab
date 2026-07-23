@@ -43,6 +43,7 @@
 | [Copyparty](https://github.com/9001/copyparty)<br>Portable file server with a web UI | LXC | 1 | 512MB | 2GB |
 | [Cosmos](https://cosmos-cloud.io/)<br>Self-hosting server and container management platform | LXC | 1-2 | 1GB | 8GB |
 | [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
+| [Croc](https://github.com/schollz/croc)<br>Easily and securely send things from one computer to another | LXC | 1 | 256MB | 1GB |
 | [Cronmaster](https://github.com/fccview/cronmaster)<br>Simple and lightweight cron job manager | LXC | 1 | 256MB | 1GB |
 | [CrowdSec](https://www.crowdsec.net/)<br>Open-source and collaborative Intrusion Prevention System (IPS) | LXC | 1 | 512MB | 2GB |
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
@@ -217,6 +218,7 @@
 | [TUIStudio](TUIStudio/README.md)<br>Visual design tool for building Terminal User Interfaces | LXC | 1 | 256MB | 512MB |
 | [Umami](https://umami.is/)<br>Simple, fast, privacy-focused web analytics | LXC | 1 | 512MB | 2GB |
 | [Unbound](https://nlnetlabs.nl/projects/unbound/about/)<br>Validating, recursive, and caching DNS resolver | LXC | 1 | 256MB | 512MB |
+| [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR)<br>Unlimited OCR Works: One-shot Long-horizon Parsing | VM | 2-4 | 16GB+ | 50GB+ |
 | [Unsloth Studio](https://unsloth.ai/)<br>Local AI Web UI | VM | 2-4 | 4GB+ | 10GB |
 | [Uptime Kuma](https://uptime.kuma.pet)<br>Self-hosted uptime monitoring | LXC | 1 | 512MB | 1GB |
 | [Veloren](https://veloren.net/)<br>Open-world RPG | VM | 2-4 | 4GB+ | 10GB |
