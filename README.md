@@ -49,6 +49,7 @@
 | [CryptPad](https://cryptpad.fr/)<br>Zero-knowledge, end-to-end encrypted collaborative suite | VM | 2 | 2GB | 5GB |
 | [Dasharr](https://github.com/taslabs-net/dasharr)<br>Dashboard for the Servarr stack | LXC | 1 | 256MB | 1GB |
 | [Dashy](https://dashy.to/)<br>Highly customizable personal dashboard | LXC | 1 | 512MB | 1GB |
+| [DeerFlow](https://deerflow.tech/)<br>ByteDance open-source SuperAgent framework and deep research system | VM | 2-4 | 4GB+ | 10GB |
 | [dockpeek](https://github.com/dockpeek/dockpeek)<br>Simple dashboard to view and manage Docker containers | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
 | [Docker](https://www.docker.com)<br>Containerization platform | VM | 2+ | 2GB+ | 10GB+ |
@@ -193,6 +194,7 @@
 | [SickRage](https://github.com/SiCKRAGE/SiCKRAGE)<br>Automated TV show PVR and manager | LXC | 1 | 512MB | 2GB |
 | [Simple Icons](https://simpleicons.org/)<br>Library of free SVG icons for popular brands | N/A | N/A | N/A | N/A |
 | [Sonarr](https://sonarr.tv/)<br>Automated TV show collection manager | LXC | 1 | 512MB | 5GB+ |
+| [SongGeneration Studio](https://github.com/BazedFrog/SongGeneration-Studio)<br>Open-source AI song and music generation web studio for local GPUs | VM | 4 | 8GB+ | 20GB+ |
 | [SparkyFitness](https://github.com/CodeWithCJ/SparkyFitness)<br>Self-hosted, privacy-first fitness and nutrition tracking platform | LXC | 1-2 | 1GB | 5GB |
 | [Spoolman](https://github.com/Donkie/Spoolman)<br>Web-based tracker for 3D printing filament spools | LXC | 1 | 512MB | 2GB |
 | [SQL Server 2022](https://www.microsoft.com/en-us/sql-server/sql-server-2022)<br>Microsoft's relational database management system | VM | 2-4+ | 4GB+ | 20GB+ |

@@ -1,0 +1,20 @@
+services:
+  songgeneration-studio:
+    image: bazedfrog/songgeneration-studio:latest
+    container_name: songgeneration-studio
+    restart: unless-stopped
+    ports:
+      - "7860:7860"
+    environment:
+      - SONG_GEN_API_KEY=${SONG_GEN_API_KEY}
+      - CUDA_VISIBLE_DEVICES=0
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

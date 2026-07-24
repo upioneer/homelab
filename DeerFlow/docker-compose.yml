@@ -1,0 +1,14 @@
+services:
+  deer-flow:
+    image: bytedance/deer-flow:latest
+    container_name: deer-flow
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - DEERFLOW_HOST=${DEERFLOW_HOST}
+      - DEERFLOW_PORT=${DEERFLOW_PORT}
+    volumes:
+      - ./data:/app/data

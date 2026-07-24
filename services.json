@@ -636,6 +636,26 @@
     "github_url": "[https://github.com/upioneer/homelab](https://github.com/upioneer/homelab)"
   },
   {
+    "id": "deerflow",
+    "name": "DeerFlow",
+    "description": "ByteDance open-source SuperAgent framework and deep research system.",
+    "category": "Automation",
+    "tags": [
+      "ai",
+      "agent",
+      "llm",
+      "lxc"
+    ],
+    "sizing": {
+      "type": "VM",
+      "cpu": "2-4",
+      "ram": "4GB+",
+      "disk": "10GB",
+      "notes": "Standard VM/container deployment."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/DeerFlow](https://github.com/upioneer/homelab/tree/main/DeerFlow)"
+  },
+  {
     "id": "dockpeek",
     "name": "dockpeek",
     "description": "Simple dashboard to view and manage Docker containers.",
@@ -3125,6 +3145,26 @@
       "notes": "Standard LXC deployment."
     },
     "github_url": "[https://github.com/upioneer/homelab](https://github.com/upioneer/homelab)"
+  },
+  {
+    "id": "songgeneration_studio",
+    "name": "SongGeneration Studio",
+    "description": "Open-source AI song and music generation web studio for local GPUs.",
+    "category": "Media",
+    "tags": [
+      "ai",
+      "audio",
+      "music",
+      "gpu"
+    ],
+    "sizing": {
+      "type": "VM",
+      "cpu": "4",
+      "ram": "8GB+",
+      "disk": "20GB+",
+      "notes": "Requires NVIDIA GPU with CUDA support."
+    },
+    "github_url": "[https://github.com/upioneer/homelab/tree/main/SongGenerationStudio](https://github.com/upioneer/homelab/tree/main/SongGenerationStudio)"
   },
   {
     "id": "sparkyfitness",
