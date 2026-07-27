@@ -1945,6 +1945,25 @@
     "github_url": "[https://github.com/upioneer/homelab](https://github.com/upioneer/homelab)"
   },
   {
+    "id": "modly",
+    "name": "Modly",
+    "description": "Local, open source, AI-powered image-to-3D mesh generation.",
+    "category": "AI",
+    "tags": [
+      "client",
+      "ai",
+      "3d"
+    ],
+    "sizing": {
+      "type": "Client",
+      "cpu": "N/A",
+      "ram": "N/A",
+      "disk": "N/A",
+      "notes": "Desktop client app — no server-side resources needed."
+    },
+    "github_url": "https://github.com/lightningpixel/modly"
+  },
+  {
     "id": "mqtt_explorer",
     "name": "MQTT Explorer",
     "description": "Desktop application to visualize MQTT topics.",

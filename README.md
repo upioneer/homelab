@@ -124,6 +124,7 @@
 | [Mealie](https://mealie.io/)<br>Recipe manager and meal planner | LXC | 1 | 1GB | 5GB |
 | [Metabase](https://www.metabase.com/)<br>Business intelligence | VM | 2 | 2GB | 5GB |
 | [MinIO](https://min.io/)<br>High-performance object storage server | LXC | 1 | 1GB | 2GB |
+| [Modly](https://modly3d.app/)<br>Local, open source, AI-powered image-to-3D mesh generation | Client | N/A | N/A | N/A |
 | [Moonlight PC](https://github.com/moonlight-stream/moonlight-qt)<br>Open-source GameStream client for PCs (Windows, Mac, Linux, and Steam Link) | Client | N/A | N/A | N/A |
 | [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer)<br>Desktop application to visualize MQTT topics | VM | 1 | 512MB | 1GB |
 | [Mylar3](https://github.com/mylar3/mylar3)<br>Automated comic book downloader | LXC | 1 | 512MB | 2GB |
