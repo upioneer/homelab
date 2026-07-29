@@ -30,6 +30,7 @@
 | [Bookstack](https://www.bookstackapp.com/)<br>Simple platform for organizing documentation and knowledge | LXC | 1 | 512MB | 2GB |
 | [BorgBackup](https://www.borgbackup.org/)<br>Deduplicating backup program | LXC | 1 | 1GB | 2GB |
 | [Browser Auto Refresh](BrowserAutoRefresh/README.md)<br>Automates browser page refreshing using iframe integration | N/A | N/A | N/A | N/A |
+| [Buzz](https://github.com/block/buzz)<br>A hive mind communication platform | LXC | 2 | 2GB | 10GB |
 | [Caddy](https://caddyserver.com/)<br>Web server with automatic HTTPS | LXC | 1 | 256MB | 1GB |
 | [Calibre-Web](https://github.com/janeczku/calibre-web)<br>Web app for browsing eBooks | LXC | 1 | 512MB | 2GB |
 | [CasaOS](https://casaos.zimaspace.com/)<br>Open-source personal cloud system | LXC | 1-2 | 1GB | 8GB |
