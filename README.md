@@ -176,8 +176,9 @@
 | [Puter](https://github.com/HeyPuter/puter)<br>Internet OS and computing platform in the browser | VM | 2-4 | 4GB+ | 10GB+ |
 | [qBittorrent](https://www.qbittorrent.org/)<br>Open-source BitTorrent client with a web UI | LXC | 1-2 | 1GB | 5GB+ |
 | [Radarr](https://radarr.video/)<br>Automated movie collection manager | LXC | 1 | 512MB | 5GB+ |
-| [Readarr](https://readarr.com/)<br>Automated ebook and audiobook collection manager | LXC | 1 | 512MB | 5GB+ |
 | [Reactive Resume](https://rxresu.me/)<br>Resume builder | LXC | 1 | 512MB | 1GB |
+| [Readarr](https://readarr.com/)<br>Automated ebook and audiobook collection manager | LXC | 1 | 512MB | 5GB+ |
+| [Rescript](https://github.com/wassgha/rescript)<br>Open-source, transcript-based media editor | LXC | 1-2 | 1GB | 2GB |
 | [RomM](https://romm.app/)<br>Retro game library manager | LXC | 1 | 1GB | 5GB+ |
 | [Rsync](https://rsync.samba.org/)<br>Fast, incremental file transfer and synchronization utility | LXC | 1 | 512MB | 1GB |
 | [RustDesk](https://rustdesk.com/)<br>Remote access and support utility | LXC | 1 | 256MB | 1GB |
