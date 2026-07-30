@@ -1,12 +1,12 @@
 # Buzz
 
-Buzz is a self-hostable workspace where humans and AI agents share the same rooms. It acts as a hive mind communication platform built on Nostr.
+Buzz is a self hosted workspace where humans and AI agents share the same rooms. It acts as a hive mind communication platform built on Nostr.
 
 ## Configuration
 
-This service requires a `.env` file to securely store credentials. We've provided a default configuration, but you should review it before deployment.
+This service requires an environment file to securely store credentials. We have provided a default configuration, but you should review it before deployment.
 
-**Note:** Ensure you have populated the `.env` file based on your security requirements. You can use the following template:
+**Note:** Ensure you have populated the environment variables based on your security requirements. You can use the following template:
 
 ```env
 POSTGRES_USER=buzz
@@ -16,6 +16,26 @@ KEYCLOAK_ADMIN_PASSWORD=admin
 MINIO_ROOT_USER=buzz_dev
 MINIO_ROOT_PASSWORD=buzz_dev_secret
 ```
+
+## Ubuntu 24.04 LXC Deployment
+
+Running Docker within a Proxmox LXC container on Ubuntu 24.04 Noble requires specific package versions. Recent updates to the container daemon introduce changes that conflict with default AppArmor profiles.
+
+To resolve this, you must downgrade and lock the container daemon and Docker engine to compatible versions before starting your services.
+
+Install compatible packages:
+
+```bash
+sudo apt install containerd.io=1.7.28-1~ubuntu.24.04~noble docker-ce=5:28.5.2-1~ubuntu.24.04~noble docker-ce-cli=5:28.5.2-1~ubuntu.24.04~noble
+```
+
+Hold the packages to prevent automatic upgrades:
+
+```bash
+sudo apt-mark hold containerd.io docker-ce docker-ce-cli
+```
+
+Once locked, you can start the stack normally.
 
 ## Docker Compose
 
@@ -220,5 +240,9 @@ networks:
 To deploy this service, simply navigate to this directory and bring up the container using Docker Compose:
 
 ```bash
-docker compose up -d
+sudo docker compose up -d
 ```
+
+## Front End
+
+Pull the latest release from the [Buzz GitHub](https://github.com/block/buzz/releases/latest) release page
