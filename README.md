@@ -132,6 +132,7 @@
 | [MySQL](https://www.mysql.com/)<br>Open-source relational database management system | VM | 2+ | 2GB+ | 10GB+ |
 | [n8n](https://n8n.io)<br>Workflow automation | VM | 2 | 2GB | 5GB |
 | [Navidrome](https://www.navidrome.org/)<br>Music streaming server | LXC | 1 | 512MB | 5GB+ |
+| [Neko](https://neko.m1k1o.net/)<br>Self-hosted virtual browser that runs in Docker | LXC | 2 | 2GB | 5GB |
 | [netboot.xyz](https://netboot.xyz/)<br>Network bootable operating system installer | LXC | 1 | 256MB | 2GB |
 | [Netbox](https://netbox.dev/)<br>IP address management and data center infrastructure management | VM | 2 | 2GB | 10GB |
 | [NetAlertX](https://github.com/jokob-sk/NetAlertX)<br>Network connection and device monitoring tool | LXC | 1 | 256MB | 1GB |
