@@ -110,3 +110,35 @@ qm importdisk 200 /tmp/haos_ova-16.1.qcow2 local-lvm
 qm set 200 --scsi0 local-lvm:vm-200-disk-1,discard=on
 qm set 200 --boot order=scsi0
 qm start 200
+
+---
+
+# Step 5 Install and Configure HACS
+
+HACS requires downloading the integration files into the HAOS custom components directory, restarting the core service, and completing GitHub device authorization.
+
+## Method A Terminal Download via HAOS Console or SSH
+
+Open the HAOS terminal session or use the Terminal and SSH app:
+
+wget -O - https://get.hacs.xyz | bash -
+
+## Method B App Store GUI Installation
+
+1. Navigate to Settings then Apps.
+2. Select the App Store icon.
+3. Open the top right context menu and select Repositories.
+4. Add the HACS repository URL:
+   https://github.com/hacs/addons
+5. Locate Get HACS under the new repository section and select Install.
+6. Start the app and verify the log shows installation complete.
+
+## Enable the Integration
+
+1. Navigate to Settings then System and trigger a complete Home Assistant restart.
+2. Hard refresh the browser session using Ctrl F5 or Cmd Shift R.
+3. Navigate to Settings then Devices and Services.
+4. Select Add Integration and search for HACS.
+5. Accept the warning dialogs.
+6. Open the provided GitHub device activation link, supply the eight character validation key, and confirm authorization.
+7. Verify that HACS appears on the left navigation sidebar.
