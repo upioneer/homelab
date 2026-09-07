@@ -1,36 +1,112 @@
+# Home Assistant OS Setup on Proxmox VE
 
-# VM Specs
-Memory `4GB`
+This guide covers deploying a clean Home Assistant OS instance as a KVM Virtual Machine on Proxmox VE, resolving UEFI Secure Boot conflicts, and troubleshooting browser authentication failures on non RFC1918 subnets.
 
-CPU `2`
+---
 
-BIOS `OVMF (UEFI)`
+# VM Hardware Specifications
 
-Display `Default`
+* Memory: 4096 MB
+* Cores: 2
+* CPU: Host
+* BIOS: OVMF UEFI
+* Display: Default
+* Machine Type: q35
+* SCSI Controller: VirtIO SCSI
+* Hard Disk: None provisioned initially
+* Network Device: VirtIO bridge vmbr0
 
-Machine `q35`
+---
 
-SCSI `VirtIO SCSI`
+# Step 1 Download and Extract Image
 
-Hard Disk `none`
+Download and decompress the official KVM OVA image in the Proxmox host shell:
 
-Network Device `virtio`
-
-# Import Image
-## Download the image into Proxmox host tmp
-Version 16.1 is the latest as of this writing 
-```bash
 cd /tmp
 wget https://github.com/home-assistant/operating-system/releases/download/16.1/haos_ova-16.1.qcow2.xz
-xz -d haos_ova-16.1.qcow2.xz
-```
-## Import to your VM
-Find your target VM ID
-```bash
-pct list
-```
-Import
-```bash
-qm importdisk <VM ID> haos_ova-16.1.qcow2 local-lvm
-```
-Double click and add the attached disk in the hardware panel (SATA or SCSI)
+unxz haos_ova-16.1.qcow2.xz
+
+---
+
+# Step 2 Create and Provision Virtual Machine
+
+Replace 200 with your target VM ID and local lvm with your storage pool name. Note that qm list identifies VMs, whereas pct list is reserved for LXC containers.
+
+Create the base VM configuration:
+
+qm create 200 \
+  --name haos \
+  --memory 4096 \
+  --cores 2 \
+  --cpu host \
+  --bios ovmf \
+  --machine q35 \
+  --net0 virtio,bridge=vmbr0 \
+  --scsihw virtio-scsi-pci
+
+Add the EFI disk with Secure Boot enrollment disabled because HAOS does not support Secure Boot:
+
+qm set 200 --efidisk0 local-lvm:0,efitype=4m,pre-enrolled-keys=0
+
+Import the extracted disk into the storage pool:
+
+qm importdisk 200 /tmp/haos_ova-16.1.qcow2 local-lvm
+
+Attach the imported volume as the primary SCSI boot drive:
+
+qm set 200 --scsi0 local-lvm:vm-200-disk-1,discard=on
+
+Set boot priority to scsi0 and start the machine:
+
+qm set 200 --boot order=scsi0
+qm start 200
+
+Note on disk layout: HAOS manages its own boot and data partitions on a single disk. Always attach the image as scsi0 rather than secondary storage like scsi1. The 4MB volume belongs strictly on efidisk0.
+
+---
+
+# Step 3 Post Boot Diagnostics and Troubleshooting
+
+## Issue A UEFI Boot Failure Access Denied
+
+Symptom: The console shows BdsDxe failed to load Boot0001 Access Denied.
+Root cause: Secure Boot keys are active on the EFI disk.
+Resolution: Recreate efidisk0 without enrolled keys:
+
+qm stop 200
+qm set 200 --delete efidisk0
+qm set 200 --efidisk0 local-lvm:0,efitype=4m,pre-enrolled-keys=0
+qm start 200
+
+## Issue B Onboarding Authentication Failure
+
+Symptom: Browser displays Invalid client id or Ah snap something went wrong during initial user setup.
+Root cause: Modern Chromium browsers enforce Secure Context rules. Accessing plain HTTP on IP ranges outside RFC 1918 space blocks window crypto subtle, causing OAuth client validation to break.
+
+Resolution Method 1 Enable Insecure Origins in Chromium or Edge:
+
+1. Open chrome://flags/#unsafely-treat-insecure-origin-as-secure in the address bar.
+2. Switch the flag to Enabled.
+3. Add the exact endpoint into the input box: http://<HA_IP_ADDRESS>:8123
+4. Select Relaunch.
+5. Reopen http://<HA_IP_ADDRESS>:8123/ in a fresh tab to complete onboarding.
+
+Resolution Method 2 Use Local mDNS:
+
+Browsers automatically treat dot local hostnames as secure environments:
+
+http://homeassistant.local:8123
+
+---
+
+# Step 4 Rapid Disk Reset Procedure
+
+To restore the machine back to a clean factory state without recreating the VM container configuration:
+
+qm stop 200
+qm disk unlink 200 --idlist scsi0 --force 1
+lvremove -y /dev/pve/vm-200-disk-1
+qm importdisk 200 /tmp/haos_ova-16.1.qcow2 local-lvm
+qm set 200 --scsi0 local-lvm:vm-200-disk-1,discard=on
+qm set 200 --boot order=scsi0
+qm start 200
