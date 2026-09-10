@@ -1,0 +1,15 @@
+services:
+  wledashboard:
+    image: ghcr.io/upioneer/wledashboard:latest
+    container_name: wledashboard
+    ports:
+      - "${PORT:-3001}:3001"
+    environment:
+      - NODE_ENV=production
+      - DATA_DIR=/app/data
+    volumes:
+      - wledashboard_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  wledashboard_data:

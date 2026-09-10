@@ -5,7 +5,7 @@
 
 ---
 > [!TIP]
-> **New: Web Frontend Available!** Prefer a friendlier UI/UX? Check out **[doyouevenhomelab.web.app](https://doyouevenhomelab.web.app)** for an interactive, searchable interface to browse this homelab reference.
+> **New: Web Frontend Available!** Prefer a friendlier UI/UX? Check out **[doyouevenhomelab.com](https://doyouevenhomelab.com)** for an interactive, searchable interface to browse this homelab reference.
 
 ---
 | Name | Type | CPU | Mem | Min Disk |
@@ -38,6 +38,7 @@
 | [checkmk](https://checkmk.com)<br>Infrastructure monitoring | VM | 2-4 | 4GB | 8GB |
 | [Cloudflared](https://github.com/cloudflare/cloudflared)<br>Cloudflare Tunnel daemon | LXC | 1 | 256MB | 512MB |
 | [Cockpit](https://cockpit-project.org/)<br>Web-based graphical interface for servers | LXC | 1 | 512MB | 2GB |
+| [Code Scaffold](https://code-scaffold.com/)<br>Terminal User Interface and modular provisioning engine for project scaffolding | Client | N/A | N/A | N/A |
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
 | [Compose Toolbox](https://github.com/bluegoosemedia/composetoolbox)<br>Simple web UI for Docker Compose | LXC | 1 | 256MB | 1GB |
 | [ConvertX](https://github.com/mrg77/ConvertX)<br>Self-hosted tool to convert and download media | LXC | 1 | 512MB | 2GB |
@@ -148,6 +149,7 @@
 | [Octoprint](https://octoprint.org)<br>Web interface for 3D printers | VM | 1-2 | 1GB | 2GB |
 | [Ofelia](https://github.com/mcuadros/ofelia)<br>Docker job scheduler | LXC | 1 | 128MB | 512MB |
 | [opencloud](https://github.com/opencloud-eu)<br>Collection of open-source cloud native tools | N/A | N/A | N/A | N/A |
+| [OpenPrevue](OpenPrevue/README.md)<br>Glanceable event schedule board and retro TV guide simulator with MCP agent support | LXC | 1 | 256MB | 512MB |
 | [OpenProject](https://www.openproject.org/)<br>Comprehensive project management software | VM | 2 | 2GB | 5GB |
 | [Openship](openship/README.md)<br>Open-source, self-hostable deployment platform with built-in CI/CD | LXC | 2-4 | 4GB+ | 10GB+ |
 | [OpenVPN](https://openvpn.net/)<br>Robust VPN solution | VM | 1 | 512MB | 2GB |
@@ -231,11 +233,13 @@
 | [Ventoy](https://www.ventoy.net/en/index.html)<br>Tool to create a multi-boot USB drive from ISO files | VM | 1 | 1GB | 2GB |
 | [VirtualBox](https://www.virtualbox.org)<br>Desktop virtualization | VM | 1+ | 1GB+ | 10GB+ |
 | [Watchtower](https://containrrr.dev/watchtower/)<br>Automated Docker container updater | LXC | 1 | 128MB | 512MB |
+| [Watt Could Go Wrong](https://wattcouldgowrong.dad/)<br>Web-based solar design, feasibility, and cost estimator for DIYers | N/A | N/A | N/A | N/A |
 | [WebODM](WebODM/README.md)<br>Drone image processing and mapping | VM | 2-4 | 16GB+ | 100GB+ |
 | [WeddingShare](https://github.com/Cirx08/WeddingShare)<br>Photo sharing platform for weddings | LXC | 1 | 512MB | 2GB |
 | [Wekan](https://wekan.github.io/)<br>Open-source Kanban board | LXC | 1 | 512MB | 2GB |
 | [Wiki.js](https://js.wiki/)<br>Wiki engine | LXC | 1-2 | 1GB | 5GB+ |
 | [WireGuard](https://www.wireguard.com/)<br>Fast, modern, and simple VPN | LXC | 1 | 256MB | 512MB |
+| [WLEDashboard](WLEDashboard/README.md)<br>High-performance, local-first control surface and 3D viewport for WLED devices | LXC | 1 | 512MB | 1GB |
 | [YOURLS](https://yourls.org/)<br>Link shortener | LXC | 1 | 256MB | 512MB |
 | [your_spotify](https://github.com/Yooooomi/your_spotify)<br>Self-hosted tracker for your Spotify listening habits | LXC | 1 | 512MB | 2GB |
 | [YouTrack](https://www.jetbrains.com/youtrack/)<br>Project management and issue tracking tool | VM | 2-4 | 4GB+ | 20GB |
