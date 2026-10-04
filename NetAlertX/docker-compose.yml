@@ -1,0 +1,18 @@
+services:
+  netalertx:
+    image: jokobsk/netalertx:latest
+    container_name: netalertx
+    network_mode: "host"
+    restart: unless-stopped
+    environment:
+      - TZ=${TZ:-America/New_York}
+      - PORT=${PORT:-20211}
+    volumes:
+      - netalertx_config:/app/config
+      - netalertx_db:/app/db
+      - netalertx_log:/app/log
+
+volumes:
+  netalertx_config:
+  netalertx_db:
+  netalertx_log:

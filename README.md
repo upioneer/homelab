@@ -42,6 +42,7 @@
 | [Code-Server](https://github.com/coder/code-server)<br>Run VS Code in the browser | VM | 2 | 2GB | 5GB |
 | [Compose Toolbox](https://github.com/bluegoosemedia/composetoolbox)<br>Simple web UI for Docker Compose | LXC | 1 | 256MB | 1GB |
 | [ConvertX](https://github.com/mrg77/ConvertX)<br>Self-hosted tool to convert and download media | LXC | 1 | 512MB | 2GB |
+| [CookTrace](CookTrace/README.md)<br>Self-hosted recipe, pantry, and cooking tracker with no telemetry | LXC | 1 | 512MB | 2GB |
 | [Copyparty](https://github.com/9001/copyparty)<br>Portable file server with a web UI | LXC | 1 | 512MB | 2GB |
 | [Cosmos](https://cosmos-cloud.io/)<br>Self-hosting server and container management platform | LXC | 1-2 | 1GB | 8GB |
 | [Crawl4AI](https://docs.crawl4ai.com/)<br>Python library to crawl and extract data from websites for LLMs | VM | 1 | 1GB | 2GB |
@@ -74,7 +75,7 @@
 | [FocusWriter](https://gottcode.org/focuswriter/)<br>Distraction-free writing environment | VM | 1 | 512MB | 1GB |
 | [FreeCAD](https://www.freecad.org/)<br>3D modeler | VM | 2-4 | 4GB+ | 10GB |
 | [FreeMind](https://freemind.sourceforge.net/wiki/index.php/Main_Page)<br>Mind-mapping software | VM | 1 | 512MB | 1GB |
-| [FreshRSS](https://github.com/FreshRSS/FreshRSS)<br>Self-hosted RSS feed aggregator | LXC | 1 | 512MB | 2GB |
+| [FreshRSS](FreshRSS/README.md)<br>Self-hosted RSS feed aggregator | LXC | 1 | 512MB | 2GB |
 | [Frigate NVR](https://frigate.video)<br>NVR with AI object detection | VM | 2-4 | 4GB+ | 32GB+ |
 | [Funkwhale](https://funkwhale.audio/)<br>Federated audio streaming server | LXC | 1-2 | 1GB | 5GB+ |
 | [Gatus](https://github.com/TwiN/gatus)<br>Automated service health dashboard | LXC | 1 | 256MB | 1GB |
@@ -84,6 +85,7 @@
 | [Gluetun](https://github.com/qdm12/gluetun)<br>VPN client container for other containers to use | LXC | 1 | 128MB | 512MB |
 | [go2rtc](https://github.com/AlexxIT/go2rtc)<br>Ultimate camera streaming application and proxy | LXC | 1-2 | 512MB | 1GB |
 | [Grafana](https://grafana.com)<br>Monitoring and data visualization | LXC | 1-2 | 1GB | 2GB |
+| [Graylog](Graylog/README.md)<br>Centralized log management and analysis platform | VM | 2-4 | 4GB+ | 20GB+ |
 | [Grocy](https://grocy.info/)<br>ERP system for your household and kitchen | LXC | 1 | 512MB | 2GB |
 | [Harvester](https://www.harvesterhci.io/)<br>Kubernetes-based hyper-converged infrastructure | VM | 4+ | 8GB+ | 100GB+ |
 | [Headphones](https://github.com/rembo10/headphones)<br>Automated music downloader for Usenet and torrents | LXC | 1 | 512MB | 2GB |
@@ -102,7 +104,7 @@
 | [IT-Tools](https://github.com/sharevb/it-tools)<br>Collection of handy online tools for developers | LXC | 1 | 128MB | 512MB |
 | [Jellyfin](https://jellyfin.org)<br>Media streaming system | VM | 2-4 | 4GB+ | 20GB+ |
 | [Jellyseerr](https://docs.jellyseerr.dev)<br>Request management for media libraries | LXC | 1 | 512MB | 2GB |
-| [Joplin](https://joplinapp.org/)<br>Open-source note-taking and to-do app | LXC | 1 | 512MB | 2GB |
+| [Joplin](Joplin/README.md)<br>Open-source note-taking and to-do app | LXC | 1 | 512MB | 2GB |
 | [Kasm](https://www.kasmweb.com/)<br>Container streaming platform for browser-based workspaces | VM | 4+ | 8GB+ | 50GB+ |
 | [Kavita](http://www.kavitareader.com/)<br>Cross-platform reading server | LXC | 1 | 1GB | 5GB+ |
 | [Kestra](https://kestra.io/)<br>Data orchestration platform | VM | 2 | 2GB | 5GB |
@@ -120,6 +122,7 @@
 | [listmonk](https://listmonk.app/)<br>Self-hosted newsletter and mailing list manager | LXC | 1 | 512MB | 2GB |
 | [LogForge](https://github.com/log-forge/logforge)<br>Log management and analysis platform | LXC | 1-2 | 1GB | 5GB+ |
 | [Logseq](https://logseq.com/)<br>Privacy-first, open-source knowledge management system | LXC | 1 | 512MB | 2GB |
+| [LubeLogger](LubeLogger/README.md)<br>Self-hosted vehicle maintenance records and fuel tracking application | LXC | 1 | 512MB | 2GB |
 | [Marp](https://github.com/marp-team/marp)<br>Markdown presentation ecosystem | LXC | 1 | 512MB | 1GB |
 | [Marreta](https://github.com/sikkgit/marreta-paywall-bypass/blob/main/README.en.md)<br>Paywall bypass | LXC | 1 | 128MB | 512MB |
 | [Material Design Icons](https://pictogrammers.com/library/mdi/)<br>Community-driven library of Material Design icons | N/A | N/A | N/A | N/A |
@@ -129,15 +132,16 @@
 | [Modly](https://modly3d.app/)<br>Local, open source, AI-powered image-to-3D mesh generation | Client | N/A | N/A | N/A |
 | [Moonlight PC](https://github.com/moonlight-stream/moonlight-qt)<br>Open-source GameStream client for PCs (Windows, Mac, Linux, and Steam Link) | Client | N/A | N/A | N/A |
 | [MQTT Explorer](https://github.com/thomasnordquist/MQTT-Explorer)<br>Desktop application to visualize MQTT topics | VM | 1 | 512MB | 1GB |
+| [MusicGrabber](MusicGrabber/README.md)<br>Self-hosted music acquisition service to search and download single tracks | LXC | 1 | 1GB | 5GB+ |
 | [Mylar3](https://github.com/mylar3/mylar3)<br>Automated comic book downloader | LXC | 1 | 512MB | 2GB |
 | [MySQL](https://www.mysql.com/)<br>Open-source relational database management system | VM | 2+ | 2GB+ | 10GB+ |
 | [n8n](https://n8n.io)<br>Workflow automation | VM | 2 | 2GB | 5GB |
 | [Navidrome](https://www.navidrome.org/)<br>Music streaming server | LXC | 1 | 512MB | 5GB+ |
 | [Neko](https://neko.m1k1o.net/)<br>Self-hosted virtual browser that runs in Docker | LXC | 2 | 2GB | 5GB |
+| [NetAlertX](NetAlertX/README.md)<br>Network connection and device monitoring tool | LXC | 1 | 256MB | 1GB |
 | [netboot.xyz](https://netboot.xyz/)<br>Network bootable operating system installer | LXC | 1 | 256MB | 2GB |
 | [Netbox](https://netbox.dev/)<br>IP address management and data center infrastructure management | VM | 2 | 2GB | 10GB |
-| [NetAlertX](https://github.com/jokob-sk/NetAlertX)<br>Network connection and device monitoring tool | LXC | 1 | 256MB | 1GB |
-| [Netdata](https://netdata.cloud/)<br>Real-time performance monitoring | LXC | 1 | 512MB | 2GB |
+| [Netdata](Netdata/README.md)<br>Real-time performance monitoring | LXC | 1 | 512MB | 2GB |
 | [Nextcloud](https://nextcloud.com)<br>Remote collaboration platform | VM | 2-4 | 4GB+ | 40GB+ |
 | [Nginx Proxy Manager](https://nginxproxymanager.com/)<br>Nginx reverse proxy with a web UI | LXC | 1 | 256MB | 1GB |
 | [Node-RED](https://nodered.org/)<br>Flow-based visual programming tool | LXC | 1 | 512MB | 2GB |
@@ -208,7 +212,7 @@
 | [Streamlink WebUI](https://github.com/streamlink/streamlink-webui)<br>Web UI for the Streamlink command-line tool | LXC | 1 | 512MB | 1GB |
 | [Sunshine](https://github.com/lizardbyte/sunshine)<br>Self-hosted, open-source game streaming host compatible with Moonlight clients | Host | 2-4 | 4GB+ | 10GB |
 | [Subsonic](http://www.subsonic.org/pages/index.jsp)<br>Personal media streamer | LXC | 1 | 512MB | 5GB+ |
-| [Syncthing](https://syncthing.net/)<br>Continuous file synchronization | LXC | 1 | 512MB | 2GB |
+| [Syncthing](Syncthing/README.md)<br>Continuous file synchronization | LXC | 1 | 512MB | 2GB |
 | [Tailscale](https://tailscale.com)<br>Zero-configuration VPN | LXC | 1 | 256MB | 512MB |
 | [Taiga](https://www.taiga.io/)<br>Project management platform for agile teams | VM | 2 | 2GB | 5GB |
 | [Tautulli](https://tautulli.com)<br>Monitoring and tracking application for Plex Media Server | LXC | 1 | 512MB | 2GB |

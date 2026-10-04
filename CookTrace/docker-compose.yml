@@ -1,0 +1,26 @@
+services:
+  cooktrace:
+    image: ghcr.io/traceapps/cooktrace:latest
+    container_name: cooktrace
+    restart: unless-stopped
+    ports:
+      - "${COOKTRACE_PORT:-3003}:3003"
+    volumes:
+      - cooktrace_db:/data/db
+      - cooktrace_uploads:/data/uploads
+    environment:
+      - DB_PATH=/data/db/cooktrace.db
+      - UPLOADS_PATH=/data/uploads
+      - JWT_SECRET=${JWT_SECRET}
+      - RECOVERY_TOKEN=${RECOVERY_TOKEN}
+      - INSECURE_COOKIES=${INSECURE_COOKIES:-0}
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - SMTP_HOST=${SMTP_HOST}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_USER=${SMTP_USER}
+      - SMTP_PASS=${SMTP_PASS}
+      - SMTP_FROM=${SMTP_FROM}
+
+volumes:
+  cooktrace_db:
+  cooktrace_uploads:

@@ -1,0 +1,28 @@
+services:
+  lubelogger:
+    image: hargoniuz/lubelogger:latest
+    container_name: lubelogger
+    restart: unless-stopped
+    ports:
+      - "${LUBELOGGER_PORT:-8383}:8080"
+    environment:
+      - LC_ALL=${LC_ALL:-en_US.UTF-8}
+      - LANG=${LANG:-en_US.UTF-8}
+      - MailConfig__EmailServer=${MAIL_SERVER}
+      - MailConfig__EmailFrom=${MAIL_FROM}
+      - MailConfig__Password=${MAIL_PASSWORD}
+    volumes:
+      - lubelogger_data:/App/data
+      - lubelogger_config:/App/config
+      - lubelogger_documents:/App/wwwroot/documents
+      - lubelogger_images:/App/wwwroot/images
+      - lubelogger_temp:/App/wwwroot/temp
+      - lubelogger_log:/App/log
+
+volumes:
+  lubelogger_data:
+  lubelogger_config:
+  lubelogger_documents:
+  lubelogger_images:
+  lubelogger_temp:
+  lubelogger_log:

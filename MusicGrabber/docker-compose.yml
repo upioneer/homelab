@@ -1,0 +1,27 @@
+services:
+  music-grabber:
+    image: g33kphr33k/musicgrabber:latest
+    container_name: music-grabber
+    restart: unless-stopped
+    shm_size: '2gb'
+    ports:
+      - "${MUSICGRABBER_PORT:-38274}:8080"
+    volumes:
+      - ${MUSIC_DIR:-./music}:/music
+      - musicgrabber_data:/data
+    environment:
+      - MUSIC_DIR=/music
+      - DB_PATH=/data/music_grabber.db
+      - ENABLE_MUSICBRAINZ=true
+      - PUID=${PUID:-1000}
+      - PGID=${PGID:-1000}
+      - NAVIDROME_URL=${NAVIDROME_URL}
+      - NAVIDROME_USER=${NAVIDROME_USER}
+      - NAVIDROME_PASS=${NAVIDROME_PASS}
+      - JELLYFIN_URL=${JELLYFIN_URL}
+      - JELLYFIN_API_KEY=${JELLYFIN_API_KEY}
+      - PLEX_URL=${PLEX_URL}
+      - PLEX_TOKEN=${PLEX_TOKEN}
+
+volumes:
+  musicgrabber_data:
