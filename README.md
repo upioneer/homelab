@@ -53,6 +53,7 @@
 | [Dasharr](https://github.com/taslabs-net/dasharr)<br>Dashboard for the Servarr stack | LXC | 1 | 256MB | 1GB |
 | [Dashy](https://dashy.to/)<br>Highly customizable personal dashboard | LXC | 1 | 512MB | 1GB |
 | [DeerFlow](https://deerflow.tech/)<br>ByteDance open-source SuperAgent framework and deep research system | VM | 2-4 | 4GB+ | 10GB |
+| [DeskUp Pro](https://github.com/SmartHomeGuys/DeskUp-Pro-Controller-RJ12/)<br>ESPHome-based standing desk controller integrating RJ11/RJ12 desks with Home Assistant | N/A | N/A | N/A | N/A |
 | [dockpeek](https://github.com/dockpeek/dockpeek)<br>Simple dashboard to view and manage Docker containers | LXC | 1 | 256MB | 1GB |
 | [Dockge](https://dockge.kuma.pet)<br>Docker Compose management UI | LXC | 1 | 512MB | 2GB |
 | [Docker](https://www.docker.com)<br>Containerization platform | VM | 2+ | 2GB+ | 10GB+ |
