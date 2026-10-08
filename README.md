@@ -15,6 +15,21 @@
 | [AMP](https://cubecoders.com/AMP)<br>Web-based control panel for game servers and applications | VM | 2 | 2-4GB | 10GB |
 | [Ansible](https://www.ansible.com/)<br>IT automation and configuration management tool | VM | 1 | 1GB | 2GB |
 | [Apollo](https://github.com/ClassicOldSong/Apollo)<br>Sunshine fork optimized for streaming at the native resolution of the client device | Host | 2-4 | 4GB+ | 10GB |
+| [ArtCraft](https://github.com/storytold/artcraft)<br>Intentional crafting engine for artists, designers, and filmmakers with generative AI | Client | N/A | N/A | N/A |
+| [ArtCraft CadCraft](https://github.com/storytold/cadcraft)<br>Open-source, clean-room 2D/3D CAD drafting application in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft DeckCraft](https://github.com/storytold/deckcraft)<br>Open-source, clean-room presentations and slide design software in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft DesignCraft](https://github.com/storytold/designcraft)<br>Open-source, clean-room desktop publishing and page layout software in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft EffectCraft](https://github.com/storytold/effectcraft)<br>Open-source, clean-room motion graphics and visual effects compositor in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft FilmCraft](https://github.com/storytold/filmcraft)<br>Open-source, clean-room non-linear video editing software built in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft GridCraft](https://github.com/storytold/gridcraft)<br>Open-source, clean-room spreadsheet application in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft LightCraft](https://github.com/storytold/lightcraft)<br>Open-source, clean-room non-destructive RAW photo development and cataloging in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft PDFCraft](https://github.com/storytold/pdfcraft)<br>Open-source, clean-room PDF editor and document manipulation tool in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft PhotoCraft](https://github.com/storytold/photocraft)<br>Open-source, clean-room raster image editing and digital painting tool in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft Platform](https://getartcraft.com/apps)<br>Suite of native, open-source creative desktop applications built in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft SoundCraft](https://github.com/storytold/soundcraft)<br>Open-source, clean-room digital audio workstation (DAW) and sound editor in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft VectorCraft](https://github.com/storytold/vectorcraft)<br>Open-source, clean-room vector illustration and graphics software in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraft WordCraft](https://github.com/storytold/wordcraft)<br>Open-source, clean-room word processor and document authoring tool in pure Rust | Client | N/A | N/A | N/A |
+| [ArtCraftX](https://github.com/storytold/artcraftx)<br>Minimal desktop application for AI creation across images, video, audio, and 3D meshes | Client | N/A | N/A | N/A |
 | [Artemis Android](https://github.com/ClassicOldSong/moonlight-android)<br>GameStream client for Android; formerly known as Moonlight Noir | Client | N/A | N/A | N/A |
 | [Anytype](https://anytype.io/)<br>Local-first, open-source Notion alternative for notes and knowledge management | VM | 2 | 2GB | 5GB |
 | [Apache Tika](https://tika.apache.org/)<br>Content analysis toolkit for file type detection and text extraction | VM | 2 | 2-4GB | 5GB |
