@@ -234,6 +234,7 @@
 | [Tautulli](https://tautulli.com)<br>Monitoring and tracking application for Plex Media Server | LXC | 1 | 512MB | 2GB |
 | [Tdarr](https://tdarr.io/)<br>Distributed transcoding system for media libraries | VM | 2-4+ | 4GB+ | 10GB+ |
 | [Technitium](https://technitium.com/dns/)<br>DNS server | LXC | 1 | 512MB | 1GB |
+| [Termix](Termix/README.md)<br>Self-hosted, plugin-based server management and web terminal platform | LXC | 1-2 | 1GB | 5GB |
 | [Terraform](https://www.terraform.io/)<br>Infrastructure as code (IaC) tool | VM | 1 | 1GB | 2GB |
 | [Traccar](https://www.traccar.org/)<br>Open-source GPS tracking platform | VM | 2-4 | 4GB+ | 20GB |
 | [Tracefinity](https://tracefinity.net/)<br>Self-hosted tool for generating Gridfinity bins from tool photos | LXC | 1-2 | 2-4GB | 10GB |
