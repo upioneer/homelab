@@ -1,0 +1,17 @@
+services:
+  indra-ocr:
+    build: .
+    container_name: indra-ocr
+    restart: unless-stopped
+    ports:
+      - "${INDRA_PORT:-8765}:8765"
+    volumes:
+      - ./data:/data
+      - indra_cache:/root/.cache/huggingface
+    environment:
+      - HF_TOKEN=${HF_TOKEN:-}
+      - INDRA_PORT=8765
+
+volumes:
+  indra_cache:
+    driver: local

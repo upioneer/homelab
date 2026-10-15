@@ -113,6 +113,7 @@
 | [Homelabable](https://github.com/Pouzor/homelable)<br>Self-hosted homelab infrastructure visualization and network scanning tool | LXC | 1-2 | 1GB | 2GB |
 | [Homepage](https://gethomepage.dev/)<br>Modern and dynamic application dashboard | LXC | 1 | 512MB | 1GB |
 | [Immich](https://immich.app)<br>Photo and video backup solution | VM | 2-4 | 4GB+ | 32GB+ |
+| [Indra OCR](Indra-OCR/README.md)<br>Fast CPU OCR engine reading PDFs and images into structured Markdown and JSON | LXC | 2-4 | 2-4GB | 5GB |
 | [InfluxDB](https://www.influxdata.com)<br>Time-series database | VM | 1-2 | 2GB | 4GB |
 | [Instantly.ai](https://instantly.ai/)<br>SaaS platform for cold email outreach and lead management | N/A | N/A | N/A | N/A |
 | [Intercept](https://github.com/smittix/intercept)<br>Self-hosted DNS over HTTPS and DNS over TLS proxy | LXC | 1 | 256MB | 512MB |
